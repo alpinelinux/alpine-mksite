@@ -34,7 +34,16 @@ function read_layout(file)
 	end
 end
 
-function generate_navbar(active)
+function ref_class(pagename, href)
+	local refpage = href:gsub(".html$", "")
+	refpage = refpage:gsub("/$", "/index")
+	if refpage:match("^/?"..pagename.."$") then
+		return ' class="active"'
+	end
+	return ''
+end
+
+function generate_navbar(pagename)
 	local f = assert(io.open("_navbar.yaml"))
 	local nav = yaml.load(f:read("*a"))
 	f:close()
@@ -43,8 +52,8 @@ function generate_navbar(active)
 		data = ('%s<span class="%s">'):format(data, align)
 		for _,t in pairs(menu) do
 			for label, ref in pairs(t) do
-				data = ('%s<a href="%s">%s</a>'):format(data,
-					ref, label)
+				data = ('%s<a href="%s"%s>%s</a>'):format(data,
+					ref, ref_class(pagename,ref), label)
 			end
 		end
 		data = data ..'</span>\n'
@@ -60,7 +69,7 @@ end
 
 page, content = read_markdown(assert(arg[1]))
 layout = read_layout(arg[1])
-page.navbar = generate_navbar()
+page.navbar = generate_navbar(page.pagename)
 
 page.content = replace_tags(content, page)
 
