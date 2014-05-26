@@ -24,7 +24,7 @@ function read_layout(file)
 	--   path/file.template.html
 	--   layout.template.html
 	for _,t in pairs{file:gsub(".md$", ".template.html"),
-		"layout.template.html"} do
+		"_layout.template.html"} do
 		local f = io.open(t)
 		if f then
 			local data = f:read("*a")
