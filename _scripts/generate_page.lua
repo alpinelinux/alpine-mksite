@@ -2,6 +2,7 @@
 
 markdown = require('discount')
 yaml = require('yaml')
+lustache = require('lustache')
 
 function read_markdown(file)
 	local f = assert(io.open(file))
@@ -15,7 +16,8 @@ function read_markdown(file)
 		t.pagename = pagename
 		return t, markdown(md)
 	else
-		return {title=pagename, pagename=pagename}, markdown(data)
+		return {title=pagename:gsub("/index$", ""), pagename=pagename},
+			markdown(data)
 	end
 end
 
@@ -43,34 +45,24 @@ function ref_class(pagename, href)
 	return ''
 end
 
-function generate_navbar(pagename)
-	local f = assert(io.open("_navbar.yaml"))
-	local nav = yaml.load(f:read("*a"))
+function import_yaml(filename)
+	local f = assert(io.open(filename))
+	local t = yaml.load(f:read("*a*"))
 	f:close()
-	local data = ""
-	for align, menu in pairs(nav) do
-		data = ('%s<span class="%s">'):format(data, align)
-		for _,t in pairs(menu) do
-			for label, ref in pairs(t) do
-				data = ('%s<a href="%s"%s>%s</a>'):format(data,
-					ref, ref_class(pagename,ref), label)
-			end
-		end
-		data = data ..'</span>\n'
-	end
-	return data
-end
-
-function replace_tags(content, meta)
-	return content:gsub("{{(.-)}}", function(tag)
-			return meta[tag]
-		end)
+	return t
 end
 
 page, content = read_markdown(assert(arg[1]))
 layout = read_layout(arg[1])
-page.navbar = generate_navbar(page.pagename)
+for i = 2, #arg do
+	for k,v in pairs(import_yaml(arg[i])) do
+		page[k] = v
+	end
+end
 
-page.content = replace_tags(content, page)
+page.pagestate = {}
+page.pagestate[page.pagename] = 'active'
 
-io.write((replace_tags(layout, page)))
+page.content = lustache:render(content, page)
+
+io.write(lustache:render(layout, page))
