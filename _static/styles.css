@@ -1,0 +1,121 @@
+body {
+	background-color: white;
+	color: #111;
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+#page {
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	box-shadow: 0px 5px 5px #888888;
+}
+
+/*
+.block {
+	padding: 0.5em;
+	box-shadow: 0px 0px 5px #888888;
+}
+
+h3.block {
+	background-color: #17a;
+	color: white;
+	margin: 0 0 0.5em 0;
+	box-shadow: none;
+}
+*/
+
+// primary:		006190	22485A	002E44	55B5E3	99CBE3
+// complementary:	E47A00	8E6535	6C3A00	F8B05D	F8D3A8
+
+// #17a, #3bf, #19b2ff
+// #b26300, #ff9919
+
+// #17a #0d597f #19b2ff #062d40 #17a1e5
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header {
+	color: #0D597F;
+	font-size: 1.7em;
+	padding: 0.7ex 0.7ex 0.7ex 0.7em;
+}
+
+header nav {
+	font-size: 50%;
+	background-color: white;
+}
+header nav a {
+//	color: #666;
+	color: #17a;
+}
+
+
+header a {
+	color: #666;
+}
+
+nav {
+	overflow: hidden;
+	color: #069;
+	background-color: #17a;
+	padding: .7ex;
+	font-size: 94%;
+/*	border-top: 1px solid #ccc; */
+	border-bottom: 0px;
+}
+
+nav a {
+	padding: 1ex;
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a.active {
+	color: #111;
+	background-color: #ff9919;
+
+	margin: 0px;
+}
+
+article {
+	padding: 1.5em;
+	max-width: 50em;
+}
+
+h1, h2, h3, h4 {
+	margin: 1em 1ex 0.5ex 0;
+	color: #0D597F;
+}
+h1 { font-size: 1.4em; }
+h2 { font-size: 1.3em; }
+h3 { font-size: 1.2em; }
+h4 { font-size: 1.1em; }
+
+code, pre { font-size: 1.1em }
+pre { margin-left: 2em; }
+
+.left { float: left; }
+.right { float: right; }
+
+.icon-alpine-logo {
+	font-size: 300%;
+//	color: #17a;
+	color: #0D597F;
+}
+
+footer {
+	background-color: #0D597F;
+	font-size: .7em;
+	color: white;
+	padding: 0.7em;
+	text-align: center;
+}
+
