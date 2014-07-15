@@ -7,7 +7,7 @@ body {
 }
 
 #page {
-	max-width: 960px;
+	max-width: 60em;
 	margin: 0 auto;
 	position: relative;
 	box-shadow: 0px 5px 5px #888888;
