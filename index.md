@@ -36,3 +36,5 @@ title: Alpine Linux
 </section>
 </div>
 
+
+This site is under [development](http://git.alpinelinux.org/cgit/ncopa/mksite-alpine)
