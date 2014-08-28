@@ -8,9 +8,9 @@ static_out := $(patsubst _static/%,$(out)/%,$(static_sources))
 
 all: $(pages) $(static_out)
 
-$(out)/%.html: %.md _layout.template.html
+$(out)/%.html: %.md _layout.template.html release.yaml
 	mkdir -p $(dir $@)
-	lua _scripts/generate_page.lua $< > $@
+	lua _scripts/generate_page.lua $< release.yaml > $@
 
 $(static_out): $(out)/%: _static/%
 	mkdir -p $(dir $@)
@@ -18,3 +18,17 @@ $(static_out): $(out)/%: _static/%
 
 clean:
 	rm -f $(pages) $(static_out)
+
+yaml_url := http://nl.alpinelinux.org/alpine/latest-stable/releases/x86_64/latest-releases.yaml
+
+latest-releases.yaml:
+	curl -J $(yaml_url) > $@.tmp
+	mv $@.tmp $@
+
+release.yaml: latest-releases.yaml
+	lua -e 'y=require("yaml"); for _,v in pairs(y.load(io.read("*a"))) do if v.flavor == "alpine" then io.write(y.dump(v)) end end' > $@.tmp < $<
+	mv $@.tmp $@
+
+update-release:
+	rm -f latest-releases.yaml
+	$(MAKE) release.yaml
