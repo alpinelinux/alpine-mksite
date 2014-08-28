@@ -13,9 +13,9 @@ title: Alpine Linux
   <span class="icon-download" style="font-size:600%"></span>
  </div>
  <div class="left">
-  <p><a>alpine-3.0.1-x86_64.iso</a> (280 MB)</p>
-  <p>Released 2014-07-01</p>
-  <p><small><a>sha1</a> | <a>sha256</a></small></p>
+  <p>{{release.flavor}}-{{release.version}}-{{release.arch}}.iso</a> ({{release.size_mb}}MB)</p>
+  <p>Released {{release.date}}</p>
+  <p><small><a>{{release.sha1}}</a> | <a>sha256</a></small></p>
  </div>
 </section>
 
