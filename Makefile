@@ -26,7 +26,7 @@ latest-releases.yaml:
 	mv $@.tmp $@
 
 release.yaml: latest-releases.yaml
-	lua -e 'y=require("yaml"); for _,v in pairs(y.load(io.read("*a"))) do if v.flavor == "alpine" then io.write(y.dump(v)) end end' > $@.tmp < $<
+	lua -e 'y=require("yaml"); for _,v in pairs(y.load(io.read("*a"))) do if v.flavor == "alpine" then v.size_mb=math.floor(v.size/(1024*1024)); io.write(y.dump(v)) end end' > $@.tmp < $<
 	mv $@.tmp $@
 
 update-release:
