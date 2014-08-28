@@ -55,9 +55,12 @@ end
 page, content = read_markdown(assert(arg[1]))
 layout = read_layout(arg[1])
 for i = 2, #arg do
+	local t = {}
 	for k,v in pairs(import_yaml(arg[i])) do
-		page[k] = v
+		t[k] = v
 	end
+	tname = string.gsub(arg[i], ".yaml$", "")
+	page[tname] = t
 end
 
 page.pagestate = {}
