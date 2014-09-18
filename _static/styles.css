@@ -42,14 +42,14 @@ a:hover {
 
 header {
 	color: #0D597F;
-	background-color: #eee;
+	background-color: #f0f4f8;
 	font-size: 1.7em;
 	padding: 0.7ex 0.7ex 0.7ex 0.7em;
 }
 
 header nav {
 	font-size: 50%;
-	background-color: white;
+	background-color: #f0f4f8;
 }
 header nav a {
 //	color: #666;
