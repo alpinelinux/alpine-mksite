@@ -7,7 +7,7 @@ body {
 }
 
 #page {
-	max-width: 60em;
+//	max-width: 60em;
 	margin: 0 auto;
 	position: relative;
 	box-shadow: 0px 5px 5px #888888;
@@ -42,6 +42,7 @@ a:hover {
 
 header {
 	color: #0D597F;
+	background-color: #eee;
 	font-size: 1.7em;
 	padding: 0.7ex 0.7ex 0.7ex 0.7em;
 }
