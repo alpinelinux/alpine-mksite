@@ -79,8 +79,10 @@ nav a.active {
 }
 
 article {
-	padding: 1.5em;
-//	max-width: 50em;
+	padding: 0em 1.5em;
+	max-width: 60em;
+	margin: 0 auto;
+	position: relative;
 }
 
 h1, h2, h3, h4 {
