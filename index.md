@@ -6,14 +6,26 @@ title: Alpine Linux
  <table>
   <tr>
    <td width="50%">
+    <center>
+    <h2>Alpine Linux</h2>
     A security-oriented, lightweight Linux distribution
     based on musl libc and busybox.
+    </center>
    </td>
    <td>
-    <span class="icon-download" style="font-size:400%"></span>
-    <p>{{release.flavor}}-{{release.version}}-{{release.arch}}.iso</a> ({{release.size_mb}}MB)</p>
-    <p>Released {{release.date}}</p>
-    <p><small><a>{{release.sha1}}</a> | <a>sha256</a></small></p>
+    <center>
+    <span class="icon-download" style="font-size:400%; color:green;"></span>
+    <p><a href="{{release.iso}}">{{release.iso}}</a>
+    <small>({{release.size_mb}}MB)</small></p>
+    <small>
+     <p>Released {{release.date}}</p>
+     <p>
+      <a title="{{release.sha1}}" href="{{release.iso}}.sha1">sha1</a>
+      |
+      <a title="{{release.sha256}}" href="{{release.iso}}.sha256">sha256</a>
+     </p>
+    </small>
+    </center>
    </td>
   </tr>
  </table>
