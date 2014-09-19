@@ -8,8 +8,10 @@ title: Alpine Linux
    <td width="50%">
     <center>
     <h2>Alpine Linux</h2>
+    <p style="padding: 0em 15%">
     A security-oriented, lightweight Linux distribution
     based on musl libc and busybox.
+    </p>
     </center>
    </td>
    <td>
