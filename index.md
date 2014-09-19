@@ -47,7 +47,16 @@ This site is under [development](http://git.alpinelinux.org/cgit/ncopa/mksite-al
 </div>
 <div class="block2">
 <h3><span class="icon-archive"></span> Latest Development</h3>
-<p>Bla bla</p>
+<small>
+<table>
+{{#last5}}
+ <tr>
+  <td>{{commitdate}}</td>
+  <td><a href="http://git.alpinelinux.org">{{subject}}</a></td>
+ </tr>
+{{/last5}}
+</table>
+</small>
 </div>
 </div>
 
