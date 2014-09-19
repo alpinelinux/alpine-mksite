@@ -10,7 +10,7 @@ all: $(pages) $(static_out)
 
 $(out)/index.html: release.yaml last5.yaml
 
-$(out)/%.html: %.md _layout.template.html
+$(out)/%.html: %.md _default.template.html
 	mkdir -p $(dir $@)
 	lua _scripts/generate_page.lua $< $(filter %.yaml,$^) > $@.tmp
 	mv $@.tmp $@
