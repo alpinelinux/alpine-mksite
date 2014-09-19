@@ -52,7 +52,7 @@ This site is under [development](http://git.alpinelinux.org/cgit/ncopa/mksite-al
 {{#last5}}
  <tr>
   <td>{{commitdate}}</td>
-  <td><a href="http://git.alpinelinux.org">{{subject}}</a></td>
+  <td><a href="http://git.alpinelinux.org/cgit/ncopa/mksite-alpine/commit/?id={{commit}}">{{subject}}</a></td>
  </tr>
 {{/last5}}
 </table>
