@@ -47,7 +47,6 @@ This site is under [development](http://git.alpinelinux.org/cgit/ncopa/mksite-al
 </div>
 <div class="block2">
 <h3><span class="icon-archive"></span> Latest Development</h3>
-<small>
 <table>
 {{#last5}}
  <tr>
@@ -56,7 +55,6 @@ This site is under [development](http://git.alpinelinux.org/cgit/ncopa/mksite-al
  </tr>
 {{/last5}}
 </table>
-</small>
 </div>
 </div>
 
