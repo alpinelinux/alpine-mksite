@@ -19,6 +19,20 @@ body {
 	float: left;
 }
 
+.widebar {
+	margin: 0 -500% 4em;
+	padding: 0.5em 500%;
+//	background: #e8f1f6;
+
+	background: #d3e5ef;
+	background: -moz-linear-gradient(#e3f5ff 10%, #d3e5ef 70%, #b3c5cf); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#e3f5ff 10%, #d3e5ef 70%, #b3c5cf); /* Standard syntax (must be last) */
+
+	border-style: none none solid none;
+	border-color: #8db2c5;
+
+}
+
 // primary:		006190	22485A	002E44	55B5E3	99CBE3
 // complementary:	E47A00	8E6535	6C3A00	F8B05D	F8D3A8
 
@@ -96,6 +110,7 @@ h4 { font-size: 1.1em; }
 
 code, pre { font-size: 1.1em }
 pre { margin-left: 2em; }
+p { clear: both; }
 
 .left { float: left; }
 .right { float: right; }
@@ -112,5 +127,7 @@ footer {
 	color: white;
 	padding: 0.7em;
 	text-align: center;
+	clear: both;
+	margin-top: 5em;
 }
 
