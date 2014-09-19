@@ -8,9 +8,12 @@ static_out := $(patsubst _static/%,$(out)/%,$(static_sources))
 
 all: $(pages) $(static_out)
 
-$(out)/%.html: %.md _layout.template.html release.yaml
+$(out)/index.html: release.yaml last5.yaml
+
+$(out)/%.html: %.md _layout.template.html
 	mkdir -p $(dir $@)
-	lua _scripts/generate_page.lua $< release.yaml > $@
+	lua _scripts/generate_page.lua $< $(filter %.yaml,$^) > $@.tmp
+	mv $@.tmp $@
 
 $(static_out): $(out)/%: _static/%
 	mkdir -p $(dir $@)
