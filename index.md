@@ -3,18 +3,16 @@ title: Alpine Linux
 ---
 
 <div class="widebar">
- <table>
-  <tr>
-   <td width="50%">
+ <div class="block2">
     <center>
     <h2>Alpine Linux</h2>
-    <p style="padding: 0em 15%">
+    <p>
     A security-oriented, lightweight Linux distribution
     based on musl libc and busybox.
     </p>
     </center>
-   </td>
-   <td>
+ </div>
+ <div class="block2">
     <center>
     <span class="icon-download" style="font-size:400%; color:green;"></span>
     <p><a href="{{release.iso}}">{{release.iso}}</a>
@@ -28,9 +26,8 @@ title: Alpine Linux
      </p>
     </small>
     </center>
-   </td>
-  </tr>
- </table>
+ </div>
+ <p/>
 </div>
 
 This site is under [development](http://git.alpinelinux.org/cgit/ncopa/mksite-alpine)
@@ -39,10 +36,11 @@ This site is under [development](http://git.alpinelinux.org/cgit/ncopa/mksite-al
 <div class="block2">
 <h3><span class="icon-rss-square"></span> Alpine News</h3>
 <table>
- <tr><td>May 21, 2014</td><td><a href="posts/release-2.7.8.html">Alpine 2.7.8 released</a></td></tr>
- <tr><td>May 6, 2014</td><td><a>Alpine 2.7.7 released</a></td></tr>
- <tr><td>April 21, 2014</td><td><a>Alpine 2.7.6 released</a></td></tr>
- <tr><td>April 9, 2014</td><td><a>Alpine Linux has switched to musl libc</a></td></tr>
+ <tr><td>2014-05-21</td><td><a href="posts/release-2.7.8.html">Alpine 2.7.8 released</a></td></tr>
+ <tr><td>2014-05-06</td><td><a>Alpine 2.7.7 released</a></td></tr>
+ <tr><td>2014-04-21</td><td><a>Alpine 2.7.6 released</a></td></tr>
+ <tr><td>2014-04-09</td><td><a>Alpine Linux has switched to musl libc</a></td></tr>
+ <tr><td>2014-03-21</td><td><a>Alpine 2.7.5 released</a></td></tr>
 </table>
 </div>
 <div class="block2">
