@@ -7,7 +7,6 @@
 <link rel="stylesheet" type="text/css" href="/font.css"/>
 </head>
 <body>
-  <section id="page">
   <header>
     <span class="icon-alpine-logo"></span>
     <div class="right">
@@ -27,11 +26,10 @@
     <a href="/about" class="{{pagestate.about/index}}">about</a>
     <a href="/community" class="{{pagestate.community/index}}">community</a>
   </nav>
-  <article>
-  {{{content}}}
-  </article>
+  <div class="hidden">
+    <article>{{{content}}}</article>
+  </div>
   <footer>© Copyright 2014 Alpine Linux Development Team all rights reserved | Privacy Policy
   </footer>
-  </section>
 </body>
 </html>
