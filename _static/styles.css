@@ -16,8 +16,8 @@ body {
 }
 
 .widebar {
-	margin: 0 -500% 4em;
-	padding: 1.5em 500%;
+	margin: 0 -30% 4em;
+	padding: 1.5em 30%;
 //	background: #e8f1f6;
 
 	background: #d3e5ef;
@@ -48,44 +48,35 @@ header {
 	color: #0D597F;
 	background-color: #eee;
 	font-size: 1.7em;
-	padding: 0.7ex 0.7ex 0.7ex 0.7em;
-}
-
-header nav {
-	font-size: 50%;
-	background-color: #eee;
-}
-header nav a {
-//	color: #666;
-	color: #17a;
-}
-
-
-header a {
-	color: #666;
+	padding: 0;
+	border-style: none none solid none;
+	border-color: #17a;
 }
 
 nav {
-	overflow: hidden;
-	color: #069;
-	background-color: #17a;
-	padding: .7ex;
-	font-size: 94%;
-/*	border-top: 1px solid #ccc; */
-	border-bottom: 0px;
+	font-size: 11pt;
+//	background-color: #fee;
+	margin: 0em;
+	padding: 1em;
 }
 
 nav a {
-	padding: 1ex;
-	color: #fff;
+	padding: 3em 1em 3.2em 1em;
+	color: #111;
 	text-decoration: none;
+	font-weight: bold;
+}
+
+#sitenav a {
+	color: #17a;
+	padding: 0.5em;
+	font-weight: normal;
+	font-style: italic;
 }
 
 nav a.active {
-	color: #111;
-	background-color: #ff9919;
-
-	margin: 0px;
+	background-color: #17a;
+	color: white;
 }
 
 article {
@@ -116,9 +107,22 @@ td {
 .right { float: right; }
 
 .icon-alpine-logo {
-	font-size: 300%;
+	font-size: 250%;
 //	color: #17a;
 	color: #0D597F;
+}
+
+#pagenav {
+	float: left;
+	margin: 1em;
+//	position: relative;
+	//top: 50%;
+//      	  -webkit-transform: translateY(300%);
+//	  -ms-transform: translateY(300%);
+//	transform: translateY(300%);
+//	border-style: solid;
+//	margin: 0;
+//	padding: 0;
 }
 
 footer {
