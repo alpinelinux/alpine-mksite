@@ -11,6 +11,7 @@ git_atom_url := http://git.alpinelinux.org/cgit/aports/atom
 all: $(pages) $(static_out)
 
 $(out)/index.html: release.yaml git-commits.yaml
+$(out)/downloads/index.html: latest-releases.yaml
 
 $(out)/%.html: %.md _default.template.html
 	mkdir -p $(dir $@)
