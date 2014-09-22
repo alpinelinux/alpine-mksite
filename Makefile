@@ -6,9 +6,11 @@ pages := $(patsubst %.md,$(out)/%.html, $(md_sources))
 static_sources := $(shell find _static -type f)
 static_out := $(patsubst _static/%,$(out)/%,$(static_sources))
 
+git_atom_url := http://git.alpinelinux.org/cgit/aports/atom
+
 all: $(pages) $(static_out)
 
-$(out)/index.html: release.yaml last5.yaml
+$(out)/index.html: release.yaml git-commits.yaml
 
 $(out)/%.html: %.md _default.template.html
 	mkdir -p $(dir $@)
@@ -34,4 +36,13 @@ release.yaml: latest-releases.yaml
 
 update-release:
 	rm -f latest-releases.yaml
-	$(MAKE) release.yaml
+	$(MAKE)
+
+git-commits.yaml: _scripts/atom-to-yaml.xsl
+	curl $(git_atom_url) | xsltproc _scripts/atom-to-yaml.xsl - > $@.tmp
+	mv $@.tmp $@
+
+update-git-commits:
+	rm -f git-commits.yaml
+	$(MAKE)
+

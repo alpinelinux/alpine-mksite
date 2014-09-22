@@ -46,12 +46,12 @@ This site is under [development](http://git.alpinelinux.org/cgit/ncopa/mksite-al
 <div class="block2">
 <h3><span class="icon-archive"></span> Latest Development</h3>
 <table>
-{{#last5}}
+{{#git-commits}}
  <tr>
-  <td>{{commitdate}}</td>
-  <td><a href="http://git.alpinelinux.org/cgit/ncopa/mksite-alpine/commit/?id={{commit}}">{{subject}}</a></td>
+  <td><time datetime="{{updated}}">{{updated}}</time></td>
+  <td><a href="{{link}}">{{title}}</a></td>
  </tr>
-{{/last5}}
+{{/git-commits}}
 </table>
 </div>
 </div>
