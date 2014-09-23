@@ -1,3 +1,7 @@
+html, body {
+	overflow-x: hidden;
+}
+
 body {
 	background-color: white;
 	color: #111;
@@ -16,8 +20,8 @@ body {
 }
 
 .widebar {
-	margin: 0 -30% 4em;
-	padding: 1.5em 30%;
+	margin: 0 -300% 4em;
+	padding: 1.5em 300%;
 //	background: #e8f1f6;
 
 /* generate on http://www.colorzilla.com/gradient-editor/ */
