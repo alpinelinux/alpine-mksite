@@ -4,30 +4,32 @@ title: Alpine Linux
 
 <div class="widebar">
  <div class="block2">
-    <center>
-    <h2>Small Simple Secure</h2>
-    <p>
+  <center>
+   <h2>Small Simple Secure</h2>
+   <p>
     Alpine Linux is a security-oriented, lightweight Linux distribution
     based on musl libc and busybox.
-    </p>
-    </center>
+   </p>
+  </center>
  </div>
  <div class="block2">
-    <center>
-    <span class="icon-download" style="font-size:400%; color:green;"></span>
-    <p><a href="{{release.iso}}">{{release.iso}}</a>
-    <small>({{release.size_mb}}MB)</small></p>
-    <small>
-     <p>Released {{release.date}}</p>
-     <p>
-      <a title="{{release.sha1}}" href="{{release.iso}}.sha1">sha1</a>
-      |
-      <a title="{{release.sha256}}" href="{{release.iso}}.sha256">sha256</a>
-     </p>
-    </small>
-    </center>
+  <center>
+   <span class="icon-download" style="font-size:400%; color:green;"></span>
+   <p>
+    <a href="{{release.iso}}">{{release.iso}}</a>
+    <small>({{release.size_mb}}MB)</small>
+   </p>
+   <small>
+    <p>Released {{release.date}}</p>
+    <p>
+     <a title="{{release.sha1}}" href="{{release.iso}}.sha1">sha1</a>
+     |
+     <a title="{{release.sha256}}" href="{{release.iso}}.sha256">sha256</a>
+    </p>
+   </small>
+  </center>
  </div>
- <p/>
+ <p></p>
 </div>
 
 This site is under [development](http://git.alpinelinux.org/cgit/ncopa/mksite-alpine)
