@@ -101,6 +101,11 @@ nav a.active {
 	color: white;
 }
 
+a:link		{ text-decoration: none; }
+a:visited	{ text-decoration: none; }
+a:hover		{ text-decoration: underline; }
+a:active	{ text-decoration: underline; }
+
 article {
 	padding: 0em 1.5em;
 	max-width: 60em;
