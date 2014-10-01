@@ -6,21 +6,30 @@ pages := $(patsubst %.md,$(out)/%.html, $(md_sources))
 static_sources := $(shell find _static -type f)
 static_out := $(patsubst _static/%,$(out)/%,$(static_sources))
 
+LUA ?= lua
+generate_page = $(LUA) _scripts/generate_page.lua
+generate_index = $(LUA) _scripts/generate_index.lua
+
 git_atom_url := http://git.alpinelinux.org/cgit/aports/atom
 
 all: $(pages) $(static_out)
 
 $(out)/index.html: release.yaml git-commits.yaml
 $(out)/downloads/index.html: latest-releases.yaml
+$(out)/posts/index.html: posts/index.yaml
 
 $(out)/%.html: %.md _default.template.html
 	mkdir -p $(dir $@)
-	lua _scripts/generate_page.lua $< $(filter %.yaml,$^) > $@.tmp
+	$(generate_page) $< $(filter %.yaml,$^) > $@.tmp
 	mv $@.tmp $@
 
 $(static_out): $(out)/%: _static/%
 	mkdir -p $(dir $@)
 	cp $< $@
+
+%/index.yaml: %/*.md
+	$(generate_index) $^ > $@.tmp
+	mv $@.tmp $@
 
 clean:
 	rm -f $(pages) $(static_out)
