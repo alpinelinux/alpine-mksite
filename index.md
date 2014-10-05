@@ -3,7 +3,7 @@ title: Alpine Linux
 ---
 
 <div class="widebar">
- <div class="block2">
+ <div class="block-left">
   <center>
    <h2>Small Simple Secure</h2>
    <p>
@@ -12,7 +12,7 @@ title: Alpine Linux
    </p>
   </center>
  </div>
- <div class="block2">
+ <div class="block-right">
   <center>
    <span class="icon-download" style="font-size:400%; color:green;"></span>
    <p>
@@ -35,7 +35,7 @@ title: Alpine Linux
 This site is under [development](http://git.alpinelinux.org/cgit/ncopa/mksite-alpine)
 
 <div>
- <div class="block2">
+ <div class="block-left">
   <h3><span class="icon-rss-square"></span> Alpine News</h3>
   <table>
    <tr><td>2014-05-21</td><td><a href="posts/release-2.7.8.html">Alpine 2.7.8 released</a></td></tr>
@@ -45,7 +45,7 @@ This site is under [development](http://git.alpinelinux.org/cgit/ncopa/mksite-al
    <tr><td>2014-03-21</td><td><a>Alpine 2.7.5 released</a></td></tr>
   </table>
  </div>
- <div class="block2">
+ <div class="block-right">
   <h3><span class="icon-archive"></span> Latest Development</h3>
   <table>
    {{#git-commits}}
