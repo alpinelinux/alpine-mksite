@@ -44,7 +44,8 @@ This release introduces several new features:
 
 This list only contains packages included on the main CD-ROM.  There are thousands of packages available in our Internet-based repositories.
 
-[collapse collapsed title="Removed packages"]
+### Removed packages
+
 <pre>
 Removed packages:
 
@@ -58,9 +59,9 @@ libusb-compat-0.1.3-r0
 ncurses-5.7-r3
 zonenotify-0.1-r1
 </pre>
-[/collapse]
 
-[collapse collapsed title="New packages"]
+### New packages
+
 <pre>
 New packages:
 
@@ -88,9 +89,9 @@ talloc-2.0.5-r2
 tzdata-2011e-r2
 xcb-proto-1.6-r1
 </pre>
-[/collapse]
 
-[collapse collapsed title="Upgraded/downgraded packages"]
+### Upgraded/downgraded packages
+
 <p>
 <pre>
 Upgraded/downgraded packages (from version):
@@ -408,4 +409,3 @@ xtables-addons-grsec-2.6.38.2-r3	    (2.6.35.11-r2)
 zlib-1.2.5-r2				    (1.2.5-r1)
 </pre>
 </p>
-[/collapse]
