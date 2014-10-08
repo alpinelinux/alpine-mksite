@@ -9,12 +9,13 @@ static_out := $(patsubst _static/%,$(out)/%,$(static_sources))
 LUA ?= lua
 generate_page = $(LUA) _scripts/generate_page.lua
 generate_index = $(LUA) _scripts/generate_index.lua
+generate_news = $(LUA) _scripts/generate_latest.lua
 
 git_atom_url := http://git.alpinelinux.org/cgit/aports/atom
 
 all: $(pages) $(static_out)
 
-$(out)/index.html: release.yaml git-commits.yaml
+$(out)/index.html: release.yaml git-commits.yaml news.yaml
 $(out)/downloads/index.html: latest-releases.yaml
 $(out)/posts/index.html: posts/index.yaml
 
@@ -55,4 +56,9 @@ git-commits.yaml: _scripts/atom-to-yaml.xsl
 update-git-commits:
 	rm -f git-commits.yaml
 	$(MAKE)
+
+news.yaml: posts/index.yaml
+	$(generate_news) < $< > $@.tmp
+	mv $@.tmp $@
+
 

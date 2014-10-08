@@ -38,11 +38,10 @@ This site is under [development](http://git.alpinelinux.org/cgit/ncopa/mksite-al
  <div class="block-left">
   <h3><span class="icon-rss-square"></span> Alpine News</h3>
   <table>
-   <tr><td>2014-05-21</td><td><a href="posts/release-2.7.8.html">Alpine 2.7.8 released</a></td></tr>
-   <tr><td>2014-05-06</td><td><a>Alpine 2.7.7 released</a></td></tr>
-   <tr><td>2014-04-21</td><td><a>Alpine 2.7.6 released</a></td></tr>
-   <tr><td>2014-04-09</td><td><a>Alpine Linux has switched to musl libc</a></td></tr>
-   <tr><td>2014-03-21</td><td><a>Alpine 2.7.5 released</a></td></tr>
+   {{#news}}
+   <tr><td>{{date}}</td><td><a href="posts/{{html}}">{{title}}</a></td></tr>
+   {{/news}}
+   <tr><td>&nbsp;</td><td><a href="posts/">more...</a></td><tr>
   </table>
  </div>
  <div class="block-right">
