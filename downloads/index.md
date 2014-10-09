@@ -18,11 +18,14 @@ Downloads
 <tr>
  <td>{{flavor}}</td>
  <td>{{arch}}</td>
- <td>{{iso}}</td>
+ <td><a href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}">{{iso}}</a></td>
  <td>{{date}}</td>
  <td>{{size}}</td>
- <td><a href="{{iso}}.sha1" title="{{sha1}}">sha1</a>
-  | <a href="{{iso}}.sha256" title="{{sha256}}">sha256</a></td>
+ <td>
+   <a href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}.sha1">sha1</a>
+   |
+   <a href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}.sha256">sha256</a>
+  </td>
 </tr>
 {{/latest-releases}}
 </table>
