@@ -17,8 +17,8 @@ the system feel snappy.
 ## Simple
 
 Alpine Linux tries to be simple and stay out of the way for the user. It
-uses OpenRC init system (similar to gentoo) and provide a very simple but
-fully usable default while still giving the option to chose more advanced
+uses the OpenRC init system (similar to gentoo) and provides a very simple
+but fully usable default while still giving the option to chose more advanced
 tools.
 
 ## Secure
