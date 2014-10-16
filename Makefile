@@ -13,6 +13,11 @@ generate_news = $(LUA) _scripts/generate_latest.lua
 
 git_atom_url := http://git.alpinelinux.org/cgit/aports/atom
 
+archs := x86_64 x86
+releases_yaml = $(archs:%=releases.%.yaml)
+releases_url := http://nl.alpinelinux.org/alpine/latest-stable/releases
+releases_url_suffix = $(@:releases.%.yaml=%/latest-releases.yaml)
+
 all: $(pages) $(static_out)
 
 $(out)/index.html: release.yaml git-commits.yaml news.yaml
@@ -35,13 +40,11 @@ $(static_out): $(out)/%: _static/%
 clean:
 	rm -f $(pages) $(static_out)
 
-yaml_url := http://nl.alpinelinux.org/alpine/latest-stable/releases/x86_64/latest-releases.yaml
-
-latest-releases.yaml:
-	curl -J $(yaml_url) > $@.tmp
+$(releases_yaml):
+	curl -J $(releases_url)/$(releases_url_suffix) > $@.tmp
 	mv $@.tmp $@
 
-release.yaml: latest-releases.yaml
+release.yaml: releases.x86_64.yaml
 	lua -e 'y=require("yaml"); for _,v in pairs(y.load(io.read("*a"))) do if v.flavor == "alpine" then v.size_mb=math.floor(v.size/(1024*1024)); io.write(y.dump(v)) end end' > $@.tmp < $<
 	mv $@.tmp $@
 
