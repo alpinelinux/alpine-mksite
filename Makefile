@@ -10,6 +10,7 @@ LUA ?= lua
 generate_page = $(LUA) _scripts/generate_page.lua
 generate_index = $(LUA) _scripts/generate_index.lua
 generate_news = $(LUA) _scripts/generate_latest.lua
+generate_releases = $(LUA) _scripts/generate_releases.lua
 
 git_atom_url := http://git.alpinelinux.org/cgit/aports/atom
 
@@ -20,8 +21,8 @@ releases_url_suffix = $(@:releases.%.yaml=%/latest-releases.yaml)
 
 all: $(pages) $(static_out)
 
-$(out)/index.html: release.yaml git-commits.yaml news.yaml
-$(out)/downloads/index.html: latest-releases.yaml
+$(out)/index.html: releases.yaml git-commits.yaml news.yaml
+$(out)/downloads/index.html: releases.yaml
 $(out)/posts/index.html: posts/index.yaml
 
 $(out)/%.html: %.md _default.template.html
@@ -44,9 +45,8 @@ $(releases_yaml):
 	curl -J $(releases_url)/$(releases_url_suffix) > $@.tmp
 	mv $@.tmp $@
 
-release.yaml: releases.x86_64.yaml
-	lua -e 'y=require("yaml"); for _,v in pairs(y.load(io.read("*a"))) do if v.flavor == "alpine" then v.size_mb=math.floor(v.size/(1024*1024)); io.write(y.dump(v)) end end' > $@.tmp < $<
-	mv $@.tmp $@
+releases.yaml: $(releases_yaml)
+	$(generate_releases) $^ > $@.tmp && mv $@.tmp $@
 
 update-release:
 	rm -f latest-releases.yaml
