@@ -11,9 +11,10 @@ for i = 1,#arg do
 		v.size_mb=math.floor(v.size/(1024*1024))
 		local flavor = t[v.flavor]
 		if flavor == nil then
-			flavor = {}
+			flavor = { archs = {}}
 		end
 		flavor[v.arch] = v
+		table.insert(flavor.archs, v)
 		t[v.flavor] = flavor
 	end
 end
