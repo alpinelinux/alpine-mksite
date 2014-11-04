@@ -5,7 +5,7 @@ title: Alpine Linux
 <div class="widebar">
  <div class="block-left">
   <center>
-   <h2>Small Simple Secure</h2>
+   <h2>Small. Simple. Secure.</h2>
    <p>
     Alpine Linux is a security-oriented, lightweight Linux distribution
     based on musl libc and busybox.
