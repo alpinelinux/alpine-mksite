@@ -39,7 +39,7 @@ This site is under [development](http://git.alpinelinux.org/cgit/ncopa/mksite-al
    {{#news}}
    <tr><td>{{date}}</td><td><a href="posts/{{html}}">{{title}}</a></td></tr>
    {{/news}}
-   <tr><td>&nbsp;</td><td><a href="posts/">more...</a></td><tr>
+   <tr><td>&nbsp;</td><td><a href="posts/">more...</a></td></tr>
   </table>
  </div>
  <div class="block-right">
