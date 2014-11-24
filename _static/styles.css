@@ -26,6 +26,10 @@ body {
 	padding: 0.5em 3em 0.5em 0em;
 }
 
+.block-center {
+	text-align: center;
+}
+
 .widebar {
 	margin: 0 -300% 4em;
 	padding: 1.5em 300%;
