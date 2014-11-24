@@ -30,6 +30,10 @@ body {
 	text-align: center;
 }
 
+.block-small {
+	font-size: 75%;
+}
+
 .widebar {
 	margin: 0 -300% 4em;
 	padding: 1.5em 300%;
