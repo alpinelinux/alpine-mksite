@@ -39,7 +39,10 @@ $(static_out): $(out)/%: _static/%
 	mv $@.tmp $@
 
 clean:
-	rm -f $(pages) $(static_out)
+	rm -f $(pages) $(static_out) \
+		$(releases_yaml) releases.yaml \
+		git-commit.yaml \
+		news.yaml posts/index.yaml
 
 $(releases_yaml):
 	curl -J $(releases_url)/$(releases_url_suffix) > $@.tmp
@@ -49,7 +52,7 @@ releases.yaml: $(releases_yaml)
 	$(generate_releases) $^ > $@.tmp && mv $@.tmp $@
 
 update-release:
-	rm -f latest-releases.yaml
+	rm -f $(releases_yaml) releases.yaml
 	$(MAKE)
 
 git-commits.yaml: _scripts/atom-to-yaml.xsl
