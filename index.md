@@ -3,17 +3,14 @@ title: Alpine Linux
 ---
 
 <div class="widebar">
- <div class="block-left">
-  <center>
+ <div class="block-left block-center">
    <h2>Small. Simple. Secure.</h2>
    <p>
     Alpine Linux is a security-oriented, lightweight Linux distribution
     based on musl libc and busybox.
    </p>
-  </center>
  </div>
- <div class="block-right">
-  <center>
+ <div class="block-right block-center">
    <span class="icon-download" style="font-size:400%; color:green;"></span>
    <p>
     <a href="{{releases.default.iso_url}}">{{releases.default.iso}}</a>
@@ -29,7 +26,6 @@ title: Alpine Linux
 	href="{{releases.default.sha256_url}}">sha256</a>
     </p>
    </small>
-  </center>
  </div>
  <p></p>
 </div>
