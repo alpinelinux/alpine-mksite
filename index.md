@@ -16,7 +16,7 @@ title: Alpine Linux
     <a href="{{releases.default.iso_url}}">{{releases.default.iso}}</a>
     <small>({{releases.default.size_mb}}MB)</small>
    </p>
-   <small>
+   <div class="block-small">
     <p>Released {{releases.default.date}}</p>
     <p>
      <a title="{{releases.default.sha1}}"
@@ -25,7 +25,7 @@ title: Alpine Linux
      <a title="{{releases.default.sha256}}"
 	href="{{releases.default.sha256_url}}">sha256</a>
     </p>
-   </small>
+   </div>
  </div>
  <p></p>
 </div>
