@@ -16,17 +16,17 @@ title: Alpine Linux
   <center>
    <span class="icon-download" style="font-size:400%; color:green;"></span>
    <p>
-    <a href="{{releases.alpline.x86_64.iso}}">{{releases.alpine.x86_64.iso}}</a>
-    <small>({{releases.alpine.x86_64.size_mb}}MB)</small>
+    <a href="{{releases.default.iso_url}}">{{releases.default.iso}}</a>
+    <small>({{releases.default.size_mb}}MB)</small>
    </p>
    <small>
-    <p>Released {{releases.alpine.x86_64.date}}</p>
+    <p>Released {{releases.default.date}}</p>
     <p>
-     <a title="{{releases.alpine.x86_64sha1}}"
-	href="{{releases.alpine.x86_64.iso}}.sha1">sha1</a>
+     <a title="{{releases.default.sha1}}"
+	href="{{releases.default.sha1_url}}">sha1</a>
      |
-     <a title="{{releases.alpine.x86_64.sha256}}"
-	href="{{releases.alpine.x86_64.iso}}.sha256">sha256</a>
+     <a title="{{releases.default.sha256}}"
+	href="{{releases.default.sha256_url}}">sha256</a>
     </p>
    </small>
   </center>
