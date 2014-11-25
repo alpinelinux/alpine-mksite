@@ -68,4 +68,9 @@ page.pagestate[page.pagename] = 'active'
 
 page.content = lustache:render(content, page)
 
+if page.date then
+	local y,m,d = page.date:match("(%d+)-(%d+)-(%d+)")
+	page.pubdate = os.date("%b %d, %Y", os.time{year=y, month=m, day=d})
+end
+
 io.write(lustache:render(layout, page))
