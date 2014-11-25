@@ -12,7 +12,7 @@ a fully usable base system takes no more than 7-10 MB. This makes it ideal
 for containers and diskless systems.
 
 Less disk usage also means less disk I/O and fewer cache misses which makes
-the system more resposive.
+the system more responsive.
 
 ## Simple
 
