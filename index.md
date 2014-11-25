@@ -51,6 +51,7 @@ This site is under [development](http://git.alpinelinux.org/cgit/ncopa/mksite-al
     <td><a href="{{{link}}}">{{title}}</a></td>
    </tr>
    {{/git-commits.entries}}
+   <tr><td>&nbsp;</td><td><a href="http://git.alpinelinux.org/cgit/aports/log">more...</a></td></tr>
  </table>
  </div>
 </div>
