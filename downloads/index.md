@@ -7,7 +7,7 @@ Downloads
 
 #### Version {{releases.alpine.x86.version}}
 
-Released {{releases.alpine.x86.date}}
+Released {{releases.alpine.x86.datestr}}
 
 <table>
 <tr>
