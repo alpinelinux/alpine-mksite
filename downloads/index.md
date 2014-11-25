@@ -1,5 +1,18 @@
 ---
 title: Downloads
+flavor:
+  alpine:
+    title: Standard
+    desc: Most common used packages included. Use this for routers and servers that run from RAM.
+  alpine-mini:
+    title: Mini
+    desc: Only the basic packages included. Use this for disk installs from network.
+  alpine-vanilla:
+    title: Vanilla
+    desc: Similar to 'Mini' but with a vanilla kernel. This is for troubleshooting kernel issues.
+  alpine-xen:
+    title: Xen
+    desc: Xen Dom0 LiveCD and Xen packages.
 ---
 
 Downloads
@@ -16,6 +29,7 @@ Released {{releases.alpine.x86.datestr}}
  <th class="checksums">checksum</th>
 </tr>
 
+<tr> <td colspan="3">{{flavor.alpine.title}}</td> </tr>
 {{#releases.alpine.archs}}
 <tr>
  <td class="iso"><a href="{{iso_url}}">{{iso}}</a></td>
@@ -30,6 +44,7 @@ Released {{releases.alpine.x86.datestr}}
 </tr>
 {{/releases.alpine.archs}}
 
+<tr><td colspan="3">{{flavor.alpine-mini.title}}</td> </tr>
 {{#releases.alpine-mini.archs}}
 <tr>
  <td class="iso"><a href="{{iso_url}}">{{iso}}</a></td>
@@ -44,6 +59,7 @@ Released {{releases.alpine.x86.datestr}}
 </tr>
 {{/releases.alpine-mini.archs}}
 
+<tr> <td colspan="3">{{flavor.alpine-vanilla.title}}</td> </tr>
 {{#releases.alpine-vanilla.archs}}
 <tr>
  <td class="iso"><a href="{{iso_url}}">{{iso}}</a></td>
@@ -58,6 +74,7 @@ Released {{releases.alpine.x86.datestr}}
 </tr>
 {{/releases.alpine-vanilla.archs}}
 
+<tr><td colspan="3">{{flavor.alpine-xen.title}}</td> </tr>
 {{#releases.alpine-xen.archs}}
 <tr>
  <td class="iso"><a href="{{iso_url}}">{{iso}}</a></td>
