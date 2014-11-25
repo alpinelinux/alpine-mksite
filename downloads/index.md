@@ -72,3 +72,8 @@ Released {{releases.alpine.x86.datestr}}
 </tr>
 {{/releases.alpine-xen.archs}}
 </table>
+
+
+<h3>Older releases</h3>
+Older releases are found
+<a href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi">here</a>.
