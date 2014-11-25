@@ -1,7 +1,7 @@
 # About
 
 Alpine Linux is a non-commercial, general purpose Linux distribution
-designed for power users who appreciate security simplicity and resource
+designed for power users who appreciate security, simplicity and resource
 effiency.
 
 ## Small
@@ -25,7 +25,7 @@ advanced tools.
 
 Alpine Linux was designed with security in mind. The kernel is
 Grsecurity-patched, and all userland binaries are compiled with Position
-Independent Executables (PIE) and stack smashing protection. These proactive 
-security features prevent exploitation of entire classes of zero-day and 
-other vulernabilities.
+Independent Executables (PIE) and stack smashing protection. These proactive
+security features prevent exploitation of entire classes of zero-day and
+other vulnerabilities.
 
