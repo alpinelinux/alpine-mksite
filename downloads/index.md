@@ -18,56 +18,56 @@ Released {{releases.alpine.x86.datestr}}
 
 {{#releases.alpine.archs}}
 <tr>
- <td class="iso"><a href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}">{{iso}}</a></td>
+ <td class="iso"><a href="{{iso_url}}">{{iso}}</a></td>
  <td class="size">{{size_mb}} MB</td>
  <td class="checksums">
    <a title="{{sha1}}"
-      href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}.sha1">sha1</a>
+      href="{{sha1_url}}">sha1</a>
    |
    <a title="{{sha256}}" 
-      href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}.sha256">sha256</a>
+      href="{{sha256_url}}">sha256</a>
   </td>
 </tr>
 {{/releases.alpine.archs}}
 
 {{#releases.alpine-mini.archs}}
 <tr>
- <td class="iso"><a href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}">{{iso}}</a></td>
+ <td class="iso"><a href="{{iso_url}}">{{iso}}</a></td>
  <td class="size">{{size_mb}} MB</td>
  <td class="checksums">
    <a title="{{sha1}}" 
-      href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}.sha1">sha1</a>
+      href="{{sha1_url}}">sha1</a>
    |
    <a title="{{sha256}}" 
-      href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}.sha256">sha256</a>
+      href="{{sha256_url}}">sha256</a>
   </td>
 </tr>
 {{/releases.alpine-mini.archs}}
 
 {{#releases.alpine-vanilla.archs}}
 <tr>
- <td class="iso"><a href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}">{{iso}}</a></td>
+ <td class="iso"><a href="{{iso_url}}">{{iso}}</a></td>
  <td class="size">{{size_mb}} MB</td>
  <td class="checksums">
    <a title="{{sha1}}" 
-      href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}.sha1">sha1</a>
+      href="{{sha1_url}}">sha1</a>
    |
    <a title="{{sha256}}" 
-      href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}.sha256">sha256</a>
+      href="{{sha256_url}}">sha256</a>
   </td>
 </tr>
 {{/releases.alpine-vanilla.archs}}
 
 {{#releases.alpine-xen.archs}}
 <tr>
- <td class="iso"><a href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}">{{iso}}</a></td>
+ <td class="iso"><a href="{{iso_url}}">{{iso}}</a></td>
  <td class="size">{{size_mb}} MB</td>
  <td class="checksums">
    <a title="{{sha1}}" 
-      href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}.sha1">sha1</a>
+      href="{{sha1_url}}">sha1</a>
    |
    <a title="{{sha256}}" 
-      href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}.sha256">sha256</a>
+      href="{{sha256_url}}">sha256</a>
   </td>
 </tr>
 {{/releases.alpine-xen.archs}}
