@@ -11,16 +11,16 @@ Released {{releases.alpine.x86.datestr}}
 
 <table class="downloads">
 <tr>
- <th>iso</th>
- <th>size</th>
- <th>checksum</th>
+ <th class="iso">iso</th>
+ <th class="size">size</th>
+ <th class="checksums">checksum</th>
 </tr>
 
 {{#releases.alpine.archs}}
 <tr>
- <td><a href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}">{{iso}}</a></td>
- <td>{{size_mb}} MB</td>
- <td>
+ <td class="iso"><a href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}">{{iso}}</a></td>
+ <td class="size">{{size_mb}} MB</td>
+ <td class="checksums">
    <a title="{{sha1}}"
       href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}.sha1">sha1</a>
    |
@@ -32,9 +32,9 @@ Released {{releases.alpine.x86.datestr}}
 
 {{#releases.alpine-mini.archs}}
 <tr>
- <td><a href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}">{{iso}}</a></td>
- <td>{{size_mb}} MB</td>
- <td>
+ <td class="iso"><a href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}">{{iso}}</a></td>
+ <td class="size">{{size_mb}} MB</td>
+ <td class="checksums">
    <a title="{{sha1}}" 
       href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}.sha1">sha1</a>
    |
@@ -46,9 +46,9 @@ Released {{releases.alpine.x86.datestr}}
 
 {{#releases.alpine-vanilla.archs}}
 <tr>
- <td><a href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}">{{iso}}</a></td>
- <td>{{size_mb}} MB</td>
- <td>
+ <td class="iso"><a href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}">{{iso}}</a></td>
+ <td class="size">{{size_mb}} MB</td>
+ <td class="checksums">
    <a title="{{sha1}}" 
       href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}.sha1">sha1</a>
    |
@@ -60,9 +60,9 @@ Released {{releases.alpine.x86.datestr}}
 
 {{#releases.alpine-xen.archs}}
 <tr>
- <td><a href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}">{{iso}}</a></td>
- <td>{{size_mb}} MB</td>
- <td>
+ <td class="iso"><a href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}">{{iso}}</a></td>
+ <td class="size">{{size_mb}} MB</td>
+ <td class="checksums">
    <a title="{{sha1}}" 
       href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi/{{branch}}/releases/{{arch}}/{{iso}}.sha1">sha1</a>
    |

@@ -164,6 +164,23 @@ table.downloads {
 	text-align: left;
 }
 
+th.size, td.size {
+	width: 4em;
+}
+
+th.checksums, td.checksums {
+	width: 8em;
+}
+
+th.checksums, td.checksums, th.size, td.size {
+	text-align: right;
+	padding: .2em 0em .2em .2em;
+}
+
+table.downloads td, table.downloads th {
+	border-bottom: 1px solid #DCDCDC;
+}
+
 #pagenav {
 	float: left;
 	margin: 1em;
