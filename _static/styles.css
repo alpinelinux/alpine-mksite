@@ -147,6 +147,7 @@ p { clear: both; }
 td {
 	font-size: 80%;
 	padding: .2em 1em .2em .2em;
+	vertical-align: top;
 }
 
 .left { float: left; }
