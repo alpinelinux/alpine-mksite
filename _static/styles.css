@@ -89,6 +89,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	padding: 0;
 	border-style: none none solid none;
 	border-color: #17a;
+	position: relative;
+	z-index: 1;
 }
 
 nav {
