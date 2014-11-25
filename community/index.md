@@ -31,5 +31,5 @@ Wiki has the documentation.
 
 User forums for discussion and user support from other users.
 
-<http://alpinelinux.org/formus>
+<http://alpinelinux.org/forum>
 
