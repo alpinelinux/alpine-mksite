@@ -44,7 +44,7 @@ This site is under [development](http://git.alpinelinux.org/cgit/ncopa/mksite-al
  </div>
  <div class="block-right">
   <h3><span class="icon-archive"></span> Latest Development</h3>
-  <table style="width: 36em;">
+  <table>
    {{#git-commits.entries}}
    <tr>
     <td><time datetime="{{updated}}">{{updated_date}}</time></td>
