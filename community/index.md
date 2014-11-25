@@ -27,3 +27,9 @@ Wiki has the documentation.
 
 <http://wiki.alpinelinux.org>
 
+## Forums
+
+User forums for discussion and user support from other users.
+
+<http://alpinelinux.org/formus>
+
