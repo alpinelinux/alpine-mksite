@@ -158,6 +158,11 @@ td {
 	color: #0D597F;
 }
 
+table.downloads {
+	width: 100%;
+	text-align: left;
+}
+
 #pagenav {
 	float: left;
 	margin: 1em;

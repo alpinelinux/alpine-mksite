@@ -9,7 +9,7 @@ Downloads
 
 Released {{releases.alpine.x86.datestr}}
 
-<table>
+<table class="downloads">
 <tr>
  <th>iso</th>
  <th>size</th>
