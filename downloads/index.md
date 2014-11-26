@@ -30,6 +30,7 @@ Released {{releases.default.datestr}}
 </tr>
 
 {{#releases.flavors}}
+<tr><td>{{flavor_name}}</td><td></td><td></td></tr>
 {{#archs}}
 <tr title="{{flavor.alpine.desc}}">
  <td class="iso"><a href="{{iso_url}}">{{iso}}</a></td>
