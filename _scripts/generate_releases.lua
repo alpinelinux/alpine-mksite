@@ -3,7 +3,7 @@
 yaml = require("yaml")
 
 url_prefix="http://wiki.alpinelinux.org/cgi-bin/dl.cgi"
-t = {}
+t = { list={} }
 
 for i = 1,#arg do
 	local f = assert(io.open(arg[i]))
@@ -25,6 +25,8 @@ for i = 1,#arg do
 		flavor[v.arch] = v
 		table.insert(flavor.archs, v)
 		t[v.flavor] = flavor
+
+		table.insert(t.list, v)
 	end
 end
 

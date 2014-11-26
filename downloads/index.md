@@ -18,9 +18,9 @@ flavor:
 Downloads
 =========
 
-#### Version {{releases.alpine.x86.version}}
+#### Version {{releases.default.version}}
 
-Released {{releases.alpine.x86.datestr}}
+Released {{releases.default.datestr}}
 
 <table class="downloads">
 <tr>
@@ -29,8 +29,7 @@ Released {{releases.alpine.x86.datestr}}
  <th class="checksums">checksum</th>
 </tr>
 
-<tr><td>{{flavor.alpine.title}}</td><td></td><td></td></tr>
-{{#releases.alpine.archs}}
+{{#releases.list}}
 <tr title="{{flavor.alpine.desc}}">
  <td class="iso"><a href="{{iso_url}}">{{iso}}</a></td>
  <td class="size">{{size_mb}} MB</td>
@@ -42,54 +41,8 @@ Released {{releases.alpine.x86.datestr}}
       href="{{sha256_url}}">sha256</a>
   </td>
 </tr>
-{{/releases.alpine.archs}}
-
-<tr><td>{{flavor.alpine-mini.title}}</td><td></td><td></td></tr>
-{{#releases.alpine-mini.archs}}
-<tr>
- <td class="iso"><a href="{{iso_url}}">{{iso}}</a></td>
- <td class="size">{{size_mb}} MB</td>
- <td class="checksums">
-   <a title="{{sha1}}" 
-      href="{{sha1_url}}">sha1</a>
-   |
-   <a title="{{sha256}}" 
-      href="{{sha256_url}}">sha256</a>
-  </td>
-</tr>
-{{/releases.alpine-mini.archs}}
-
-<tr><td>{{flavor.alpine-vanilla.title}}</td><td></td><td></td></tr>
-{{#releases.alpine-vanilla.archs}}
-<tr>
- <td class="iso"><a href="{{iso_url}}">{{iso}}</a></td>
- <td class="size">{{size_mb}} MB</td>
- <td class="checksums">
-   <a title="{{sha1}}" 
-      href="{{sha1_url}}">sha1</a>
-   |
-   <a title="{{sha256}}" 
-      href="{{sha256_url}}">sha256</a>
-  </td>
-</tr>
-{{/releases.alpine-vanilla.archs}}
-
-<tr><td>{{flavor.alpine-xen.title}}</td><td></td><td></td> </tr>
-{{#releases.alpine-xen.archs}}
-<tr>
- <td class="iso"><a href="{{iso_url}}">{{iso}}</a></td>
- <td class="size">{{size_mb}} MB</td>
- <td class="checksums">
-   <a title="{{sha1}}" 
-      href="{{sha1_url}}">sha1</a>
-   |
-   <a title="{{sha256}}" 
-      href="{{sha256_url}}">sha256</a>
-  </td>
-</tr>
-{{/releases.alpine-xen.archs}}
+{{/releases.list}}
 </table>
-
 
 <h3>Older releases</h3>
 Older releases are found
