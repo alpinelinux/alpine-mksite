@@ -49,8 +49,8 @@ $(releases_yaml):
 	curl -J $(releases_url)/$(releases_url_suffix) > $@.tmp
 	mv $@.tmp $@
 
-releases.yaml: $(releases_yaml)
-	$(generate_releases) $^ > $@.tmp && mv $@.tmp $@
+releases.yaml: $(releases_yaml) _scripts/generate_releases.lua
+	$(generate_releases) $(filter %.yaml,$^) > $@.tmp && mv $@.tmp $@
 
 update-release:
 	rm -f $(releases_yaml) releases.yaml
