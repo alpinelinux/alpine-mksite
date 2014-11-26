@@ -56,7 +56,7 @@ update-release:
 	rm -f $(releases_yaml) releases.yaml
 	$(MAKE)
 
-git-commits.yaml: _scripts/atom-to-yaml.xsl
+git-commits.yaml: _scripts/generate_git-commits.lua
 	curl $(git_atom_url) | $(generate_commits) > $@.tmp
 	mv $@.tmp $@
 
