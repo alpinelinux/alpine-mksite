@@ -5,6 +5,24 @@ yaml = require("yaml")
 url_prefix="http://wiki.alpinelinux.org/cgi-bin/dl.cgi"
 t = { flavors={} }
 
+flavor_def = {
+	["alpine"] = {
+		title = "Standard",
+		desc = "Most common used packages included. Use this for"
+			.." routers and servers that run from RAM." },
+	["alpine-mini"] = {
+		title = "Mini",
+		desc = "Only the basic packages included. Use this for disk"
+			.." installs from network." },
+	["alpine-vanilla"] = {
+		title = "Vanilla",
+		desc = "Similar to 'Mini' but with a vanilla kernel. This is"
+			.." for troubleshooting kernel issues." },
+	["alpine-xen"] = {
+		title = "Xen",
+		desc = "Xen Dom0 LiveCD and Xen packages." },
+}
+
 for i = 1,#arg do
 	local f = assert(io.open(arg[i]))
 
@@ -20,7 +38,12 @@ for i = 1,#arg do
 
 		local flavor = t[v.flavor]
 		if flavor == nil then
-			flavor = { archs = {}, flavor_name=v.flavor}
+			local def = flavor_def[v.flavor] or {title="", desc=""}
+			flavor = {
+				archs = {},
+				flavor_title = def.title,
+				flavor_desc = def.desc,
+			}
 			table.insert(t.flavors, flavor)
 		end
 		flavor[v.arch] = v
