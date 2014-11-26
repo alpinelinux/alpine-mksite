@@ -29,7 +29,8 @@ Released {{releases.default.datestr}}
  <th class="checksums">checksum</th>
 </tr>
 
-{{#releases.list}}
+{{#releases.flavors}}
+{{#archs}}
 <tr title="{{flavor.alpine.desc}}">
  <td class="iso"><a href="{{iso_url}}">{{iso}}</a></td>
  <td class="size">{{size_mb}} MB</td>
@@ -37,11 +38,12 @@ Released {{releases.default.datestr}}
    <a title="{{sha1}}"
       href="{{sha1_url}}">sha1</a>
    |
-   <a title="{{sha256}}" 
+   <a title="{{sha256}}"
       href="{{sha256_url}}">sha256</a>
   </td>
 </tr>
-{{/releases.list}}
+{{/archs}}
+{{/releases.flavors}}
 </table>
 
 <h3>Older releases</h3>
