@@ -29,9 +29,9 @@ Released {{releases.alpine.x86.datestr}}
  <th class="checksums">checksum</th>
 </tr>
 
-<tr> <td colspan="3">{{flavor.alpine.title}}</td> </tr>
+<tr><td>{{flavor.alpine.title}}</td><td></td><td></td></tr>
 {{#releases.alpine.archs}}
-<tr>
+<tr title="{{flavor.alpine.desc}}">
  <td class="iso"><a href="{{iso_url}}">{{iso}}</a></td>
  <td class="size">{{size_mb}} MB</td>
  <td class="checksums">
@@ -44,7 +44,7 @@ Released {{releases.alpine.x86.datestr}}
 </tr>
 {{/releases.alpine.archs}}
 
-<tr><td colspan="3">{{flavor.alpine-mini.title}}</td> </tr>
+<tr><td>{{flavor.alpine-mini.title}}</td><td></td><td></td></tr>
 {{#releases.alpine-mini.archs}}
 <tr>
  <td class="iso"><a href="{{iso_url}}">{{iso}}</a></td>
@@ -59,7 +59,7 @@ Released {{releases.alpine.x86.datestr}}
 </tr>
 {{/releases.alpine-mini.archs}}
 
-<tr> <td colspan="3">{{flavor.alpine-vanilla.title}}</td> </tr>
+<tr><td>{{flavor.alpine-vanilla.title}}</td><td></td><td></td></tr>
 {{#releases.alpine-vanilla.archs}}
 <tr>
  <td class="iso"><a href="{{iso_url}}">{{iso}}</a></td>
@@ -74,7 +74,7 @@ Released {{releases.alpine.x86.datestr}}
 </tr>
 {{/releases.alpine-vanilla.archs}}
 
-<tr><td colspan="3">{{flavor.alpine-xen.title}}</td> </tr>
+<tr><td>{{flavor.alpine-xen.title}}</td><td></td><td></td> </tr>
 {{#releases.alpine-xen.archs}}
 <tr>
  <td class="iso"><a href="{{iso_url}}">{{iso}}</a></td>
