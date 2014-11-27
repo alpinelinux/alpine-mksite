@@ -15,20 +15,20 @@ body {
 	font-size: 11pt;
 	position: relative;
 	min-height: 100%;
-//	box-shadow: 0em 0.33em 0.33em #888888;
+/*	box-shadow: 0em 0.33em 0.33em #888888; */
 }
 
 .block-left {
 	width: 24em;
 	float: left;
-//	background-color: #faa;
+/*	background-color: #faa; */
 	padding: 0.5em 3em 0.5em 0em;
 }
 
 .block-right {
 	width: 24em;
 	float: left;
-//	background-color: #faa;
+/*	background-color: #faa; */
 	padding: 0.5em 3em 0.5em 0em;
 }
 
@@ -43,10 +43,10 @@ body {
 .widebar {
 	margin: 0 -300% 4em;
 	padding: 1.5em 300%;
-//	background: #e8f1f6;
+/*	background: #e8f1f6; */
 
 /* generate on http://www.colorzilla.com/gradient-editor/ */
-//background: #def0f9; /* Old browsers */
+/* background: #def0f9; /* Old browsers */ */
 background: #d3e5ef;
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
 background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RlZjBmOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwJSIgc3RvcC1jb2xvcj0iI2QzZTVlZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iI2QzZTVlZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiM2M1Y2YiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -63,13 +63,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#def0f9', end
 
 }
 
-// primary:		006190	22485A	002E44	55B5E3	99CBE3
-// complementary:	E47A00	8E6535	6C3A00	F8B05D	F8D3A8
+/*
+ * primary:		006190	22485A	002E44	55B5E3	99CBE3
+ * complementary:	E47A00	8E6535	6C3A00	F8B05D	F8D3A8
+ *
+ * #17a, #3bf, #19b2ff
+ * #b26300, #ff9919
+ *
+ * #17a #0d597f #19b2ff #062d40 #17a1e5 */
 
-// #17a, #3bf, #19b2ff
-// #b26300, #ff9919
-
-// #17a #0d597f #19b2ff #062d40 #17a1e5
 a {
 	text-decoration: none;
 }
@@ -101,13 +103,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 nav {
 	font-size: 11pt;
-//	background-color: #fee;
+/*	background-color: #fee; */
 	margin: 0em;
 	padding: 1em;
 }
 
 nav a {
-//	padding: 3em 1em 2.8em 1em;
+/*	padding: 3em 1em 2.8em 1em; */
 	padding: 3em 1em 3.2em 1em;
 	color: #111;
 	text-decoration: none;
@@ -161,7 +163,7 @@ td {
 
 .icon-alpine-logo {
 	font-size: 250%;
-//	color: #17a;
+/*	color: #17a; */
 	color: #0D597F;
 }
 
@@ -198,14 +200,14 @@ table.downloads td, table.downloads th {
 #pagenav {
 	float: left;
 	margin: 1em;
-//	position: relative;
-	//top: 50%;
-//	  -webkit-transform: translateY(300%);
-//	  -ms-transform: translateY(300%);
-//	transform: translateY(300%);
-//	border-style: solid;
-//	margin: 0;
-//	padding: 0;
+/*	position: relative;
+	top: 50%;
+	  -webkit-transform: translateY(300%);
+	  -ms-transform: translateY(300%);
+	transform: translateY(300%);
+	border-style: solid;
+	margin: 0;
+	padding: 0; */
 }
 
 div#wide-content {
