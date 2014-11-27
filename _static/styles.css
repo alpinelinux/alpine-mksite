@@ -169,6 +169,10 @@ td time {
 	color: #0D597F;
 }
 
+a.alpine-logo:hover, a.alpine-logo:active {
+	text-decoration: none;
+}
+
 table.downloads {
 	width: 100%;
 	text-align: left;
