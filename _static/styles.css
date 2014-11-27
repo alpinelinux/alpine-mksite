@@ -156,6 +156,10 @@ td {
 	vertical-align: top;
 }
 
+td time {
+	white-space: nowrap;
+}
+
 .left { float: left; }
 .right { float: right; }
 
