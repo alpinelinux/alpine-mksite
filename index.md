@@ -30,8 +30,6 @@ title: Alpine Linux
  <p></p>
 </div>
 
-This site is under [development](http://git.alpinelinux.org/cgit/ncopa/mksite-alpine)
-
 <div>
  <div class="block-left">
   <h3><span class="icon-rss-square"></span> Alpine News</h3>
