@@ -27,6 +27,10 @@ Wiki has the documentation.
 
 <http://wiki.alpinelinux.org>
 
+## Twitter
+
+<https://twitter.com/alpinelinux>
+
 ## Forums
 
 User forums for discussion and user support from other users.
