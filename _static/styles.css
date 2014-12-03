@@ -119,6 +119,11 @@ nav a {
 	font-weight: bold;
 }
 
+#sitenav {
+	margin: 2em 0 0 0;
+	float: right;
+}
+
 #sitenav a {
 	color: #17a;
 	padding: 0.5em;
