@@ -96,7 +96,6 @@ background: -ms-linear-gradient(-45deg, #ffffff 0%,#eeeeee 40%,#eeeeee 75%,#dddd
 background: linear-gradient(135deg, #ffffff 0%,#eeeeee 40%,#eeeeee 75%,#dddddd 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
 
-	font-size: 1.7em;
 	padding: 0;
 	border-style: none none solid none;
 	border-color: #17a;
@@ -105,15 +104,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 nav {
-	font-size: 11pt;
-/*	background-color: #fee; */
 	margin: 0em;
-	padding: 1em;
+	padding: 2.25em 0em 2.25em 0em;
 }
 
 nav a {
-/*	padding: 3em 1em 2.8em 1em; */
-	padding: 3em 1em 3.2em 1em;
+	padding: 2.5em 1em 3em 1em;
+	margin: 0;
+
 	color: #111;
 	text-decoration: none;
 	font-weight: bold;
@@ -122,10 +120,13 @@ nav a {
 #sitenav {
 	float: right;
 }
+#sitenav nav {
+	padding: 0;
+}
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 912px) {
 	#sitenav {
-		margin: 2em 0 0 0;
+		margin: 4em 0 0 0;
 	}
 }
 
@@ -173,10 +174,10 @@ td time {
 .left { float: left; }
 .right { float: right; }
 
-.icon-alpine-logo {
-	font-size: 250%;
-/*	color: #17a; */
+.alpine-logo {
+	font-size: 425%;
 	color: #0D597F;
+	padding: .1em .5em .0765em .25em;
 }
 
 a.alpine-logo:hover, a.alpine-logo:active {
@@ -215,15 +216,6 @@ table.downloads td, table.downloads th {
 
 #pagenav {
 	float: left;
-	margin: 1em;
-/*	position: relative;
-	top: 50%;
-	  -webkit-transform: translateY(300%);
-	  -ms-transform: translateY(300%);
-	transform: translateY(300%);
-	border-style: solid;
-	margin: 0;
-	padding: 0; */
 }
 
 div#wide-content {
