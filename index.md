@@ -10,7 +10,7 @@ title: Alpine Linux
     based on musl libc and busybox.
    </p>
  </div>
- <div class="block-right block-center">
+ <div class="block-left block-center">
    <span class="icon-download" style="font-size:400%; color:green;"></span>
    <p>
     <a href="{{releases.default.iso_url}}">{{releases.default.iso}}</a>
@@ -40,7 +40,7 @@ title: Alpine Linux
    <tr><td>&nbsp;</td><td><a href="posts/">more...</a></td></tr>
   </table>
  </div>
- <div class="block-right">
+ <div class="block-left">
   <h3><span class="icon-git-square"></span> Latest Development</h3>
   <table>
    {{#git-commits.entries}}

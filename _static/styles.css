@@ -19,17 +19,10 @@ body {
 }
 
 .block-left {
-	width: 24em;
+	max-width: 24em;
+	min-width: 46%;
 	float: left;
-/*	background-color: #faa; */
-	padding: 0.5em 3em 0.5em 0em;
-}
-
-.block-right {
-	width: 24em;
-	float: left;
-/*	background-color: #faa; */
-	padding: 0.5em 3em 0.5em 0em;
+	padding: 0.5em 2em 0.5em 0em;
 }
 
 .block-center {
@@ -143,7 +136,7 @@ nav a.active {
 }
 
 article {
-	padding: 0em 1.5em;
+	padding: 0em 1em;
 	max-width: 54em;
 	margin: 0 auto;
 	position: relative;
