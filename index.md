@@ -41,7 +41,7 @@ title: Alpine Linux
   </table>
  </div>
  <div class="block-right">
-  <h3><span class="icon-archive"></span> Latest Development</h3>
+  <h3><span class="icon-git-square"></span> Latest Development</h3>
   <table>
    {{#git-commits.entries}}
    <tr>
