@@ -29,7 +29,7 @@ for i=1, #arg do
 
 end
 table.sort(a, function(a,b)
-	return a.date < b.date
+	return a.date > b.date
 end)
 io.write(yaml.dump(a))
 
