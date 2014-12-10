@@ -7,8 +7,8 @@ date: 2014-12-10
 We are pleased to announce Alpine Linux 3.1.0, the first release in v3.1
 stable series.
 
-This is built with musl libc and is not compatible with v2.x and earlier,
-so special care needs to be taken when upgrading.
+This release is built with musl libc and is not compatible with v2.x and
+earlier, so special care needs to be taken when upgrading.
 
 Please refer to the [documentation](http://wiki.alpinelinux.org/wiki/Upgrading_Alpine#Upgrading_Alpine_v2.x_to_v3.x)
 for information on how to perform the upgrade.
