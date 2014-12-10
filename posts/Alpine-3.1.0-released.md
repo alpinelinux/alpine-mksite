@@ -35,8 +35,9 @@ Some of the desktop applications that got upgraded and are available for v3.1:
 - gimp 2.8.14
 - audacity 2.0.6
 
-The full lists of changes can be found in the <a href="http://git.alpinelinux.org/cgit/aports/log/?h=v3.1.0">git log</a>
-and <a href="http://bugs.alpinelinux.org/versions/83">bug tracker</a>.
+The full lists of changes can be found in the
+[git log](http://git.alpinelinux.org/cgit/aports/log/?h=v3.1.0) and
+[bug tracker](http://bugs.alpinelinux.org/versions/83).
 
 Commit statistics:
 <pre>
