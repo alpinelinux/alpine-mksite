@@ -15,7 +15,7 @@ generate_commits = $(LUA) _scripts/generate_git-commits.lua
 
 git_atom_url := http://git.alpinelinux.org/cgit/aports/atom
 
-archs := x86_64 x86
+archs := x86_64 x86 armhf
 releases_yaml = $(archs:%=releases.%.yaml)
 releases_url := http://nl.alpinelinux.org/alpine/latest-stable/releases
 releases_url_suffix = $(@:releases.%.yaml=%/latest-releases.yaml)
