@@ -17,7 +17,7 @@ Some of the new features are:
 
 - support for openvswitch
 - Xen 4.4
-- a release build for Rasberry PI (arm)
+- a release build for Rasberry PI (arm hardfloat)
 
 
 Some of the desktop applications that got upgraded and are available for v3.1:
