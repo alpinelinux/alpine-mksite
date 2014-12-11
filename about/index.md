@@ -16,8 +16,6 @@ Binary packages are thinned out and split, giving you even more control
 over what you install, which in turn keeps your environment as small and
 efficient as possible.
 
-This makes it ideal for containers and diskless systems.
-
 ## Simple
 
 Alpine Linux is a very simple distribution that will try to stay out of
