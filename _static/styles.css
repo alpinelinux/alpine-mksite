@@ -192,10 +192,12 @@ td.iso {
 
 th.size, td.size {
 	width: 4em;
+	white-space: nowrap;
 }
 
 th.checksums, td.checksums {
-	width: 8em;
+	width: 10em;
+	white-space: nowrap;
 }
 
 th.checksums, td.checksums, th.size, td.size {

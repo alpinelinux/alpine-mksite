@@ -26,6 +26,8 @@ Released {{releases.default.datestr}}
    <a title="{{sha1}}" href="{{sha1_url}}">sha1</a>
    |
    <a title="{{sha256}}" href="{{sha256_url}}">sha256</a>
+   |
+   <a title="{{GPG signature}}" href="{{sig_url}}">sig</a>
   </td>
 </tr>
 {{/archs}}
