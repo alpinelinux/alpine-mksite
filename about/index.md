@@ -2,15 +2,15 @@
 
 Alpine Linux is an independent, non-commercial, general purpose Linux
 distribution designed for power users who appreciate security, simplicity
-and resource effiency.
+and resource efficiency.
 
 ## Small
 
 Alpine Linux is built around musl libc and busybox. This makes it smaller
 and more resource efficient than traditional GNU/Linux distributions. A
-container requires no more that 10Mb and a minimal installation to disk
-requires around 130MB of storage. Not only do you get a fully-fledged
-Linux environment but a wealth of packages at your disposal as well.
+container requires no more that 10 MB and a minimal installation to disk
+requires around 130 MB of storage. Not only do you get a fully-fledged
+Linux environment but a wealth of packages from the repository.
 
 Binary packages are thinned out and split, giving you even more control
 over what you install, which in turn keeps your environment as small and
@@ -31,9 +31,9 @@ else will get in the way.
 
 ## Secure
 
-Alpine Linux was designed with security in mind. The kernel is
-Grsecurity-patched, and all userland binaries are compiled with Position
-Independent Executables (PIE) and stack smashing protection. These proactive
-security features prevent exploitation of entire classes of zero-day and
-other vulnerabilities.
+Alpine Linux was designed with security in mind. The kernel is patched with
+grsecurity/PaX out of the box, and all userland binaries are compiled as
+Position Independent Executables (PIE) with stack smashing protection.
+These proactive security features prevent exploitation of entire classes
+of zero-day and other vulnerabilities.
 
