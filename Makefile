@@ -36,7 +36,7 @@ $(static_out): $(out)/%: _static/%
 	cp $< $@
 
 %/index.yaml: %/*.md
-	$(generate_index) $^ > $@.tmp
+	$(generate_index) $(filter %.md,$^) > $@.tmp
 	mv $@.tmp $@
 
 clean:
@@ -63,6 +63,8 @@ git-commits.yaml: _scripts/generate_git-commits.lua
 update-git-commits:
 	rm -f git-commits.yaml
 	$(MAKE)
+
+posts/index.yaml: _scripts/generate_index.lua
 
 news.yaml: posts/index.yaml
 	$(generate_news) < $< > $@.tmp
