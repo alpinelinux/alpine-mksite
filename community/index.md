@@ -7,7 +7,7 @@ title: Alpine Linux Community
 ## IRC
 
 * [\#alpine-linux](irc://irc.freenode.net/alpine-linux) - For general discussion and quick support questions.
-* [\#alpine-devel] (irc://irc.freenode.net/alpine-devel) - For disussion of Alpine Linux development and developer
+* [\#alpine-devel] (irc://irc.freenode.net/alpine-devel) - For discussion of Alpine Linux development and developer
   support.
 
 ## Mailing Lists
