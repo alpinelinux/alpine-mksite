@@ -38,7 +38,7 @@ title: Alpine Linux
   <h3><span class="icon-rss-square"></span> Alpine News</h3>
   <table>
    {{#news}}
-   <tr><td>{{date}}</td><td><a href="posts/{{html}}">{{title}}</a></td></tr>
+   <tr><td><time>{{date}}</time></td><td><a href="posts/{{html}}">{{title}}</a></td></tr>
    {{/news}}
    <tr><td>&nbsp;</td><td><a href="posts/">more...</a></td></tr>
   </table>
