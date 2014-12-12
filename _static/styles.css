@@ -231,16 +231,40 @@ footer {
 	height: 1.1em;
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width:32.000em) {
 	.alpine-logo {
 		font-size: 325%;
+		padding: .3em .5em .0765em .25em;
 	}
 	nav a {
 		padding: .3em;
 		line-height: 200%;
 	}
+	#pagenav {
+		width: 98%;
+	}
+	#pagenav a {
+		display: inline-block;
+		width: 44%;
+		text-align: center;
+	}
+	#sitenav a {
+		padding: 0.5em 0.7em;
+	}
+	table tr td:first-child {
+		white-space: nowrap;
+	}
 	footer {
 		height: auto;
 	}
 }
+
+@media all and (max-width:18.000em) {
+	#pagenav a {
+		display: inline-block;
+		width: 98%;
+		text-align: center;
+	}
+}
+
 
