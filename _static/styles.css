@@ -234,25 +234,33 @@ footer {
 @media all and (max-width:32.000em) {
 	.alpine-logo {
 		font-size: 325%;
-		padding: .3em .5em .0765em .25em;
+		width: 100%;
+		background-color: white;
+		text-align: center;
 	}
-	nav a {
-		padding: .3em;
-		line-height: 200%;
+	nav {
+		padding: 0em 0em;
 	}
 	#pagenav {
-		width: 98%;
+		width: 100%;
+		border-style: solid none none none;
+		border-color: #17a;
 	}
 	#pagenav a {
+		padding: .3em;
+		line-height: 200%;
 		display: inline-block;
 		width: 44%;
 		text-align: center;
 	}
+	#sitenav {
+		border-style: none none solid none;
+		width: 100%;
+		border-color: #8db2c5;
+		text-align: center;
+	}
 	#sitenav a {
 		padding: 0.5em 0.7em;
-	}
-	table tr td:first-child {
-		white-space: nowrap;
 	}
 	footer {
 		height: auto;
@@ -262,7 +270,7 @@ footer {
 @media all and (max-width:18.000em) {
 	#pagenav a {
 		display: inline-block;
-		width: 98%;
+		width: 100%;
 		text-align: center;
 	}
 }
