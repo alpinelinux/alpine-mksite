@@ -237,6 +237,12 @@ footer {
 		width: 100%;
 		background-color: white;
 		text-align: center;
+		padding: .2em .1em .0765em 0em;
+	}
+	.block-left {
+		width: 100%;
+		max-width: 100%;
+		padding: 0.5em;
 	}
 	nav {
 		padding: 0em 0em;
@@ -254,10 +260,11 @@ footer {
 		text-align: center;
 	}
 	#sitenav {
-		border-style: none none solid none;
 		width: 100%;
+		border-style: none none solid none;
 		border-color: #8db2c5;
 		text-align: center;
+		padding: 1em 0em 1em 2em;
 	}
 	#sitenav a {
 		padding: 0.5em 0.7em;
