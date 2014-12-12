@@ -116,7 +116,7 @@ nav a {
 	padding: 0;
 }
 
-@media all and (min-width: 912px) {
+@media all and (min-width: 58em) {
 	#sitenav {
 		margin: 4em 0 0 0;
 	}
