@@ -24,6 +24,9 @@ title: Alpine Linux
      |
      <a title="{{releases.default.sha256}}"
 	href="{{releases.default.sha256_url}}">sha256</a>
+     |
+     <a title="GPG signature"
+	href="{{releases.default.asc_url}}">asc</a>
     </p>
    </div>
  </div>

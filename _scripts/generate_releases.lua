@@ -36,6 +36,7 @@ for i = 1,#arg do
 			v.branch, v.arch, v.iso)
 		v.sha256_url = ("%s.sha256"):format(v.iso_url)
 		v.sha1_url = ("%s.sha256"):format(v.iso_url)
+		v.asc_url = ("%s.asc"):format(v.iso_url)
 		v.sig_url = ("%s.sig"):format(v.iso_url)
 		v.size_mb=math.floor(v.size/(1024*1024))
 
