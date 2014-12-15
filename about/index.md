@@ -8,7 +8,7 @@ and resource efficiency.
 
 Alpine Linux is built around musl libc and busybox. This makes it smaller
 and more resource efficient than traditional GNU/Linux distributions. A
-container requires no more that 10 MB and a minimal installation to disk
+container requires no more than 8 MB and a minimal installation to disk
 requires around 130 MB of storage. Not only do you get a fully-fledged
 Linux environment but a large selection of packages from the repository.
 
