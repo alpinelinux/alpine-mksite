@@ -12,10 +12,30 @@ title: Alpine Linux Community
 
 ## Mailing Lists
 
-* [alpine-announce](http://lists.alpinelinux.org/alpine-announce) - Release announcements. ( [archive](http://lists.alpinelinux.org/alpine-announce) | [subscribe](mailto:alpine-announce+subscribe@lists.alpinelinux.org) | [unsubscribe](mailto:alpine-announce+unsubscribe@lists.alpinelinux.org) | [help](mailto:alpine-announce+help@lists.alpinelinux.org) )
-* [alpine-user](http://lists.alpinelinux.org/alpine-user) - General user support. ( [archive](http://lists.alpinelinux.org/alpine-user) | [subscribe](mailto:alpine-user+subscribe@lists.alpinelinux.org) | [unsubscribe](mailto:alpine-user+unsubscribe@lists.alpinelinux.org) | [help](mailto:alpine-user+help@lists.alpinelinux.org) )
-* [alpine-devel](http://lists.alpinelinux.org/alpine-devel) - Alpline Linux development. ( [archive](http://lists.alpinelinux.org/alpine-devel) | [subscribe](mailto:alpine-devel+subscribe@lists.alpinelinux.org) | [unsubscribe](mailto:alpine-devel+unsubscribe@lists.alpinelinux.org) | [help](mailto:alpine-devel+help@lists.alpinelinux.org) )
-* [alpine-aports](http://lists.alpinelinux.org/alpine-aports) - Patches for packages. ( [archive](http://lists.alpinelinux.org/alpine-aports) | [subscribe](mailto:alpine-aports+subscribe@lists.alpinelinux.org) | [unsubscribe](mailto:alpine-aports+unsubscribe@lists.alpinelinux.org) | [help](mailto:alpine-aports+help@lists.alpinelinux.org) )
+* [alpine-announce](mailto:alpine-announce@lists.alpinelinux.org) -
+  Release announcements.
+  ([archive](http://lists.alpinelinux.org/alpine-announce)
+  | [subscribe](mailto:alpine-announce+subscribe@lists.alpinelinux.org)
+  | [unsubscribe](mailto:alpine-announce+unsubscribe@lists.alpinelinux.org)
+  | [help](mailto:alpine-announce+help@lists.alpinelinux.org))
+* [alpine-user](mailto:alpine-user@lists.alpinelinux.org) -
+  General user support.
+  ([archive](mailto:alpine-archive@lists.alpinelinux.org)
+  | [subscribe](mailto:alpine-user+subscribe@lists.alpinelinux.org)
+  | [unsubscribe](mailto:alpine-user+unsubscribe@lists.alpinelinux.org)
+  | [help](mailto:alpine-user+help@lists.alpinelinux.org))
+* [alpine-devel](mailto:alpine-devel@lists.alpinelinux.org) -
+  Alpline Linux development.
+  ([archive](http://lists.alpinelinux.org/alpine-devel)
+  | [subscribe](mailto:alpine-devel+subscribe@lists.alpinelinux.org)
+  | [unsubscribe](mailto:alpine-devel+unsubscribe@lists.alpinelinux.org)
+  | [help](mailto:alpine-devel+help@lists.alpinelinux.org))
+* [alpine-aports](mailto:alpine-aports@lists.alpinelinux.org) -
+  Patches for packages.
+  ([archive](http://lists.alpinelinux.org/alpine-aports)
+  | [subscribe](mailto:alpine-aports+subscribe@lists.alpinelinux.org)
+  | [unsubscribe](mailto:alpine-aports+unsubscribe@lists.alpinelinux.org)
+  | [help](mailto:alpine-aports+help@lists.alpinelinux.org))
 
 ## Wiki
 
