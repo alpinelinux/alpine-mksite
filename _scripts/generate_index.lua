@@ -14,10 +14,6 @@ function read_meta(file)
 	return m
 end
 
-function print_md(meta)
-	io.write(("|%s|%s|\n"):format(meta.date, meta.title))
-end
-
 a = {}
 j=1
 for i=1, #arg do
