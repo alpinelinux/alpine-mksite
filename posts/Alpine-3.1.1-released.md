@@ -3,7 +3,7 @@ title: 'Alpine 3.1.1 released'
 date: 2015-01-06
 ---
 
-Alpine 3.1.1 released
+Alpine Linux 3.1.1 released
 =====================
 
 The Alpine Linux project is pleased to announce the immediate
@@ -12,7 +12,7 @@ availability of version 3.1.1 of its Alpine Linux operating system.
 This is a bugfix release of the v3.1 musl based branch. This release is
 based on the 3.14.27 kernel which has some critical security fixes.
 
-This release also fixes boot issues with the alpine vanilla iso image.
+This release also fixes boot issues with the Alpine Linux vanilla iso image.
 
 The full lists of changes can be found in the [git
 log](http://git.alpinelinux.org/cgit/aports/log/?h=v3.1.1) and [bug
