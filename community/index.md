@@ -20,7 +20,7 @@ title: Alpine Linux Community
   | [help](mailto:alpine-announce+help@lists.alpinelinux.org))
 * [alpine-user](mailto:alpine-user@lists.alpinelinux.org) -
   General user support.
-  ([archive](mailto:alpine-archive@lists.alpinelinux.org)
+  ([archive](http://lists.alpinelinux.org/alpine-user)
   | [subscribe](mailto:alpine-user+subscribe@lists.alpinelinux.org)
   | [unsubscribe](mailto:alpine-user+unsubscribe@lists.alpinelinux.org)
   | [help](mailto:alpine-user+help@lists.alpinelinux.org))
