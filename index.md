@@ -28,7 +28,10 @@ title: Alpine Linux
      <a title="GPG signature"
 	href="{{releases.default.asc_url}}">asc</a>
     </p>
-    <p>GPG key: <a href="keys/ncopa.asc">0482 D840 22F5 2DF1 C4E7  CD43 293A CD09 07D9 495A</a></p>
+    <p>
+     <a title="fingerprint: 0482 D840 22F5 2DF1 C4E7  CD43 293A CD09 07D9 495A"
+        href="keys/ncopa.asc">GPG key</a>
+    </p>
    </div>
  </div>
  <p></p>
