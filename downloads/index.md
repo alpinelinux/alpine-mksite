@@ -5,7 +5,7 @@ title: Downloads
 Downloads
 =========
 
-GPG key: [0482 D840 22F5 2DF1 C4E7  CD43 293A CD09 07D9 495A](keys/ncopa.asc)
+GPG key: [0482 D840 22F5 2DF1 C4E7  CD43 293A CD09 07D9 495A](/keys/ncopa.asc)
 
 #### Version {{releases.default.version}}
 
