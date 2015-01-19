@@ -51,5 +51,5 @@ Wiki has the documentation.
 
 User forums for discussion and user support from other users.
 
-<https://www.alpinelinux.org/forum>
+<http://forum.alpinelinux.org/forum>
 
