@@ -25,7 +25,7 @@ title: Alpine Linux Community
   | [unsubscribe](mailto:alpine-user+unsubscribe@lists.alpinelinux.org)
   | [help](mailto:alpine-user+help@lists.alpinelinux.org))
 * [alpine-devel](mailto:alpine-devel@lists.alpinelinux.org) -
-  Alpline Linux development.
+  Alpine Linux development.
   ([archive](http://lists.alpinelinux.org/alpine-devel)
   | [subscribe](mailto:alpine-devel+subscribe@lists.alpinelinux.org)
   | [unsubscribe](mailto:alpine-devel+unsubscribe@lists.alpinelinux.org)
