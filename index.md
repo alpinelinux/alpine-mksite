@@ -4,7 +4,7 @@ title: Alpine Linux
 
 <div class="widebar">
  <div class="block-left block-center">
-   <h2>Small. Simple. Secure.</h2>
+   <h1 style="letter-spacing: 0.1em;">Small. Simple. Secure.</h1>
    <p>
     Alpine Linux is a security-oriented, lightweight Linux distribution
     based on musl libc and busybox.
@@ -39,7 +39,7 @@ title: Alpine Linux
 
 <div>
  <div class="block-left">
-  <h3><span class="icon-rss-square"></span> Alpine News</h3>
+  <h2><span class="icon-rss-square"></span> Alpine News</h2>
   <table>
    {{#news}}
    <tr><td><time>{{date}}</time></td><td><a href="posts/{{html}}">{{title}}</a></td></tr>
@@ -48,7 +48,7 @@ title: Alpine Linux
   </table>
  </div>
  <div class="block-left">
-  <h3><span class="icon-git-square"></span> Latest Development</h3>
+  <h2><span class="icon-git-square"></span> Latest Development</h2>
   <table>
    {{#git-commits.entries}}
    <tr>
