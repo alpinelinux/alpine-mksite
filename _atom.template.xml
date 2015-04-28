@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>{{title}}</title>
+    <id>http://alpinelinux.org/atom.xml</id>
+    <updated>{{updated}}</updated>
+    {{#entries}}
+    <entry>
+        <title>{{title}}</title>
+        <updated>{{updated}}</updated>
+    </entry>
+    {{/entries}}
+</feed>

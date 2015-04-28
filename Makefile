@@ -12,6 +12,7 @@ generate_index = $(LUA) _scripts/generate_index.lua
 generate_news = $(LUA) _scripts/generate_latest.lua
 generate_releases = $(LUA) _scripts/generate_releases.lua
 generate_commits = $(LUA) _scripts/generate_git-commits.lua
+generate_atom = $(LUA) _scripts/generate_atom.lua
 
 git_atom_url := http://git.alpinelinux.org/cgit/aports/atom
 
@@ -68,6 +69,10 @@ posts/index.yaml: _scripts/generate_index.lua
 
 news.yaml: posts/index.yaml
 	$(generate_news) < $< > $@.tmp
+	mv $@.tmp $@
+
+atom.xml: news.yaml
+	$(generate_atom) _atom.template.xml $< > $@.tmp
 	mv $@.tmp $@
 
 
