@@ -21,7 +21,7 @@ releases_yaml = $(archs:%=releases.%.yaml)
 releases_url := http://nl.alpinelinux.org/alpine/latest-stable/releases
 releases_url_suffix = $(@:releases.%.yaml=%/latest-releases.yaml)
 
-all: $(pages) $(static_out)
+all: $(pages) $(static_out) atom.xml
 
 $(out)/index.html: releases.yaml git-commits.yaml news.yaml
 $(out)/downloads/index.html: releases.yaml
