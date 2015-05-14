@@ -48,7 +48,7 @@ title: Alpine Linux
   </table>
  </div>
  <div class="block-left">
-  <h2><span class="icon-git-square"></span> Latest Development</h2>
+  <h2><a href="http://git.alpinelinux.org/cgit/aports"><span class="icon-git-square"></span></a> Latest Development</h2>
   <table>
    {{#git-commits.entries}}
    <tr>
