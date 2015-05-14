@@ -21,7 +21,7 @@ releases_yaml = $(archs:%=releases.%.yaml)
 releases_url := http://nl.alpinelinux.org/alpine/latest-stable/releases
 releases_url_suffix = $(@:releases.%.yaml=%/latest-releases.yaml)
 
-all: $(pages) $(static_out) atom.xml
+all: $(pages) $(static_out) $(out)/atom.xml
 
 $(out)/index.html: releases.yaml git-commits.yaml news.yaml
 $(out)/downloads/index.html: releases.yaml
@@ -44,7 +44,8 @@ clean:
 	rm -f $(pages) $(static_out) \
 		$(releases_yaml) releases.yaml \
 		git-commit.yaml \
-		news.yaml posts/index.yaml
+		news.yaml posts/index.yaml \
+		$(out)/atom.xml
 
 $(releases_yaml):
 	curl -J $(releases_url)/$(releases_url_suffix) > $@.tmp
@@ -71,7 +72,7 @@ news.yaml: posts/index.yaml
 	$(generate_news) < $< > $@.tmp
 	mv $@.tmp $@
 
-atom.xml: news.yaml
+$(out)/atom.xml: news.yaml
 	$(generate_atom) _atom.template.xml $< > $@.tmp
 	mv $@.tmp $@
 
