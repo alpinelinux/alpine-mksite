@@ -39,7 +39,7 @@ title: Alpine Linux
 
 <div>
  <div class="block-left">
-  <h2><span class="icon-rss-square"></span> Alpine News</h2>
+  <h2><a href="atom.xml"><span class="icon-rss-square"></span></a> Alpine News</h2>
   <table>
    {{#news}}
    <tr><td><time>{{date}}</time></td><td><a href="posts/{{html}}">{{title}}</a></td></tr>
