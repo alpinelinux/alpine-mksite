@@ -46,4 +46,56 @@ The full lists of changes can be found in the
 
 Commit statistics:
 <pre>
+  1711  Natanael Copa
+   282  Timo Teräs
+   260  Carlo Landmeter
+   134  Alan Lacerda
+   118  Leonardo Arena
+    98  Łukasz Jendrysik
+    97  Fabian Affolter
+    74  Francesco Colista
+    60  Stuart Cardall
+    49  Bartłomiej Piotrowski
+    35  Ted Trask
+    24  AmatCoder
+    18  Kaarle Ritvanen
+    16  Peter Bui
+    15  ScrumpyJack
+    15  John Regan
+    15  Nathan Angelacos
+    11  William Pitcock
+     8  systmkor
+     8  Isaac Dunham
+     7  Johannes Matheis
+     6  Jean-Charles de Longueville
+     6  Jeff Bilyk
+     5  stef
+     5  Olivier Mauras
+     4  Diaz Devera Victor
+     4  V.Krishn
+     4  Marlus Saraiva
+     3  Steeve Chailloux
+     3  Kevin Daudt
+     2  Jens Vehlhaber
+     2  k0r10n
+     2  Fabio Riga
+     2  Travis Tilley
+     2  Frankie Robertson
+     2  Andy Shinn
+     2  Andrew Hills
+     2  Sergey Lukin
+     2  Sean Summers
+     2  Valery Kartel
+     2  xming
+     2  sin
+     1  Pierre Carrier
+     1  Mathew Meins
+     1  Hiltjo Posthuma
+     1  James Cloos
+     1  Díaz Devera Víctor
+     1  Dustin Lacewell
+     1  Bryce Kahle
+     1  Brad Murray
+     1  Vlad
+     1  frol
 </pre>
