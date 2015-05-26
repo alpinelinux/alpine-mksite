@@ -17,7 +17,7 @@ Some of the new features are:
 
 - linux 3.18 kernel
 - gcc 4.9.2 / musl 1.1.9 + fortify
-- mysql is replaced with mariadb
+- mariadb 5.5 replaces mysql
 - postfix 3.0
 - Lua 5.3 support
 - Ruby 2.2
@@ -27,7 +27,7 @@ Some of the new features are:
 - Mate desktop 1.10
 - libreoffice 4.4
 - qt5 5.4
-- xbmc renamed to kodi
+- kodi (previously known as xbmc) 14.2
 
 Some of the desktop applications that got upgraded and are available for v3.2:
 
