@@ -22,8 +22,11 @@ flavor_def = {
 		title = "Xen",
 		desc = "Xen Dom0 LiveCD and Xen packages." },
 	["alpine-rpi"] = {
-		title = "Rasberry Pi",
-		desc = "Build for Rasberry Pi (arm hardfloat)." },
+		title = "Raspberry Pi",
+		desc = "Build for Raspberry Pi (version 1 and 2)." },
+	["alpine-uboot"] = {
+		title = "Generic ARM",
+		desc = "General build for ARM architecture (wandboard and others)." },
 }
 
 for i = 1,#arg do
