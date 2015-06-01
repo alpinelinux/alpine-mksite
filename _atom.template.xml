@@ -8,6 +8,7 @@
     <entry>
         <title>{{title}}</title>
         <updated>{{updated}}</updated>
+        <link href="http://alpinelinux.org/posts/{{html}}"/>
     </entry>
     {{/entries}}
 </feed>
