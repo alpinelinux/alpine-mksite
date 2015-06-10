@@ -43,7 +43,7 @@ $(static_out): $(out)/%: _static/%
 clean:
 	rm -f $(pages) $(static_out) \
 		$(releases_yaml) releases.yaml \
-		git-commit.yaml \
+		git-commits.yaml \
 		news.yaml posts/index.yaml \
 		$(out)/atom.xml
 
