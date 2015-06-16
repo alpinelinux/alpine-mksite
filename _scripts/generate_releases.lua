@@ -1,6 +1,6 @@
 #!/usr/bin/lua
 
-yaml = require("yaml")
+lyaml = require("lyaml")
 
 url_prefix="http://wiki.alpinelinux.org/cgi-bin/dl.cgi"
 t = { flavors={} }
@@ -32,7 +32,7 @@ flavor_def = {
 for i = 1,#arg do
 	local f = assert(io.open(arg[i]))
 
-	for _,v in pairs(yaml.load(f:read("*a"))) do
+	for _,v in pairs(lyaml.load(f:read("*a"))) do
 		local y,m,d = v.date:match("(%d+)-(%d+)-(%d+)")
 		v.datestr = os.date("%b %d, %Y", os.time{year=y, month=m, day=d})
 		v.iso_url = ("%s/%s/releases/%s/%s"):format(url_prefix,
@@ -63,4 +63,4 @@ end
 -- default release
 t.default = t.alpine.x86_64
 
-io.write(yaml.dump(t))
+io.write(lyaml.dump{t})

@@ -1,5 +1,5 @@
 feed = require("feedparser")
-yaml = require("yaml")
+lyaml = require("lyaml")
 
 t = feed.parse(io.read("*a"))
 
@@ -8,5 +8,5 @@ for i=1,#t.entries do
 	t.entries[i].updated_date = string.match(t.entries[i].updated, "^(.*)T")
 end
 
-io.write(yaml.dump(t))
+io.write(lyaml.dump{t})
 

@@ -1,6 +1,6 @@
 #!/usr/bin/lua
 
-local yaml = require('yaml')
+local lyaml = require('lyaml')
 local lustache = require('lustache')
 
 local function filecontent(filename)
@@ -11,7 +11,7 @@ local function filecontent(filename)
 end
 
 template = filecontent(arg[1])
-entries = yaml.load(filecontent(arg[2]))
+entries = lyaml.load(filecontent(arg[2]))
 
 for k,v in ipairs(entries) do
 	-- timestamps in Atom must conform to RFC 3339

@@ -1,7 +1,7 @@
 #!/usr/bin/lua
 
 markdown = require('discount')
-yaml = require('yaml')
+lyaml = require('lyaml')
 lustache = require('lustache')
 
 function read_markdown(file)
@@ -12,7 +12,7 @@ function read_markdown(file)
 	local t
 	local pagename = file:gsub(".md$","")
 	if yml and md then
-		t = yaml.load(yml)
+		t = lyaml.load(yml)
 		t.pagename = pagename
 		return t, markdown(md)
 	else
@@ -47,7 +47,7 @@ end
 
 function import_yaml(filename)
 	local f = assert(io.open(filename))
-	local t = yaml.load(f:read("*a*"))
+	local t = lyaml.load(f:read("*a*"))
 	f:close()
 	return t
 end
