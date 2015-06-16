@@ -6,7 +6,7 @@ pages := $(patsubst %.md,$(out)/%.html, $(md_sources))
 static_sources := $(shell find _static -type f)
 static_out := $(patsubst _static/%,$(out)/%,$(static_sources))
 
-LUA ?= lua
+LUA ?= lua5.3
 generate_page = $(LUA) _scripts/generate_page.lua
 generate_index = $(LUA) _scripts/generate_index.lua
 generate_news = $(LUA) _scripts/generate_latest.lua
