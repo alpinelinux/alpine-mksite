@@ -9,17 +9,18 @@ stable series.
 
 The ISO images have been renamed. Current images are now:
 
-- alpine (previously 'alpine-mini'). Minimalisitic boot media for network access.
-- alpine-vanilla (same as before). Same as 'alpine' but with vanilla kernel.
-- alpine-extended (previously 'alpine'). Same as 'alpine' but with slightly more packages available in the repository. Handy where network access is limited.
-- alpine-xen (same as before). Boot media for Xen Dom 0.
-- alpine-rpi (same as before).
+- *alpine* (previously 'alpine-mini'). Minimalisitic boot media for network access.
+- *alpine-vanilla* (same as before). Same as 'alpine' but with vanilla kernel.
+- *alpine-extended* (previously 'alpine'). Same as 'alpine' but with slightly more packages available in the repository. Handy where network access is limited.
+- *alpine-xen* (same as before). Boot media for Xen Dom 0.
+- *alpine-rpi* (same as before).
+- *alpine-uboot* (same as before). General ARM image.
 
 Some of the new features are:
 
 - linux 4.1 kernel
 - gcc 5.3.0 / musl 1.1.12
-- New repository named "community"
+- New repository named [community](https://pkgs.alpinelinux.org/packages?repo=community)
 - mariadb 10.1
 - Xen 4.6
 - perl 5.22
