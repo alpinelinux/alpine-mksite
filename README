@@ -3,11 +3,11 @@ The following dependencies are needed to build the site:
   apk add make lua lua-feedparser lua-discount lua-lyaml lua-lustache \
   	lua-filesystem
 
-To build the site run:
+To build the site please run:
 
   make
 
-To set up a local web server run:
+To set up a local web server please run:
 
   busybox httpd -p 8000 -h _out/
 
