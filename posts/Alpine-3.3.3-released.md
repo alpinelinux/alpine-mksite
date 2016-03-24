@@ -10,7 +10,7 @@ The Alpine Linux project is pleased to announce the immediate
 availability of version 3.3.3 of its Alpine Linux operating system.
 
 This is a bugfix release of the v3.3 musl based branch. It fixes a boot
-problem with Raspberry pi 3.
+problem with Raspberry Pi 3.
 
 The full lists of changes can be found in the [git
 log](http://git.alpinelinux.org/cgit/aports/log/?h=v3.3.3) and [bug
