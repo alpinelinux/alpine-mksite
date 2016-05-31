@@ -12,8 +12,9 @@ stable series.
 
 - Linux 4.4 kernel
 - New iso image for virtual machines: alpine-virt
-- ruby 2.3
 - support for DNS search in /etc/resolv.conf
+- ruby 2.3
+- postgresql 9.5
 
 ## Note worthy changes when upgrading:
 
