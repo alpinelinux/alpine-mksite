@@ -2,28 +2,31 @@
 
 lyaml = require("lyaml")
 
-url_prefix="http://wiki.alpinelinux.org/cgi-bin/dl.cgi"
+url_prefix="http://dl-cdn.alpinelinux.org/alpine"
 t = { flavors={} }
 
 flavor_def = {
 	["alpine"] = {
 		title = "Standard",
-		desc = "Most common used packages included. Use this for"
-			.." routers and servers that run from RAM." },
-	["alpine-mini"] = {
-		title = "Mini",
 		desc = "Only the basic packages included. Use this for disk"
 			.." installs from network." },
+	["alpine-extended"] = {
+		title = "Extended",
+		desc = "Most common used packages included. Use this for"
+			.." routers and servers that run from RAM." },
 	["alpine-vanilla"] = {
 		title = "Vanilla",
 		desc = "Similar to 'Mini' but with a vanilla kernel. This is"
 			.." for troubleshooting kernel issues." },
+	["alpine-virt"] = {
+		title = "Virtual",
+		desc = "Only basic packages included. Kernel optimized for virtual machines." },
 	["alpine-xen"] = {
 		title = "Xen",
 		desc = "Xen Dom0 LiveCD and Xen packages." },
 	["alpine-rpi"] = {
 		title = "Raspberry Pi",
-		desc = "Build for Raspberry Pi (version 1 and 2)." },
+		desc = "Build for Raspberry Pi (version 0, 1, 2, 3)." },
 	["alpine-uboot"] = {
 		title = "Generic ARM",
 		desc = "General build for ARM architecture (wandboard and others)." },
