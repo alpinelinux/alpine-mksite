@@ -16,7 +16,7 @@ stable series.
 - ruby 2.3
 - postgresql 9.5
 
-## Note worthy changes when upgrading:
+## Noteworthy changes when upgrading:
 
 - The PHP packages got renamed from php* to php5*.
 - The service `cron` got renamed to `crond`.
