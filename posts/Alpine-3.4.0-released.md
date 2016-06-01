@@ -5,27 +5,28 @@ date: 2016-05-31
 
 # Alpine 3.4.0 released
 
-We are pleased to announce Alpine Linux 3.4.0, the first release in v3.4
+We are pleased to announce the release of Alpine Linux 3.4.0, the first in the v3.4
 stable series.
 
 ## Some of the new features are:
 
-- Linux 4.4 kernel
-- New iso image for virtual machines: alpine-virt
-- support for DNS search in /etc/resolv.conf
-- ruby 2.3
-- postgresql 9.5
+- Linux 4.4 kernel.
+- New iso image for virtual machines: alpine-virt.
+- Improved support for the Raspberry Pi ecosystem.
+- Support for DNS search domains in /etc/resolv.conf.
+- ruby 2.3.
+- postgresql 9.5.
 
-## Noteworthy changes when upgrading:
+## Noteworthy changes in the upgrade:
 
-- The PHP packages got renamed from php* to php5*.
-- The service `cron` got renamed to `crond`.
-- busybox `ping` now use unprivileged ICMP sockets so binary does not need to
-  be suid root. This means you need to be in group with gid 999-59999 for
-  being allowed to send pings.
-- Most ruby-* packages were removed. Use `gem` instead.
+- PHP packages have been renamed from php* to php5*.
+- The service `cron` has been renamed to `crond`.
+- busybox `ping` now uses unprivileged ICMP sockets so the binary does not need to
+  be suid root. This means that you need to be in a group with gid between 999-59999 to be
+  permitted to send pings.
+- Most ruby-* packages have been removed. You should use `gem` instead.
 
-## Some of the desktop applications that were upgraded for v3.4:
+## Desktop applications that have been upgraded in v3.4 include:
 
 - evince 3.20
 - libreoffice 5.1
