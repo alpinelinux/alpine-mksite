@@ -8,28 +8,28 @@ t = { flavors={} }
 flavor_def = {
 	["alpine"] = {
 		title = "Standard",
-		desc = "Only the basic packages included. Use this for disk"
-			.." installs from network." },
+		desc = "Alpine as it was intended, just enough to get you started."
+			.." Network connection recommended." },
 	["alpine-extended"] = {
 		title = "Extended",
-		desc = "Most common used packages included. Use this for"
-			.." routers and servers that run from RAM." },
+		desc = "Alpine with more packages, suitable for routers, servers"
+			.." and geeks that like to run from RAM." },
 	["alpine-vanilla"] = {
 		title = "Vanilla",
-		desc = "Similar to 'Mini' but with a vanilla kernel. This is"
+		desc = "Alpine with a vanilla kernel. This is"
 			.." for troubleshooting kernel issues." },
 	["alpine-virt"] = {
 		title = "Virtual",
-		desc = "Only basic packages included. Kernel optimized for virtual machines." },
+		desc = "Same as Standard, with a kernel optimized for virtual machines." },
 	["alpine-xen"] = {
 		title = "Xen",
-		desc = "Xen Dom0 LiveCD and Xen packages." },
+		desc = "Xen Dom0 and Xen packages. Your hypervisor of choice." },
 	["alpine-rpi"] = {
 		title = "Raspberry Pi",
-		desc = "Build for Raspberry Pi (version 0, 1, 2, 3)." },
+		desc = "Alpine for any Raspberry Pi model. One build to rule them all!" },
 	["alpine-uboot"] = {
 		title = "Generic ARM",
-		desc = "General build for ARM architecture (wandboard and others)." },
+		desc = "General build for ARM architectures. Not for the faint hearted." },
 }
 
 for i = 1,#arg do
