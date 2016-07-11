@@ -12,8 +12,8 @@ flavor_def = {
 			.." Network connection recommended." },
 	["alpine-extended"] = {
 		title = "Extended",
-		desc = "Alpine with more packages, suitable for routers, servers"
-			.." and geeks that like to run from RAM." },
+		desc = "Alpine with most common used packages included. Suitable for"
+			.." routers and servers that run from RAM." },
 	["alpine-vanilla"] = {
 		title = "Vanilla",
 		desc = "Alpine with a vanilla kernel. This is"
@@ -26,10 +26,10 @@ flavor_def = {
 		desc = "Xen Dom0 and Xen packages. Your hypervisor of choice." },
 	["alpine-rpi"] = {
 		title = "Raspberry Pi",
-		desc = "Alpine for any Raspberry Pi model. One build to rule them all!" },
+		desc = "Alpine for any Raspberry Pi model." },
 	["alpine-uboot"] = {
 		title = "Generic ARM",
-		desc = "General build for ARM architectures. Not for the faint hearted." },
+		desc = "General build for ARM architectures." },
 }
 
 for i = 1,#arg do
