@@ -30,7 +30,7 @@ else will get in the way.
 ## Secure
 
 Alpine Linux was designed with security in mind. The kernel is patched with
-grsecurity/PaX out of the box, and all userland binaries are compiled as
+an unfficial port of grsecurity/PaX, and all userland binaries are compiled as
 Position Independent Executables (PIE) with stack smashing protection.
 These proactive security features prevent exploitation of entire classes
 of zero-day and other vulnerabilities.
