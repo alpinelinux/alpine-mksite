@@ -19,9 +19,9 @@ Released {{releases.default.datestr}}
 </tr>
 
 {{#releases.flavors}}
-<tr title="{{flavor_desc}}"><td>{{flavor_title}}</td><td></td><td></td></tr>
+<tr><td>{{flavor_title}} - {{flavor_desc}}</td><td></td><td></td></tr>
 {{#archs}}
-<tr title="{{flavor_desc}}">
+<tr>
  <td class="iso"><a href="{{iso_url}}">{{iso}}</a></td>
  <td class="size">{{size_mb}} MB</td>
  <td class="checksums">
