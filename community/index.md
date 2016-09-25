@@ -41,7 +41,7 @@ title: Alpine Linux Community
 
 Wiki has the documentation.
 
-<http://wiki.alpinelinux.org>
+<https://wiki.alpinelinux.org>
 
 ## Twitter
 
@@ -51,5 +51,5 @@ Wiki has the documentation.
 
 User forums for discussion and user support from other users.
 
-<http://forum.alpinelinux.org/forum>
+<https://forum.alpinelinux.org/forum>
 
