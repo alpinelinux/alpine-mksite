@@ -4,13 +4,13 @@ title: Alpine Linux Community
 
 # Alpine Linux Community
 
-## IRC
+<h2><i class="fa fa-hashtag" aria-hidden="true"></i>IRC</h2>
 
 * [\#alpine-linux](irc://irc.freenode.net/alpine-linux) - For general discussion and quick support questions.
-* [\#alpine-devel] (irc://irc.freenode.net/alpine-devel) - For discussion of Alpine Linux development and developer
+* [\#alpine-devel](irc://irc.freenode.net/alpine-devel) - For discussion of Alpine Linux development and developer
   support.
 
-## Mailing Lists
+<h2><i class="fa fa-envelope" aria-hidden="true"></i>Mailing Lists</h2>
 
 * [alpine-announce](mailto:alpine-announce@lists.alpinelinux.org) -
   Release announcements.
@@ -37,17 +37,17 @@ title: Alpine Linux Community
   | [unsubscribe](mailto:alpine-aports+unsubscribe@lists.alpinelinux.org)
   | [help](mailto:alpine-aports+help@lists.alpinelinux.org))
 
-## Wiki
+<h2><i class="fa fa-pencil" aria-hidden="true"></i></i>Wiki</h2>
 
 Wiki has the documentation.
 
 <https://wiki.alpinelinux.org>
 
-## Twitter
+<h2><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</h2>
 
 <https://twitter.com/alpinelinux>
 
-## Forums
+<h2><i class="fa fa-comments" aria-hidden="true"></i>Forums</h2>
 
 User forums for discussion and user support from other users.
 

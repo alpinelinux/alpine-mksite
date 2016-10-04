@@ -1,41 +1,35 @@
----
-title: Downloads
----
+<div class="download pure-g">
 
-Downloads
-=========
-
-GPG key: [0482 D840 22F5 2DF1 C4E7  CD43 293A CD09 07D9 495A](/keys/ncopa.asc)
-
-#### Version {{releases.default.version}}
-
-Released {{releases.default.datestr}}
-
-<table class="downloads">
-<tr>
- <th class="iso">iso</th>
- <th class="size">size</th>
- <th class="checksums">checksum</th>
-</tr>
+    <div class="pure-u-1">
+        <div class="l-box">
+            <h1>Downloads</h1>
+            <p>Current Alpine Version <strong>{{releases.default.version}}</strong> (Released {{releases.default.datestr}})</p>
+            <p>
+                <i class="fa fa-lock" aria-hidden="true"></i>
+                GPG <a href="/keys/ncopa.asc">0482 D840 22F5 2DF1 C4E7 CD43 293A CD09 07D9 495A</a>
+            </p>
+        </div>
+    </div>
 
 {{#releases.flavors}}
-<tr><td>{{flavor_title}} - {{flavor_desc}}</td><td></td><td></td></tr>
-{{#archs}}
-<tr>
- <td class="iso"><a href="{{iso_url}}">{{iso}}</a></td>
- <td class="size">{{size_mb}} MB</td>
- <td class="checksums">
-   <a title="{{sha1}}" href="{{sha1_url}}">sha1</a>
-   |
-   <a title="{{sha256}}" href="{{sha256_url}}">sha256</a>
-   |
-   <a title="GPG signature" href="{{asc_url}}">asc</a>
-  </td>
-</tr>
-{{/archs}}
+    <div class="pure-u-1 pure-u-md-1-3 download-box flavor-{{flavor_name}}">
+        <div class="download-table">
+            <div class="download-table-header bgc-1">
+                <h2>{{flavor_title}}</h2>
+            </div>
+            <ul class="download-table-list">
+                {{#flavor_desc}}
+                <li>{{{.}}}</li>
+                {{/flavor_desc}}
+            </ul>
+            {{#archs}}
+            <button class="download-button pure-button">
+                <i class="fa fa-download"></i>
+                <a href="{{iso_url}}">{{arch}}</a>
+            </button>
+            {{/archs}}
+        </div>
+    </div>
 {{/releases.flavors}}
-</table>
 
-<h3>Older releases</h3>
-Older releases are found
-<a href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi">here</a>.
+</div> <!-- end download -->
