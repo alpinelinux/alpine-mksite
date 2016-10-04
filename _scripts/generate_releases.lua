@@ -8,28 +8,60 @@ t = { flavors={} }
 flavor_def = {
 	["alpine"] = {
 		title = "Standard",
-		desc = "Alpine as it was intended, just enough to get you started."
-			.." Network connection recommended." },
+		desc = { 
+			"Alpine as it was intended",
+			"Just enough to get you started",
+			"Network connection recommended",
+		},
+	},
 	["alpine-extended"] = {
 		title = "Extended",
-		desc = "Alpine with most common used packages included. Suitable for"
-			.." routers and servers that run from RAM." },
+		desc = {
+			"Most common used packages included",
+			"Suitable for routers and servers",
+			"Runs from RAM",
+		},
+	},
 	["alpine-vanilla"] = {
 		title = "Vanilla",
-		desc = "Alpine with a vanilla kernel. This is"
-			.." for troubleshooting kernel issues." },
+		desc = {
+			"Includes a vanilla kernel",
+			"Does not include grsec patch set",
+			"Suitable for debugging",
+		},
+	},
 	["alpine-virt"] = {
 		title = "Virtual",
-		desc = "Same as Standard, with a kernel optimized for virtual machines." },
+		desc = {
+			"Similar as standard",
+			"Slimed down kernel",
+			"Optimized for virtual systems",
+		},
+	},
 	["alpine-xen"] = {
 		title = "Xen",
-		desc = "Xen Dom0 and Xen packages. Your hypervisor of choice." },
+		desc = {
+			"Build-in support for Xen Hypervisor",
+			"Includes packages targed at Xen usage",
+			"Includes grsec kernel",
+		},
+	},
 	["alpine-rpi"] = {
 		title = "Raspberry Pi",
-		desc = "Alpine for any Raspberry Pi model." },
+		desc = {
+			"Includes Raspberry Pi kernel",
+			"Does not include grsec patchset",
+			"And much more...",
+		},
+	},
 	["alpine-uboot"] = {
 		title = "Generic ARM",
-		desc = "General build for ARM architectures." },
+		desc = {
+			"Has default ARM kernel",
+			"Includes the uboot bootloader",
+			"Packages targetted at armhf",
+		}
+	}
 }
 
 for i = 1,#arg do
@@ -54,6 +86,7 @@ for i = 1,#arg do
 				archs = {},
 				flavor_title = def.title,
 				flavor_desc = def.desc,
+				flavor_name = string.lower(v.flavor),
 			}
 			table.insert(t.flavors, flavor)
 		end

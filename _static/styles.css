@@ -1,284 +1,285 @@
-html {
-	height: 100%;
+/*
+ * Base purecss provides basic styling, but we overide some of them here.
+ */
+body { color: #526066; }
+
+h1, h2, h3 {
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: black;
 }
 
-html, body {
-	overflow-x: hidden;
-	margin: 0;
-	padding: 0;
-}
+h1 { font-size: 1.5em }
+h2 { font-size: 1em }
+h3 { font-size: 0.8em }
 
-body {
-	background-color: white;
-	color: #111;
-	font-family: "Open Sans", sans-serif;
-	font-size: 11pt;
-	position: relative;
-	min-height: 100%;
-/*	box-shadow: 0em 0.33em 0.33em #888888; */
-}
+p { line-height: 1.6em; }
 
-.block-left {
-	max-width: 24em;
-	min-width: 46%;
-	float: left;
-	padding: 0.5em 2em 0.5em 0em;
-}
-
-.block-center {
-	text-align: center;
-}
-
-.block-small {
-	font-size: 75%;
-}
-
-.widebar {
-	margin: 0 -300% 4em;
-	padding: 1.5em 300%;
-/*	background: #e8f1f6; */
-
-/* generate on http://www.colorzilla.com/gradient-editor/ */
-/* background: #def0f9; */ /* Old browsers */
-background: #d3e5ef;
-/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RlZjBmOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwJSIgc3RvcC1jb2xvcj0iI2QzZTVlZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iI2QzZTVlZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiM2M1Y2YiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+");
-background: -moz-linear-gradient(top, #def0f9 0%, #d3e5ef 10%, #d3e5ef 70%, #b3c5cf 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#def0f9), color-stop(10%,#d3e5ef), color-stop(70%,#d3e5ef), color-stop(100%,#b3c5cf)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, #def0f9 0%,#d3e5ef 10%,#d3e5ef 70%,#b3c5cf 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, #def0f9 0%,#d3e5ef 10%,#d3e5ef 70%,#b3c5cf 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, #def0f9 0%,#d3e5ef 10%,#d3e5ef 70%,#b3c5cf 100%); /* IE10+ */
-background: linear-gradient(to bottom, #def0f9 0%,#d3e5ef 10%,#d3e5ef 70%,#b3c5cf 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#def0f9', endColorstr='#b3c5cf',GradientType=0 ); /* IE6-8 */
-
-	border-style: none none solid none;
-	border-color: #8db2c5;
-
+a {
+    text-decoration: none;
+    color: rgb(61, 146, 201);
 }
 
 /*
- * primary:		006190	22485A	002E44	55B5E3	99CBE3
- * complementary:	E47A00	8E6535	6C3A00	F8B05D	F8D3A8
- *
- * #17a, #3bf, #19b2ff
- * #b26300, #ff9919
- *
- * #17a #0d597f #19b2ff #062d40 #17a1e5 */
-
-a {
-	color: #0D597F;
-	text-decoration: none;
+ * Layout styles
+ * * center content
+ * * add padding between and around text boxes
+ */
+.content {
+    margin: 0 auto;
+    padding: 0em 1em 2em 1em;
+    max-width: 980px;
+    overflow:auto;
 }
 
-a:hover, a:active { text-decoration: underline; }
+.l-box { padding: 0.5em 2em; }
 
-footer a, footer a:link, footer a:hover, footer a:active, footer a:visited {
-	color: #CDCDCD;
+/* 
+ * Shared page styles
+ */
+
+.download-tables,
+.information {
+    max-width: 980px;
+    margin: 0 auto;
 }
 
-header {
-	color: #0D597F;
-background: #eee; /* Old browsers */
-/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNDAlIiBzdG9wLWNvbG9yPSIjZWVlZWVlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iNzUlIiBzdG9wLWNvbG9yPSIjZWVlZWVlIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2RkZGRkZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=");
-background: -moz-linear-gradient(-45deg, #ffffff 0%, #eeeeee 40%, #eeeeee 75%, #dddddd 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ffffff), color-stop(40%,#eeeeee), color-stop(75%,#eeeeee), color-stop(100%,#dddddd)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(-45deg, #ffffff 0%,#eeeeee 40%,#eeeeee 75%,#dddddd 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(-45deg, #ffffff 0%,#eeeeee 40%,#eeeeee 75%,#dddddd 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(-45deg, #ffffff 0%,#eeeeee 40%,#eeeeee 75%,#dddddd 100%); /* IE10+ */
-background: linear-gradient(135deg, #ffffff 0%,#eeeeee 40%,#eeeeee 75%,#dddddd 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dddddd',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
-
-	padding: 0;
-	border-style: none none solid none;
-	border-color: #17a;
-	position: relative;
-	z-index: 1;
-}
-
-nav {
-	margin: 0em;
-	padding: 2.25em 0em 2.25em 0em;
-}
-
-nav a {
-	padding: 2.5em 1em 3.3em 1em;
-	margin: 0;
-	color: #111;
-	text-decoration: none;
-	font-weight: bold;
-}
-
-#sitenav {
-	float: right;
-}
-#sitenav nav {
-	padding: 0;
-}
-
-@media all and (min-width: 58em) {
-	#sitenav {
-		margin: 4em 0 0 0;
-	}
-}
-
-#sitenav a {
-	color: #17a;
-	padding: 0.5em;
-	font-weight: normal;
-	font-style: italic;
-}
-
-nav a.active {
-	background-color: #17a;
-	color: white;
-}
-
-article {
-	padding: 0em 1em;
-	max-width: 54em;
-	margin: 0 auto;
-	position: relative;
-}
-
-h1, h2, h3, h4 {
-	margin: 1em 1ex 0.5ex 0;
-	color: #0D597F;
-}
-h1 { font-size: 1.4em; }
-h2 { font-size: 1.3em; }
-h3 { font-size: 1.2em; }
-h4 { font-size: 1.1em; }
-
-pre { margin-left: 2em; }
-p { clear: both; }
-td {
-	font-size: 80%;
-	padding: .2em 1em .2em .2em;
-	vertical-align: top;
-}
-
-td time {
-	white-space: nowrap;
-}
-
-.left { float: left; }
-.right { float: right; }
+/*
+ * Logo settings
+ */
 
 .alpine-logo {
-	font-size: 425%;
-	color: #0D597F;
-	padding: .1em .5em .0765em .25em;
+    width: 16em;
+    margin: 2em;
+    margin-left: 1em;
 }
 
-a.alpine-logo:hover, a.alpine-logo:active {
-	text-decoration: none;
+a.alpine-logo:hover, 
+a.alpine-logo:active { 
+    text-decoration: none;
 }
 
-table.downloads {
-	width: 100%;
-	text-align: left;
+/*
+ * use pure menus with some positioning.
+ */
+.pure-menu {
+    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
+    position: relative;
+
 }
 
-tr:hover td.iso, tr:hover td.size, tr:hover td.checksums {
-	background-color: #EDEDED;
+.menu-external {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-style: italic;
 }
 
-td.iso {
-	text-indent: 1em;
+.menu-local {
+    right: 0px;
+    bottom: 0px;
+    position: absolute;
 }
 
-th.size, td.size {
-	width: 4em;
-	white-space: nowrap;
+/*
+ * The banner with background image.
+ * we use relative positioning to be able to position the banner content properly
+ * background taken from:
+ * https://unsplash.com/@roylandnye
+ * 
+ */
+
+.banner {
+    background: transparent url('/background.jpg') 0 0 no-repeat fixed;
+    text-align: center;
+    background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/background.jpg', sizingMethod='scale');
+    height: 200px;
+    width: 100%;
+    margin-bottom: 1em;
+    position: relative;
 }
 
-th.checksums, td.checksums {
-	width: 10em;
-	white-space: nowrap;
-}
-
-th.checksums, td.checksums, th.size, td.size {
-	text-align: right;
-	padding: .2em 0em .2em .2em;
-}
-
-table.downloads td, table.downloads th {
-	border-bottom: 1px solid #DCDCDC;
-}
-
-#pagenav {
-	float: left;
-}
-
-div#wide-content {
-	padding-bottom: 2em;
-	overflow: hidden;
-}
-
-footer {
-	background-color: #0D597F;
-	font-size: .7em;
-	color: white;
-	padding: 0.7em;
-	text-align: center;
-	clear: both;
-	margin-top: 5em;
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 1.1em;
-}
-
-@media all and (max-width:32.000em) {
-	.alpine-logo {
-		font-size: 325%;
-		width: 100%;
-		background-color: white;
-		text-align: center;
-		padding: .2em .1em .0765em 0em;
-	}
-	.block-left {
-		width: 100%;
-		max-width: 100%;
-		padding: 0.5em;
-	}
-	nav {
-		padding: 0em 0em;
-	}
-	#pagenav {
-		width: 100%;
-		border-style: solid none none none;
-		border-color: #17a;
-	}
-	#pagenav a {
-		padding: .3em;
-		line-height: 200%;
-		display: inline-block;
-		width: 44%;
-		text-align: center;
-	}
-	#sitenav {
-		width: 100%;
-		border-style: none none solid none;
-		border-color: #8db2c5;
-		text-align: center;
-		padding: 1em 0em 1em 2em;
-	}
-	#sitenav a {
-		padding: 0.5em 0.7em;
-	}
-	footer {
-		height: auto;
-	}
-}
-
-@media all and (max-width:18.000em) {
-	#pagenav a {
-		display: inline-block;
-		width: 100%;
-		text-align: center;
-	}
+.banner-content {
+    position: absolute;
+    top: 50%;
+    height: 100px;
+    margin-top: -80px;
+    width: 100%;
 }
 
 
+.banner h1 {
+    margin-bottom: 0;
+    font-size: 2em;
+    color: white;
+    font-weight: 500;
+    text-shadow: 0 1px 1px black;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.banner h3 {
+    margin-bottom: 0;
+    font-size: 1em;
+    color: white;
+    font-weight: 500;
+    text-shadow: 0 1px 1px black;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.banner-head {
+    margin-bottom: 0;
+    font-size: 2em;
+    color: white;
+    font-weight: 500;
+    text-shadow: 0 1px 1px black;
+}
+
+.banner-head-small {
+    margin-bottom: 0;
+    font-size: 1em;
+    color: white;
+    font-weight: 500;
+    text-shadow: 0 1px 1px black;
+}
+
+/*
+ * News section
+ */
+
+.news-archive {
+    width: 100%;
+}
+
+
+/*
+ * Download Section (tables)
+ */
+
+.download-box { padding-bottom: 3em; }
+
+.download-table {
+    border: 1px solid #ddd;
+    margin: 0 0.5em 2em;
+    padding: 0 0 3em;
+    text-align: center;
+}
+
+.download-table-header h2 {
+    color: #fff;
+    margin: 0;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.download-table-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.download-box a {
+    text-decoration: none;
+    color: white;
+}
+
+.checksums a {
+    color: black;
+}
+
+/*
+ * This is shared between pages.
+ */
+.download-table-list li,
+.home-list li {
+    padding: 0.8em;
+    background: #f7f7f7;
+    border-bottom: 1px solid #e7e7e7;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.download-table-list li { padding-left: 0em; }
+
+.download-button {
+    color: white;
+    font-weight: normal;
+    background: #018E4A;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    position: relative;
+    bottom: -1.5em;
+}
+
+/*
+ * Home page styling
+ */
+
+.home-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.read-more { margin-top: 1em; }
+
+/*
+ * Footer styling
+ */
+
+.footer {
+    background: #111;
+    color: #888;
+    text-align: center;
+}
+.footer a { color: #ddd; }
+
+/*
+ * Color set taken from:
+ * http://www.colourlovers.com/home/trends/interior-looks/7760/Dive_Into_Color
+ */
+
+.flavor-alpine h2 { background: #CBB063; }
+.flavor-alpine-extended h2 { background: #AA8B4A; }
+.flavor-alpine-vanilla h2 { background: #3C2C1F; }
+.flavor-alpine-virt h2 { background: #B63731; }
+.flavor-alpine-xen h2 { background: #E68804; }
+.flavor-alpine-rpi h2 { background: #376160; }
+.flavor-alpine-uboot h2 { background: #36384D; }
+
+/*
+ * MEDIA queries
+ */
+
+/*
+ * Larger mobile devices (tablets)
+ */ 
+@media(min-width: 48em) {
+    .banner h1 { font-size: 4em; }
+    .download-table { margin-bottom: 0; }
+    .menu-local { right: auto; }
+    .alpine-logo { margin: 1em; }
+}
+
+/*
+ * Small devices like phones
+ */
+@media (min-width: 30em) {
+    .banner { height: 400px; }
+    .banner h1 { font-size: 3em; }
+}
+
+/*
+ * Move the logo when the local menu moves to the right.
+ */
+@media (min-width: 41em) {
+    .alpine-logo { margin-top: 1em; }
+}
