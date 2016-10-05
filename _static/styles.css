@@ -205,6 +205,18 @@ a.alpine-logo:active {
     color: black;
 }
 
+.download-table-list li { padding-left: 0em; }
+
+.download-button {
+    color: white;
+    font-weight: normal;
+    background: #018E4A;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    position: relative;
+    bottom: -1.5em;
+}
+
 /*
  * This is shared between pages.
  */
@@ -216,18 +228,6 @@ a.alpine-logo:active {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-}
-
-.download-table-list li { padding-left: 0em; }
-
-.download-button {
-    color: white;
-    font-weight: normal;
-    background: #018E4A;
-    border-radius: 4px;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-    position: relative;
-    bottom: -1.5em;
 }
 
 /*
