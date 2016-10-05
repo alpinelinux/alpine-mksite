@@ -15,48 +15,43 @@
         <link rel="shortcut icon" href="/alpine-logo.ico" />
     </head>
     <body>
-        <div class="pure-menu pure-menu-horizontal">
-            
-            <ul class="pure-menu-list menu-external">
-                <li class="pure-menu-item"><a href="https://wiki.alpinelinux.org" class="pure-menu-link">wiki</a></li>
-                <li class="pure-menu-item"><a href="http://git.alpinelinux.org" class="pure-menu-link">git</a></li>
-                <li class="pure-menu-item"><a href="https://bugs.alpinelinux.org/projects/alpine/issues" class="pure-menu-link">bugs</a></li>
-                <li class="pure-menu-item"><a href="https://forum.alpinelinux.org/forum" class="pure-menu-link">forums</a></li>
-                <li class="pure-menu-item"><a href="https://pkgs.alpinelinux.org" class="pure-menu-link">packages</a></li>
-            </ul>
+        <div id="wrapper">
+            <div class="pure-menu pure-menu-horizontal">
 
-            <a href="/">
-                <img src="/alpinelinux-logo.svg" class="alpine-logo" alt="" />
-            </a>
+                <ul class="pure-menu-list menu-external">
+                    <li class="pure-menu-item"><a href="https://wiki.alpinelinux.org" class="pure-menu-link">wiki</a></li>
+                    <li class="pure-menu-item"><a href="http://git.alpinelinux.org" class="pure-menu-link">git</a></li>
+                    <li class="pure-menu-item"><a href="https://bugs.alpinelinux.org/projects/alpine/issues" class="pure-menu-link">bugs</a></li>
+                    <li class="pure-menu-item"><a href="https://forum.alpinelinux.org/forum" class="pure-menu-link">forums</a></li>
+                    <li class="pure-menu-item"><a href="https://pkgs.alpinelinux.org" class="pure-menu-link">packages</a></li>
+                </ul>
 
-            <ul class="pure-menu-list menu-local">
-                <li class="pure-menu-item"><a href="/" class="pure-menu-link">Home</a></li>
-                <li class="pure-menu-item"><a href="/downloads" class="pure-menu-link">Downloads</a></li>
-                <li class="pure-menu-item"><a href="/about" class="pure-menu-link">About</a></li>
-                <li class="pure-menu-item"><a href="/community" class="pure-menu-link">Community</a></li>
-                <li class="pure-menu-item"><a href="/sponsors" class="pure-menu-link">Sponsors</a></li>
-            </ul>
+                <a href="/">
+                    <img src="/alpinelinux-logo.svg" class="alpine-logo" alt="" />
+                </a>
 
-        </div>
+                <ul class="pure-menu-list menu-local">
+                    <li class="pure-menu-item"><a href="/" class="pure-menu-link">Home</a></li>
+                    <li class="pure-menu-item"><a href="/downloads" class="pure-menu-link">Downloads</a></li>
+                    <li class="pure-menu-item"><a href="/about" class="pure-menu-link">About</a></li>
+                    <li class="pure-menu-item"><a href="/community" class="pure-menu-link">Community</a></li>
+                    <li class="pure-menu-item"><a href="/sponsors" class="pure-menu-link">Sponsors</a></li>
+                </ul>
 
-        <div class="banner">
-            <div class="banner-content">
-                <h1>Small. Simple. Secure.</h1>
-                <h3>Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.</h3>
             </div>
-        </div>
 
-        <div class="content">
+            <div class="banner">
+                <div class="banner-content">
+                    <h1>Small. Simple. Secure.</h1>
+                    <h3>Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.</h3>
+                </div>
+            </div>
 
-<!-- content -->
-{{{content}}}
-<!-- end of content -->
+            <div class="content">
+            {{{content}}}
+            </div> <!-- end content -->
 
-        </div> <!-- end content -->
-
-        <div class="footer l-box">
-            <p>© Copyright 2016 Alpine Linux Development Team all rights reserved | <a href="/privacy-policy.html">Privacy Policy</a></p>
-        </div>
-
+            <footer>© Copyright 2016 Alpine Linux Development Team all rights reserved | <a href="/privacy-policy.html">Privacy Policy</a></footer>
+        </div> <!-- end wrapper -->
     </body>
 </html>
