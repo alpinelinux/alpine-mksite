@@ -1,7 +1,13 @@
 /*
  * Base purecss provides basic styling, but we overide some of them here.
  */
-body { color: #526066; }
+
+html,body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: #526066;
+}
 
 h1, h2, h3 {
     letter-spacing: 0.25em;
@@ -21,6 +27,11 @@ a {
     color: rgb(61, 146, 201);
 }
 
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+
 /*
  * Layout styles
  * * center content
@@ -31,6 +42,7 @@ a {
     padding: 0em 1em 2em 1em;
     max-width: 980px;
     overflow:auto;
+    padding-bottom: 5em; /* uses for footer */
 }
 
 .l-box { padding: 0.5em 1em; }
@@ -235,12 +247,18 @@ a.alpine-logo:active {
  * Footer styling
  */
 
-.footer {
+footer {
     background: #111;
     color: #888;
     text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
-.footer a { color: #ddd; }
+
+footer a { color: #ddd; }
 
 /*
  * Color set taken from:
