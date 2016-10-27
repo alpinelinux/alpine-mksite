@@ -23,10 +23,10 @@
                 {{/flavor_desc}}
             </ul>
             {{#archs}}
-            <button class="download-button pure-button">
-                <i class="fa fa-download"></i>
-                <a href="{{iso_url}}">{{arch}}</a>
-            </button>
+            <a class="pure-button download-button" href="{{iso_url}}">
+	        <i class="fa fa-download"></i>
+                {{arch}}
+            </a>
             {{/archs}}
         </div>
     </div>
