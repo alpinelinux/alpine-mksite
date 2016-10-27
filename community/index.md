@@ -37,7 +37,7 @@ title: Alpine Linux Community
   | [unsubscribe](mailto:alpine-aports+unsubscribe@lists.alpinelinux.org)
   | [help](mailto:alpine-aports+help@lists.alpinelinux.org))
 
-<h2><i class="fa fa-pencil" aria-hidden="true"></i></i>Wiki</h2>
+<h2><i class="fa fa-pencil" aria-hidden="true"></i>Wiki</h2>
 
 Wiki has the documentation.
 
