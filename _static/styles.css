@@ -37,7 +37,8 @@ a {
  * * center content
  * * add padding between and around text boxes
  */
-.content {
+
+#content {
     margin: 0 auto;
     padding: 0em 1em 2em 1em;
     max-width: 980px;
@@ -242,6 +243,14 @@ a.alpine-logo:active {
 }
 
 .read-more { margin-top: 1em; }
+
+/*
+ * Community page
+ */
+
+.community h2 {
+	margin-top: 2em;
+}
 
 /*
  * Footer styling
