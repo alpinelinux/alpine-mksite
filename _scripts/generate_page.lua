@@ -11,13 +11,15 @@ function read_markdown(file)
 	local yml, md = data:match("^(%-%-%-.-%-%-%-)(.*)$")
 	local t
 	local pagename = file:gsub(".md$","")
+	local pageclass = pagename:gsub("/.*", "")
 	if yml and md then
 		t = lyaml.load(yml)
 		t.pagename = pagename
+		t.pageclass = pageclass
 		return t, markdown(md)
 	else
-		return {title=pagename:gsub("/index$", ""), pagename=pagename},
-			markdown(data)
+		return {title=pagename:gsub("/index$", ""), pagename=pagename,
+			pageclass=pageclass}, markdown(data)
 	end
 end
 
