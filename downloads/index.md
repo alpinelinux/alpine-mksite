@@ -38,4 +38,4 @@ Released {{releases.default.datestr}}
 
 <h3>Older releases</h3>
 Older releases are found
-<a href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi">here</a>.
+<a href="https://wiki.alpinelinux.org/cgi-bin/dl.cgi">here</a>.
