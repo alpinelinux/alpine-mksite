@@ -3,12 +3,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Alpine Linux News</title>
     <id>http://alpinelinux.org/atom.xml</id>
-    <link href="http://alpinelinux.org/atom.xml" rel="self" type="application/rss+xml" />
+    <link href="https://alpinelinux.org/atom.xml" rel="self" type="application/rss+xml" />
     <updated>{{updated}}</updated>
     {{#entries}}
     <entry>
         <title>{{title}}</title>
-        <link href="http://alpinelinux.org/posts/{{html}}"/>
+        <link href="https://alpinelinux.org/posts/{{html}}"/>
         <id>http://alpinelinux.org/posts/{{html}}</id>
         <updated>{{updated}}</updated>
         <author>
