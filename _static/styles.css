@@ -46,17 +46,7 @@ a {
     padding-bottom: 5em; /* uses for footer */
 }
 
-.l-box { padding: 0.5em 1em; }
-
-/* 
- * Shared page styles
- */
-
-.download-tables,
-.information {
-    max-width: 980px;
-    margin: 0 auto;
-}
+.l-box { padding: 0.5em; }
 
 /*
  * Logo settings
@@ -174,15 +164,13 @@ a.alpine-logo:active {
  * Download Section (tables)
  */
 
-.download-box { padding-bottom: 3em; }
-
-.download-table {
+.download {
     border: 1px solid #ddd;
     margin: 0 0.5em 2em;
     text-align: center;
 }
 
-.download-table-header h2 {
+.download h2 {
     color: #fff;
     margin: 0;
     padding-top: 2em;
@@ -191,14 +179,13 @@ a.alpine-logo:active {
     font-weight: bold;
 }
 
-.download-table ul {
+.download ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
-.download-table li {
+.download li {
     padding: 0.8em;
     background: #f7f7f7;
     border-bottom: 1px solid #e7e7e7;
@@ -207,16 +194,11 @@ a.alpine-logo:active {
     text-overflow: ellipsis;
 }
 
-.download-box a {
-    text-decoration: none;
-    color: white;
-}
-
-.download-buttons {
+.download .buttons {
     padding: 1em;
 }
 
-.download-button {
+.download .buttons a.pure-button {
     color: white;
     font-weight: normal;
     background: #018E4A;
@@ -224,12 +206,12 @@ a.alpine-logo:active {
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 }
 
-.checksum-buttons a.pure-button {
+.download .checksums a.pure-button {
     font-size: 70%;
     color: #696969;
 }
 
-.checksum-buttons li {
+.download .checksums li {
     border-top: 1px solid #e7e7e7;
     border-bottom: 0px;
 }
