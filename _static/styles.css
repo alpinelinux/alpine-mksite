@@ -177,7 +177,6 @@ a.alpine-logo:active {
 .download-table {
     border: 1px solid #ddd;
     margin: 0 0.5em 2em;
-    padding: 0 0 3em;
     text-align: center;
 }
 
@@ -190,39 +189,14 @@ a.alpine-logo:active {
     font-weight: bold;
 }
 
-.download-table-list {
+.download-table ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-.download-box a {
-    text-decoration: none;
-    color: white;
-}
-
-.checksums a {
-    color: black;
-}
-
-.download-table-list li { padding-left: 0em; }
-
-.download-button {
-    color: white;
-    font-weight: normal;
-    background: #018E4A;
-    border-radius: 4px;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-    position: relative;
-    bottom: -1.5em;
-}
-
-/*
- * This is shared between pages.
- */
-.download-table-list li,
-.home-list li {
+.download-table li {
     padding: 0.8em;
     background: #f7f7f7;
     border-bottom: 1px solid #e7e7e7;
@@ -231,9 +205,45 @@ a.alpine-logo:active {
     text-overflow: ellipsis;
 }
 
+.download-box a {
+    text-decoration: none;
+    color: white;
+}
+
+.download-buttons {
+    padding: 1em;
+}
+
+.download-button {
+    color: white;
+    font-weight: normal;
+    background: #018E4A;
+    border-radius: 4px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.checksum-buttons a.pure-button {
+    font-size: 70%;
+    color: #696969;
+}
+
+.checksum-buttons li {
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 0px;
+}
+
 /*
  * Home page styling
  */
+
+.home-list li {
+    padding: 0.8em;
+    background: #f7f7f7;
+    border-bottom: 1px solid #e7e7e7;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
 
 .home-list {
     list-style-type: none;

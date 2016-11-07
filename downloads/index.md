@@ -22,12 +22,25 @@
                 <li>{{{.}}}</li>
                 {{/flavor_desc}}
             </ul>
-            {{#archs}}
-            <a class="pure-button download-button" href="{{iso_url}}">
-	        <i class="fa fa-download"></i>
-                {{arch}}
-            </a>
-            {{/archs}}
+            <div class="download-buttons">
+                {{#archs}}
+                <a class="pure-button download-button" href="{{iso_url}}">
+    	        <i class="fa fa-download"></i>
+                    {{arch}}
+                </a>
+                {{/archs}}
+            </div>
+            <div class="checksum-buttons">
+                <ul class="download-table-list">
+                    <li>
+                        {{#archs}}
+                        <a class="pure-button" href="{{sha256_url}}">
+                        sha256 ({{arch}})
+                        </a>
+                        {{/archs}}
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 {{/releases.flavors}}
