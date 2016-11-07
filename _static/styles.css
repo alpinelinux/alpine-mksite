@@ -87,12 +87,14 @@ a.alpine-logo:active {
     top: 0px;
     right: 0px;
     font-style: italic;
+    font-size: 0.6em;
 }
 
 .menu-local {
     right: 0px;
     bottom: 0px;
     position: absolute;
+    font-size: 0.6em;
 }
 
 /*
@@ -302,7 +304,8 @@ footer a { color: #ddd; }
 @media(min-width: 48em) {
     .banner h1 { font-size: 4em; }
     .download-table { margin-bottom: 0; }
-    .menu-local { right: auto; }
+    .menu-local { right: auto; font-size: 1em;}
+    .menu-external { font-size: 1em; }
     .alpine-logo { margin: 1em; }
 }
 
@@ -319,4 +322,6 @@ footer a { color: #ddd; }
  */
 @media (min-width: 41em) {
     .alpine-logo { margin-top: 1em; }
+    .menu-local { font-size: 1em;}
+    .menu-external { font-size: 1em; }
 }
