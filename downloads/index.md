@@ -11,27 +11,27 @@
         </div>
     </div>
 
-{{#releases.flavors}}
-    <div class="pure-u-1 pure-u-md-1-3 download-box flavor-{{flavor_name}}">
-        <div class="download-table">
-            <div class="download-table-header bgc-1">
-                <h2>{{flavor_title}}</h2>
+    {{#releases.flavors}}
+    <div class="pure-u-1 pure-u-md-1-3">
+        <div class="download flavor-{{flavor_name}}">
+            <h2>{{flavor_title}}</h2>
+            <div class="features">
+                <ul>
+                    {{#flavor_desc}}
+                    <li>{{{.}}}</li>
+                    {{/flavor_desc}}
+                </ul>
             </div>
-            <ul class="download-table-list">
-                {{#flavor_desc}}
-                <li>{{{.}}}</li>
-                {{/flavor_desc}}
-            </ul>
-            <div class="download-buttons">
+            <div class="buttons">
                 {{#archs}}
-                <a class="pure-button download-button" href="{{iso_url}}">
+                <a class="pure-button" href="{{iso_url}}">
     	        <i class="fa fa-download"></i>
                     {{arch}}
                 </a>
                 {{/archs}}
             </div>
-            <div class="checksum-buttons">
-                <ul class="download-table-list">
+            <div class="checksums">
+                <ul>
                     <li>
                         {{#archs}}
                         <a class="pure-button" href="{{sha256_url}}">
@@ -43,7 +43,7 @@
             </div>
         </div>
     </div>
-{{/releases.flavors}}
+    {{/releases.flavors}}
 
     <div class="pure-u-1">
         <div class="l-box">
