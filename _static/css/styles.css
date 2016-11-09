@@ -324,6 +324,13 @@ footer a { color: #ddd; }
  */
 @media (min-width: 41em) {
     .alpine-logo { margin-top: 1em; }
+}
+
+/*
+ * keep font smaller on mobile devices to allow the menus to fit
+ * this should be fixed by a proper mobile menu solution
+ */
+@media (min-width: 33em) {
     .menu-local { font-size: 1em;}
     .menu-external { font-size: 1em; }
 }
