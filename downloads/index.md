@@ -31,15 +31,20 @@
                 {{/archs}}
             </div>
             <div class="checksums">
-                <ul>
-                    <li>
-                        {{#archs}}
-                        <a class="pure-button" href="{{sha256_url}}">
-                        sha256 ({{arch}})
-                        </a>
-                        {{/archs}}
-                    </li>
-                </ul>
+            <table class="pure-table pure-table-horizontal">
+                <tr>
+                    <td>SHA256</td>
+                    {{#archs}}
+                    <td><a class="pure-button" href="{{sha256_url}}">{{arch}}</a></td>
+                    {{/archs}}
+                </tr>
+                <tr>
+                    <td>GPG</td>
+                    {{#archs}}
+                    <td><a class="pure-button" href="{{asc_url}}">{{arch}}</a></td>
+                    {{/archs}}
+                </tr>
+            </table>
             </div>
         </div>
     </div>

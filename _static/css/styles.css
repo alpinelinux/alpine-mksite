@@ -216,6 +216,19 @@ a.alpine-logo:active {
     border-bottom: 0px;
 }
 
+.download table {
+    width: 100%;
+}
+
+.download .pure-table {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    background: #f7f7f7;
+    font-size: 70%;
+    color: #696969;
+}
+
 /*
  * Home page styling
  */
