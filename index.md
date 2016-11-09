@@ -3,7 +3,7 @@
     <div class="pure-u-1 pure-u-md-1-2">
         <div class="l-box">
             <h2>
-                <i class="fa fa-rss" aria-hidden="true"></i>
+                <a href="/atom.xml" class="atom"><i class="fa fa-rss"></i></a>
                 Alpine News
             </h2>
             <ul class="home-list">
@@ -19,7 +19,9 @@
     <div class="pure-u-1 pure-u-md-1-2">
         <div class="l-box">
             <h2>
-                <i class="fa fa-git" aria-hidden="true"></i>
+                <a href="http://git.alpinelinux.org/cgit/aports" class="cgit">
+                    <i class="fa fa-git "></i>
+                </a>
                 Latest development
             </h2>
             <ul class="home-list">

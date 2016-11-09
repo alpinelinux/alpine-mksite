@@ -159,6 +159,13 @@ a.alpine-logo:active {
     width: 100%;
 }
 
+.index a.cgit {
+    color: black;
+}
+
+.index a.atom {
+    color: #f26522;
+}
 
 /*
  * Download Section (tables)
