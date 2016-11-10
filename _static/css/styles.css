@@ -263,17 +263,17 @@ a {
     border-bottom: 0px;
 }
 
-.download table {
-    width: 100%;
-}
-
 .download .pure-table {
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0;
+    width: 100%;
+    border: 0;
     background: #f7f7f7;
     font-size: 70%;
     color: #696969;
+}
+
+.download .pure-table-horizontal td {
+    border:0;
+    border-top:1px solid #e7e7e7;
 }
 
 /*
