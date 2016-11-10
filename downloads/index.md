@@ -53,7 +53,7 @@
     <div class="pure-u-1">
         <div class="l-box">
             <h1>Previous Releases</h1>
-            <p>Older releases are found <a href="http://wiki.alpinelinux.org/cgi-bin/dl.cgi">here</a>.</p>
+            <p>Older releases are found <a href="https://wiki.alpinelinux.org/cgi-bin/dl.cgi">here</a>.</p>
         </div>
     </div>
 
