@@ -18,11 +18,12 @@
                 <div class="pure-u-1 pure-u-lg-4-24">
                     <div class="logo">
                         <a href="/"><img src="http://alpine.nethq.org/alpinelinux-logo.svg" class="pure-img" alt="" /></a>
-                        <a href="#" id="menu-toggle"><s class="bar"></s><s class="bar"></s></a>
                     </div>
                 </div>
-                <div class="pure-u-1 pure-u-lg-10-24 box-relative">
-                    <nav class="pure-menu pure-menu-horizontal menu-can-transform menu-local">
+                <input type="checkbox" id="menu-toggle-cb">
+                <label id="menu-toggle" for="menu-toggle-cb" onclick><s class="bar"></s><s class="bar"></s></label>
+                <div class="pure-u-1 pure-u-lg-20-24 box-relative menu-wrapper">
+                    <nav class="pure-menu pure-menu-horizontal menu-local">
                         <ul class="pure-menu-list">
                             <li class="pure-menu-item"><a href="/" class="pure-menu-link">Home</a></li>
                             <li class="pure-menu-item"><a href="/downloads" class="pure-menu-link">Downloads</a></li>
@@ -31,9 +32,7 @@
                             <li class="pure-menu-item"><a href="/sponsors" class="pure-menu-link">Sponsors</a></li>
                         </ul>
                     </nav>
-                </div>
-                <div class="pure-u-1 pure-u-lg-10-24">
-                    <nav class="pure-menu pure-menu-horizontal menu-can-transform menu-external">
+                    <nav class="pure-menu pure-menu-horizontal menu-external">
                         <ul class="pure-menu-list">
                             <li class="pure-menu-item"><a href="https://wiki.alpinelinux.org" class="pure-menu-link">wiki</a></li>
                             <li class="pure-menu-item"><a href="http://git.alpinelinux.org" class="pure-menu-link">git</a></li>
@@ -44,7 +43,6 @@
                     </nav>
                 </div>
             </header>
-            <script type="text/javascript" src="/pure-menu.js"></script>
             <div class="banner">
                 <div class="banner-content">
                     <h1>Small. Simple. Secure.</h1>

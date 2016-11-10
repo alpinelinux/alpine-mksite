@@ -59,17 +59,31 @@ a {
     transition: height 0.5s;
 }
 
-#header.open {
-    height: 28em;
-}
-
 .logo {
     padding:1em;
 }
 
 /* menu settings */
 
+body {
+    /* fix for android */
+    -webkit-animation: bugfix infinite 1s;
+}
+
+@-webkit-keyframes bugfix {
+    from { padding: 0; }
+    to { padding: 0; }
+}
+
+#menu-toggle-cb {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
 #menu-toggle {
+    cursor: pointer;
+    user-select: none;
     width: 34px;
     height: 34px;
     display: block;
@@ -99,14 +113,14 @@ a {
     transform: translateY(-6px);
 }
 
-#menu-toggle.x .bar {
+#menu-toggle-cb:checked ~  #menu-toggle .bar {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 
-#menu-toggle.x .bar:first-child {
+#menu-toggle-cb:checked ~  #menu-toggle .bar:first-child {
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
@@ -302,7 +316,7 @@ a {
 
 .community h2,
 .about h2 {
-	margin-top: 2em;
+    margin-top: 2em;
 }
 
 /*
@@ -356,7 +370,7 @@ footer a { color: #ddd; }
 
 @media (max-width: 63.999em) {
     #header {
-        height: 6em;
+        min-height: 6em;
     }
 
     .menu-external {
@@ -365,6 +379,31 @@ footer a { color: #ddd; }
 
     #menu-toggle {
         display: block;
+    }
+
+    .menu-wrapper nav.pure-menu ul,
+    .menu-wrapper nav.pure-menu ul li {
+        display: block;
+    }
+
+    #menu-toggle-cb ~ .menu-wrapper {
+        -webkit-transition: max-height 0.8s;
+        -moz-transition: max-height 0.8s;
+        -ms-transition: max-height 0.8s;
+        -o-transition: max-height 0.8s;
+        transition: max-height 0.8s;
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    #menu-toggle-cb:checked ~ .menu-wrapper {
+        -webkit-transition: max-height 0.8s;
+        -moz-transition: max-height 0.8s;
+        -ms-transition: max-height 0.8s;
+        -o-transition: max-height 0.8s;
+        transition: max-height 0.8s;
+        max-height: 23em;
+        overflow: auto;
     }
 
     .logo img {
