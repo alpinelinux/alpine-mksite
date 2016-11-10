@@ -298,11 +298,10 @@ a {
 
 .read-more { margin-top: 1em; }
 
-/*
- * Community page
- */
+/* increase top margin */
 
-.community h2 {
+.community h2,
+.about h2 {
 	margin-top: 2em;
 }
 
