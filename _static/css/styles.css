@@ -340,22 +340,21 @@ footer a { color: #ddd; }
  * MEDIA queries
  */
 
-/*
- * Larger mobile devices (tablets)
- */ 
-@media(min-width: 48em) {
-    .banner h1 { font-size: 4em; }
-}
+/* phones */
 
-/*
- * Small devices like phones
- */
-@media (min-width: 30em) {
-    .banner { height: 400px; }
+@media (min-width: 31em) {
+    .banner { height: 300px; }
     .banner h1 { font-size: 3em; }
 }
 
+/* tablets */
+
+@media(min-width: 48em) {
+    .banner { height: 400px; }
+}
+
 /* responsive menu */
+
 @media (max-width: 63.999em) {
     #header {
         height: 6em;
