@@ -48,43 +48,83 @@ a {
 
 .l-box { padding: 0.5em; }
 
-/*
- * Logo settings
- */
+/* header settings */
 
-.alpine-logo {
-    width: 16em;
-    margin: 2em;
-    margin-left: 1em;
+#header {
+    -webkit-font-smoothing: antialiased;
+    overflow: hidden;
+    -webkit-transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    -ms-transition: height 0.5s;
+    transition: height 0.5s;
 }
 
-a.alpine-logo:hover, 
-a.alpine-logo:active { 
-    text-decoration: none;
+#header.open {
+    height: 28em;
 }
 
-/*
- * use pure menus with some positioning.
- */
-.pure-menu {
-    box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
-    position: relative;
-
+.logo {
+    padding:1em;
 }
 
-.menu-external {
+/* menu settings */
+
+#menu-toggle {
+    width: 34px;
+    height: 34px;
+    display: block;
     position: absolute;
-    top: 0px;
-    right: 0px;
-    font-style: italic;
-    font-size: 0.6em;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+#menu-toggle .bar {
+    background-color: #777;
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 100px;
+    position: absolute;
+    top: 18px;
+    right: 7px;
+}
+
+/* Make the hamburger menu do visual magic */
+
+#menu-toggle .bar:first-child {
+    -webkit-transform: translateY(-6px);
+    -moz-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(-6px);
+}
+
+#menu-toggle.x .bar {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+#menu-toggle.x .bar:first-child {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
 
 .menu-local {
-    right: 0px;
-    bottom: 0px;
     position: absolute;
-    font-size: 0.6em;
+    bottom: 0;
+}
+
+.menu-external {
+    text-align: right;
+    font-style: italic;
+}
+
+.box-relative {
+    position: relative;
 }
 
 /*
@@ -305,10 +345,6 @@ footer a { color: #ddd; }
  */ 
 @media(min-width: 48em) {
     .banner h1 { font-size: 4em; }
-    .download-table { margin-bottom: 0; }
-    .menu-local { right: auto; font-size: 1em;}
-    .menu-external { font-size: 1em; }
-    .alpine-logo { margin: 1em; }
 }
 
 /*
@@ -319,18 +355,31 @@ footer a { color: #ddd; }
     .banner h1 { font-size: 3em; }
 }
 
-/*
- * Move the logo when the local menu moves to the right.
- */
-@media (min-width: 41em) {
-    .alpine-logo { margin-top: 1em; }
-}
+/* responsive menu */
+@media (max-width: 63.999em) {
+    #header {
+        height: 6em;
+    }
 
-/*
- * keep font smaller on mobile devices to allow the menus to fit
- * this should be fixed by a proper mobile menu solution
- */
-@media (min-width: 33em) {
-    .menu-local { font-size: 1em;}
-    .menu-external { font-size: 1em; }
+    .menu-external {
+        text-align: left;
+    }
+
+    #menu-toggle {
+        display: block;
+    }
+
+    .logo img {
+        max-width: 16em;
+    }
+
+    .menu-local {
+        position: static;
+        bottom: auto;
+    }
+
+    .menu-external {
+        font-style: normal;
+    }
+
 }
