@@ -2,7 +2,7 @@
  * Base purecss provides basic styling, but we overide some of them here.
  */
 
-html,body {
+html, body {
     height: 100%;
     margin: 0;
     padding: 0;
@@ -42,7 +42,7 @@ a {
     margin: 0 auto;
     padding: 0em 1em 2em 1em;
     max-width: 980px;
-    overflow:auto;
+    overflow: auto;
     padding-bottom: 5em; /* uses for footer */
 }
 
@@ -53,10 +53,6 @@ a {
 #header {
     -webkit-font-smoothing: antialiased;
     overflow: hidden;
-    -webkit-transition: height 0.5s;
-    -moz-transition: height 0.5s;
-    -ms-transition: height 0.5s;
-    transition: height 0.5s;
 }
 
 .logo {
@@ -146,7 +142,7 @@ body {
  * we use relative positioning to be able to position the banner content properly
  * background taken from:
  * https://unsplash.com/@roylandnye
- * 
+ *
  */
 
 .banner {
@@ -163,11 +159,9 @@ body {
 .banner-content {
     position: absolute;
     top: 50%;
-    height: 100px;
     margin-top: -80px;
     width: 100%;
 }
-
 
 .banner h1 {
     margin-bottom: 0;
@@ -369,10 +363,6 @@ footer a { color: #ddd; }
 /* responsive menu */
 
 @media (max-width: 63.999em) {
-    #header {
-        min-height: 6em;
-    }
-
     .menu-external {
         text-align: left;
     }
@@ -387,23 +377,21 @@ footer a { color: #ddd; }
     }
 
     #menu-toggle-cb ~ .menu-wrapper {
-        -webkit-transition: max-height 0.8s;
-        -moz-transition: max-height 0.8s;
-        -ms-transition: max-height 0.8s;
-        -o-transition: max-height 0.8s;
-        transition: max-height 0.8s;
         max-height: 0;
         overflow: hidden;
     }
 
+    #menu-toggle-cb:checked ~ .menu-wrapper {
+        max-height: 25em;
+    }
+
+    #menu-toggle-cb ~ .menu-wrapper,
     #menu-toggle-cb:checked ~ .menu-wrapper {
         -webkit-transition: max-height 0.8s;
         -moz-transition: max-height 0.8s;
         -ms-transition: max-height 0.8s;
         -o-transition: max-height 0.8s;
         transition: max-height 0.8s;
-        max-height: 23em;
-        overflow: auto;
     }
 
     .logo img {
