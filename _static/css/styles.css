@@ -289,9 +289,8 @@ body {
  */
 
 .home-list li {
-    padding: 0.8em;
-    background: #f7f7f7;
-    border-bottom: 1px solid #e7e7e7;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
