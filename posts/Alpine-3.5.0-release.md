@@ -5,21 +5,29 @@ date: 2016-12-21
 
 # Alpine 3.5.0 released
 
-We are pleased to announce the release of Alpine Linux 3.5.0, the first in the v3.5
-stable series.
+We are pleased to announce the release of Alpine Linux 3.5.0, the first in
+the v3.5 stable series.
 
 ## New features and noteworthy changes
 
 - Switch from OpenSSL to LibreSSL
 - Support for aarch64 (uboot only fow now)
-- Better zfs support
+- Better ZFS support
 - PostgreSQL update to 9.6.x. See the [PostgreSQL documentation][0] for upgrade
   instructions
 - Samba 4.5.3
 - GTK+3.0 3.22.5
 - glib 2.50.2
+- Support for [R][1], [JRuby][2] and [OCaml][3]
+- Better python3 support
+- The nodejs package was renamed to nodejs-current and moved to the community
+  repository. The nodejs-lts package was renamed to nodejs. This means that
+  you get the LTS version if you do `apk add nodejs`.
 
 [0]: https://www.postgresql.org/docs/9.6/static/upgrading.html
+[1]: https://www.r-project.org/
+[2]: http://jruby.org/
+[3]: http://www.ocaml.org/
 
 ## Desktop applications that have been upgraded in v3.5 include:
 
@@ -35,9 +43,9 @@ The full list of changes can be found in the
 [git log](http://git.alpinelinux.org/cgit/aports/log/?h=v3.5.0) and
 [bug tracker](http://bugs.alpinelinux.org/versions/107).
 
-Commit statistics:
-<pre>
+## Commit statistics
 
+<pre>
   1672	Natanael Copa
   1028	Francesco Colista
    710	Jakub Jirutka
