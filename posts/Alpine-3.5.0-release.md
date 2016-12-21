@@ -1,6 +1,6 @@
 ---
 title: 'Alpine 3.5.0 released'
-date: 2016-12-21
+date: 2016-12-22
 ---
 
 # Alpine 3.5.0 released
@@ -11,8 +11,8 @@ the v3.5 stable series.
 ## New features and noteworthy changes
 
 - Switch from OpenSSL to LibreSSL
-- Support for aarch64 (uboot only fow now)
-- Better ZFS support
+- Support for aarch64 (uboot only for now)
+- Support for ZFS as root
 - PostgreSQL update to 9.6.x. See the [PostgreSQL documentation][0] for upgrade
   instructions
 - Samba 4.5.3
@@ -36,8 +36,8 @@ the v3.5 stable series.
 
 ## Credits
 
-- Thanks GIGABYTE for donated two ARM buildservers (xgene and thunderx platforms)
-- Everyone sending in patches, bug reports, new and updated aports.
+- Thanks GIGABYTE for donating two ARM buildservers (xgene and thunderx platforms).
+- Thanks to everyone sending in patches, bug reports, new and updated aports.
 
 The full list of changes can be found in the
 [git log](http://git.alpinelinux.org/cgit/aports/log/?h=v3.5.0) and
