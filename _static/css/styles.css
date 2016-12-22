@@ -91,8 +91,8 @@ body {
 #menu-toggle {
     cursor: pointer;
     user-select: none;
-    width: 34px;
-    height: 34px;
+    width: 38px;
+    height: 36px;
     display: block;
     position: absolute;
     top: 0;
@@ -103,35 +103,44 @@ body {
 #menu-toggle .bar {
     background-color: #777;
     display: block;
-    width: 20px;
-    height: 2px;
+    width: 24px;
+    height: 4px;
     border-radius: 100px;
     position: absolute;
-    top: 18px;
+    top: 16px;
     right: 7px;
+}
+
+#menu-toggle .bar:first-child {
+    top: 8px;
+}
+
+#menu-toggle .bar:last-child {
+    top: 24px;
 }
 
 /* Make the hamburger menu do visual magic */
 
-#menu-toggle .bar:first-child {
-    -webkit-transform: translateY(-6px);
-    -moz-transform: translateY(-6px);
-    -ms-transform: translateY(-6px);
-    transform: translateY(-6px);
+#menu-toggle-cb:checked ~ #menu-toggle .bar:first-child {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
 
-#menu-toggle-cb:checked ~  #menu-toggle .bar {
+#menu-toggle-cb:checked ~ #menu-toggle .bar:last-child {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 
-#menu-toggle-cb:checked ~  #menu-toggle .bar:first-child {
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
+#menu-toggle-cb:checked ~ #menu-toggle .bar:nth-child(odd) {
+    top: 16px;
+}
+
+#menu-toggle-cb:checked ~ #menu-toggle .bar:nth-child(even) {
+    display: none;
 }
 
 .menu-local {
