@@ -346,13 +346,14 @@ footer a { color: #ddd; }
  * http://www.colourlovers.com/home/trends/interior-looks/7760/Dive_Into_Color
  */
 
-.flavor-alpine h2 { background: #CBB063; }
+.flavor-alpine-standard h2 { background: #CBB063; }
 .flavor-alpine-extended h2 { background: #AA8B4A; }
 .flavor-alpine-vanilla h2 { background: #3C2C1F; }
 .flavor-alpine-virt h2 { background: #B63731; }
 .flavor-alpine-xen h2 { background: #E68804; }
 .flavor-alpine-rpi h2 { background: #376160; }
 .flavor-alpine-uboot h2 { background: #36384D; }
+.flavor-alpine-minirootfs h2 { background: #36384D; }
 
 /*
  * MEDIA queries
