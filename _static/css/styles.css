@@ -344,6 +344,15 @@ footer {
 footer a { color: #ddd; }
 
 /*
+ * posts and community lists
+ */
+
+.posts li,
+.community li {
+    margin: 0.5em;
+}
+
+/*
  * Color set taken from:
  * http://www.colourlovers.com/home/trends/interior-looks/7760/Dive_Into_Color
  */
