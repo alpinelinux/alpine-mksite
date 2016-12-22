@@ -67,7 +67,7 @@ flavor_def = {
 		desc = {
 			"Has default ARM kernel",
 			"Includes the uboot bootloader",
-			"Packages targetted at armhf",
+			"Supports armhf and aarch64",
 		}
 	}
 }
