@@ -45,12 +45,13 @@ The full list of changes can be found in the
 
 ## Commit statistics
 
+5742 commits made by 133 contributors
 <pre>
-  1672	Natanael Copa
-  1028	Francesco Colista
+  1711	Natanael Copa
+  1036	Francesco Colista
    710	Jakub Jirutka
-   485	Carlo Landmeter
-   306	Timo Teräs
+   486	Carlo Landmeter
+   308	Timo Teräs
    272	Sören Tempel
    192	Leonardo Arena
    117	Bartłomiej Piotrowski
@@ -72,8 +73,8 @@ The full list of changes can be found in the
     17	Thomas Boerger
     16	Nathan Johnson
     11	AmatCoder
+    11	Kevin Daudt
     10	Jann - Ove Risvik
-    10	Kevin Daudt
     10	Mark Riedesel
     10	Valery Kartel
     10	Michael Jeanson
