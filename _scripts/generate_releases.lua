@@ -6,9 +6,9 @@ url_prefix="https://fr.alpinelinux.org/alpine"
 t = { flavors={} }
 
 flavor_def = {
-	["alpine"] = {
+	["alpine-standard"] = {
 		title = "Standard",
-		desc = { 
+		desc = {
 			"Alpine as it was intended",
 			"Just enough to get you started",
 			"Network connection recommended",
@@ -44,6 +44,14 @@ flavor_def = {
 			"Build-in support for Xen Hypervisor",
 			"Includes packages targed at Xen usage",
 			"Includes grsec kernel",
+		},
+	},
+	["alpine-minirootfs"] = {
+		title = "Mini root filesystem",
+		desc = {
+			"Minimal root filesystem",
+			"For use in containers",
+			"and minimal chroots",
 		},
 	},
 	["alpine-rpi"] = {
@@ -97,6 +105,6 @@ for i = 1,#arg do
 end
 
 -- default release
-t.default = t.alpine.x86_64
+t.default = t["alpine-standard"].x86_64
 
 io.write(lyaml.dump{t})
