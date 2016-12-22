@@ -16,7 +16,7 @@ generate_atom = $(LUA) _scripts/generate_atom.lua
 
 git_atom_url := http://git.alpinelinux.org/cgit/aports/atom
 
-archs := x86_64 x86 armhf
+archs := x86_64 x86 armhf aarch64
 releases_yaml = $(archs:%=releases.%.yaml)
 releases_url := http://rsync.alpinelinux.org/alpine/latest-stable/releases
 releases_url_suffix = $(@:releases.%.yaml=%/latest-releases.yaml)
