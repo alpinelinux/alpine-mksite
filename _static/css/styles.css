@@ -261,7 +261,7 @@ body {
 }
 
 .download .buttons {
-    padding: 1em;
+    padding: 0.5em;
 }
 
 .download .buttons a.pure-button {
@@ -270,6 +270,8 @@ body {
     background: #018E4A;
     border-radius: 4px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
 
 .download .checksums a.pure-button {
