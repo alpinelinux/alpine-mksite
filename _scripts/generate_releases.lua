@@ -2,7 +2,7 @@
 
 lyaml = require("lyaml")
 
-url_prefix="https://rsync.alpinelinux.org/alpine"
+url_prefix="https://nl.alpinelinux.org/alpine"
 t = { flavors={} }
 
 flavor_def = {
