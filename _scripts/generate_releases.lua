@@ -33,8 +33,8 @@ flavor_def = {
 	["alpine-virt"] = {
 		title = "Virtual",
 		desc = {
-			"Similar as standard",
-			"Slimed down kernel",
+			"Similar to standard",
+			"Slimmed down kernel",
 			"Optimized for virtual systems",
 		},
 	},
