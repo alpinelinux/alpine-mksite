@@ -14,7 +14,7 @@ generate_releases = $(LUA) _scripts/generate_releases.lua
 generate_commits = $(LUA) _scripts/generate_git-commits.lua
 generate_atom = $(LUA) _scripts/generate_atom.lua
 
-git_atom_url := http://git.alpinelinux.org/cgit/aports/atom
+git_atom_url := https://git.alpinelinux.org/cgit/aports/atom
 
 archs := x86_64 x86 armhf aarch64
 releases_yaml = $(archs:%=releases.%.yaml)
@@ -48,7 +48,7 @@ clean:
 		$(out)/atom.xml
 
 $(releases_yaml):
-	curl -J $(releases_url)/$(releases_url_suffix) > $@.tmp
+	curl -L -J $(releases_url)/$(releases_url_suffix) > $@.tmp
 	mv $@.tmp $@
 
 releases.yaml: $(releases_yaml) _scripts/generate_releases.lua
@@ -59,7 +59,7 @@ update-release:
 	$(MAKE)
 
 git-commits.yaml: _scripts/generate_git-commits.lua
-	curl $(git_atom_url) | $(generate_commits) > $@.tmp
+	curl -L $(git_atom_url) | $(generate_commits) > $@.tmp
 	mv $@.tmp $@
 
 update-git-commits:
