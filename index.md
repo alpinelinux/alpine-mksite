@@ -29,7 +29,7 @@
                 <li><time datetime="{{updated}}">{{updated_date}}</time>  <a href="{{{link}}}">{{title}}</a></li>
             {{/git-commits.entries}}
             </ul>
-            <a class="pure-button read-more" href="http://git.alpinelinux.org/cgit/aports/log">Read more</a>
+            <a class="pure-button read-more" href="https://git.alpinelinux.org/cgit/aports/log">Read more</a>
         </div>
     </div>
 
