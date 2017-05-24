@@ -13,9 +13,9 @@ New features and noteworthy new packages
 ----------------------------------------
 * Support for 64-bit little-endian PowerPC machines (ppc64le)
 * Support for 64-bit IBM System z machines (s390x)
-* Rust 1.17.0 and Cargo 0.18.0
-* GHC 8.0.2
-* Julia 0.5.2
+* [Rust](https://www.rust-lang.org/) 1.17.0 and [Cargo](https://crates.io/) 0.18.0
+* [GHC](https://www.haskell.org/ghc/) 8.0.2
+* [Julia](https://julialang.org/) 0.5.2
 
 Significant updates
 -------------------
