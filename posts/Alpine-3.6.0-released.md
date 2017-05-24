@@ -11,8 +11,8 @@ the v3.6 stable series.
 
 New features and noteworthy new packages
 ----------------------------------------
-* Support for 64-bit little-endian PowerPC machines (ppc64le)
-* Support for 64-bit IBM System z machines (s390x)
+* Support for 64-bit little-endian POWER machines (ppc64le)
+* Support for 64-bit IBM System Z machines (s390x)
 * [Rust][1] 1.17.0 and [Cargo][2] 0.18.0
 * [GHC][3] 8.0.2
 * [Julia][4] 0.5.2
