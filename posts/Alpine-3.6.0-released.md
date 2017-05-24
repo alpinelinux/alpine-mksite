@@ -17,12 +17,6 @@ New features and noteworthy new packages
 * [GHC][3] 8.0.2
 * [Julia][4] 0.5.2
 
-
-[1]: https://www.rust-lang.org/
-[2]: https://crates.io/
-[3]: https://www.haskell.org/ghc/
-[4]: https://julialang.org/
-
 Significant updates
 -------------------
 * GCC 6.3
@@ -46,25 +40,28 @@ Development-related changes
 * A `check()` function has been added to APKBUILDs that allows packages to run test suites after `build()`, ensuring no regressions have occurred.
   This has been implemented for a number of packages, and policy onward will be to have them either be present or explicitly opted-out of with good reasoning;
 
-The full list of changes can be found in the [git log][1] and [bug tracker][2].
-
-
-[1]: http://git.alpinelinux.org/cgit/aports/log/?h=v3.6.0
-[2]: https://bugs.alpinelinux.org/versions/115
 
 Credits
 -------
 - Thanks to everyone sending in patches, bug reports, new and updated aports
-- Thanks to [GIGABYTE][1], [Scaleway][2], [Fastly][3], [IBM][4], [Packet][5],
-  and [vpsFree][6] for providing us with hardware and hosting.
+- Thanks to [GIGABYTE][5], [Scaleway][6], [Fastly][7], [IBM][8], [Packet][9],
+  and [vpsFree][10] for providing us with hardware and hosting.
+
+The full list of changes can be found in the [git log][11] and [bug tracker][12].
 
 
-[1]: http://b2b.gigabyte.com/
-[2]: https://scaleway.com/
-[3]: https://www.fastly.com/
-[4]: https://ibm.com/
-[5]: https://packet.net/
-[6]: https://vpsfree.org
+[1]: https://www.rust-lang.org/
+[2]: https://crates.io/
+[3]: https://www.haskell.org/ghc/
+[4]: https://julialang.org/
+[5]: http://b2b.gigabyte.com/
+[6]: https://scaleway.com/
+[7]: https://www.fastly.com/
+[8]: https://ibm.com/
+[9]: https://packet.net/
+[10]: https://vpsfree.org
+[11]: http://git.alpinelinux.org/cgit/aports/log/?h=v3.6.0
+[12]: https://bugs.alpinelinux.org/versions/115
 
 
 Commit statistics
