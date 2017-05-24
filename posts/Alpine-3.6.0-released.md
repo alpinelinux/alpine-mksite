@@ -6,8 +6,8 @@ date: 2017-05-24
 Alpine Linux 3.6.0 Released
 ===========================
 
-The Alpine Linux project is pleased to announce the immediate availability of version 3.6.0 of its Alpine Linux operating system,
-the first in the v3.6 stable series.
+We are pleased to announce the release of Alpine Linux 3.6.0, the first in
+the v3.6 stable series.
 
 New features and noteworthy new packages
 ----------------------------------------
@@ -41,6 +41,12 @@ Development-related changes
   This has been implemented for a number of packages, and policy onward will be to have them either be present or explicitly opted-out of with good reasoning;
 
 The full list of changes can be found in the [git log](http://git.alpinelinux.org/cgit/aports/log/?h=v3.6.0) and [bug tracker](https://bugs.alpinelinux.org/versions/115).
+
+Credits
+-------
+Thanks to everyone sending in patches, bug reports, new and updated aports and
+thanks to [GIGABYTE](http://b2b.gigabyte.com/), [Scaleway](https://scaleway.com/), [Fastly](https://www.fastly.com/), [IBM](https://ibm.com), [Packet](https://packet.net/), and [vpsFree](https://vpsfree.org) for providing us with hardware and hosting.
+
 
 Commit statistics
 -----------------
