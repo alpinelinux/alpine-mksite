@@ -13,9 +13,15 @@ New features and noteworthy new packages
 ----------------------------------------
 * Support for 64-bit little-endian PowerPC machines (ppc64le)
 * Support for 64-bit IBM System z machines (s390x)
-* [Rust](https://www.rust-lang.org/) 1.17.0 and [Cargo](https://crates.io/) 0.18.0
-* [GHC](https://www.haskell.org/ghc/) 8.0.2
-* [Julia](https://julialang.org/) 0.5.2
+* [Rust][1] 1.17.0 and [Cargo][2] 0.18.0
+* [GHC][3] 8.0.2
+* [Julia][4] 0.5.2
+
+
+[1]: https://www.rust-lang.org/
+[2]: https://crates.io/
+[3]: https://www.haskell.org/ghc/
+[4]: https://julialang.org/
 
 Significant updates
 -------------------
@@ -40,12 +46,25 @@ Development-related changes
 * A `check()` function has been added to APKBUILDs that allows packages to run test suites after `build()`, ensuring no regressions have occurred.
   This has been implemented for a number of packages, and policy onward will be to have them either be present or explicitly opted-out of with good reasoning;
 
-The full list of changes can be found in the [git log](http://git.alpinelinux.org/cgit/aports/log/?h=v3.6.0) and [bug tracker](https://bugs.alpinelinux.org/versions/115).
+The full list of changes can be found in the [git log][1] and [bug tracker][2].
+
+
+[1]: http://git.alpinelinux.org/cgit/aports/log/?h=v3.6.0
+[2]: https://bugs.alpinelinux.org/versions/115
 
 Credits
 -------
-Thanks to everyone sending in patches, bug reports, new and updated aports and
-thanks to [GIGABYTE](http://b2b.gigabyte.com/), [Scaleway](https://scaleway.com/), [Fastly](https://www.fastly.com/), [IBM](https://ibm.com), [Packet](https://packet.net/), and [vpsFree](https://vpsfree.org) for providing us with hardware and hosting.
+- Thanks to everyone sending in patches, bug reports, new and updated aports
+- Thanks to [GIGABYTE][1], [Scaleway][2], [Fastly][3], [IBM][4], [Packet][5],
+  and [vpsFree][6] for providing us with hardware and hosting.
+
+
+[1]: http://b2b.gigabyte.com/
+[2]: https://scaleway.com/
+[3]: https://www.fastly.com/
+[4]: https://ibm.com/
+[5]: https://packet.net/
+[6]: https://vpsfree.org
 
 
 Commit statistics
@@ -60,9 +79,9 @@ Commit statistics
    183	André Klitzing
    151	Timo Teräs
    149	Sören Tempel
+   145	Breno Leitao
    143	Fabian Affolter
    143	Valery Kartel
-   136	Breno Leitao
     94	Carlo Landmeter
     79	Stuart Cardall
     67	Ivan Tham
@@ -83,7 +102,6 @@ Commit statistics
     13	Stefan Wagner
     11	Gustavo Romero
     10	Fabio Ribeiro
-     9	Breno Leitao
      8	ScrumpyJack
      8	G.J.R. Timmer
      7	Ted Trask
