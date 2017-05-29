@@ -287,7 +287,7 @@ body {
     text-align: left;
 }
 
-.download .checksums a.pure-button {
+.download a.checksums {
     font-size: 70%;
     color: #696969;
 }
@@ -370,13 +370,13 @@ footer a { color: #ddd; }
  * http://www.colourlovers.com/home/trends/interior-looks/7760/Dive_Into_Color
  */
 
-.flavor-color-0 h2 { background: #CBB063; }
-.flavor-color-1 h2 { background: #AA8B4A; }
-.flavor-color-2 h2 { background: #3C2C1F; }
-.flavor-color-3 h2 { background: #B63731; }
-.flavor-color-4 h2 { background: #E68804; }
-.flavor-color-5 h2 { background: #376160; }
-.flavor-color-6 h2 { background: #36384D; }
+.flavor-color-0 h2 { background: #36384D; }
+.flavor-color-1 h2 { background: #CBB063; }
+.flavor-color-2 h2 { background: #AA8B4A; }
+.flavor-color-3 h2 { background: #3C2C1F; }
+.flavor-color-4 h2 { background: #B63731; }
+.flavor-color-5 h2 { background: #E68804; }
+.flavor-color-6 h2 { background: #376160; }
 
 /*
  * MEDIA queries
