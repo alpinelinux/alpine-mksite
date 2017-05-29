@@ -285,6 +285,7 @@ body {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     text-align: left;
+    white-space: nowrap;
 }
 
 .download a.checksums {
@@ -307,7 +308,7 @@ body {
 .download .pure-table-horizontal td {
     border:0;
     border-top:1px solid #e7e7e7;
-    padding: 1em;
+    padding: 1em 0.5em 1em 0.5em;
 }
 
 /*
