@@ -12,7 +12,7 @@
     </div>
 
     {{#releases.flavors}}
-    <div class="pure-u-1 pure-u-md-1-3">
+    <div class="pure-u-1 pure-u-md-1-2">
         <div class="download flavor-{{flavor_name}}">
             <h2>{{flavor_title}}</h2>
             <div class="features">
