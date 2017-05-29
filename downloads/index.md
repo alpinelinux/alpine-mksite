@@ -13,7 +13,7 @@
 
     {{#releases.flavors}}
     <div class="pure-u-1 pure-u-md-1-2">
-        <div class="download flavor-{{flavor_name}}">
+        <div class="download flavor-color-{{flavor_color}}">
             <h2>{{flavor_title}}</h2>
             <div class="features">
                 <ul>
@@ -25,7 +25,7 @@
             <div class="buttons">
                 {{#archs}}
                 <a class="pure-button" href="{{iso_url}}">
-    	        <i class="fa fa-download"></i>
+	        <i class="fa fa-download"></i>
                     {{arch}}
                 </a>
                 {{/archs}}

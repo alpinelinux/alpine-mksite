@@ -6,63 +6,64 @@ url_prefix="https://nl.alpinelinux.org/alpine"
 t = { flavors={} }
 
 flavor_def = {
-	["alpine-standard"] = {
+	{
+		flavor = "alpine-standard",
 		title = "Standard",
 		desc = {
 			"Alpine as it was intended",
 			"Just enough to get you started",
 			"Network connection recommended",
 		},
-	},
-	["alpine-extended"] = {
+	}, {
+		flavor = "alpine-extended",
 		title = "Extended",
 		desc = {
 			"Most common used packages included",
 			"Suitable for routers and servers",
 			"Runs from RAM",
 		},
-	},
-	["alpine-vanilla"] = {
+	}, {
+		flavor = "alpine-vanilla",
 		title = "Vanilla",
 		desc = {
 			"Includes a vanilla kernel",
 			"Does not include grsec patch set",
 			"Suitable for debugging",
 		},
-	},
-	["alpine-virt"] = {
+	}, {
+		flavor = "alpine-virt",
 		title = "Virtual",
 		desc = {
 			"Similar to standard",
 			"Slimmed down kernel",
 			"Optimized for virtual systems",
 		},
-	},
-	["alpine-xen"] = {
+	}, {
+		flavor = "alpine-xen",
 		title = "Xen",
 		desc = {
 			"Build-in support for Xen Hypervisor",
 			"Includes packages targed at Xen usage",
 			"Includes grsec kernel",
 		},
-	},
-	["alpine-minirootfs"] = {
+	}, {
+		flavor = "alpine-minirootfs",
 		title = "Mini root filesystem",
 		desc = {
 			"Minimal root filesystem",
 			"For use in containers",
 			"and minimal chroots",
 		},
-	},
-	["alpine-rpi"] = {
+	}, {
+		flavor = "alpine-rpi",
 		title = "Raspberry Pi",
 		desc = {
 			"Includes Raspberry Pi kernel",
 			"Does not include grsec patchset",
 			"And much more...",
 		},
-	},
-	["alpine-uboot"] = {
+	}, {
+		flavor = "alpine-uboot",
 		title = "Generic ARM",
 		desc = {
 			"Has default ARM kernel",
@@ -71,6 +72,14 @@ flavor_def = {
 		}
 	}
 }
+
+-- number of different colors for flavors in CSS
+num_colors = 7
+
+flavor_index = {}
+for i,f in pairs(flavor_def) do
+	flavor_index[f.flavor] = i
+end
 
 for i = 1,#arg do
 	local f = assert(io.open(arg[i]))
@@ -86,25 +95,26 @@ for i = 1,#arg do
 		v.sig_url = ("%s.sig"):format(v.iso_url)
 		v.size_mb=math.floor(v.size/(1024*1024))
 
-
-		local flavor = t[v.flavor]
+		local n = flavor_index[v.flavor]
+		local flavor = t.flavors[n]
 		if flavor == nil then
-			local def = flavor_def[v.flavor] or {title="", desc=""}
+			local def = flavor_def[n] or {title="", desc=""}
 			flavor = {
 				archs = {},
 				flavor_title = def.title,
 				flavor_desc = def.desc,
 				flavor_name = string.lower(v.flavor),
+				flavor_color = (flavor_index[v.flavor]-1) % num_colors
 			}
-			table.insert(t.flavors, flavor)
+			t.flavors[n] = flavor
 		end
-		flavor[v.arch] = v
+--		flavor[v.arch] = v
 		table.insert(flavor.archs, v)
-		t[v.flavor] = flavor
+--		t[v.flavor] = flavor
 	end
 end
 
 -- default release
-t.default = t["alpine-standard"].x86_64
+t.default = t.flavors[1].archs[1]
 
 io.write(lyaml.dump{t})
