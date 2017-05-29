@@ -9,69 +9,54 @@ flavor_def = {
 	{
 		flavor = "alpine-standard",
 		title = "Standard",
-		desc = {
-			"Alpine as it was intended",
-			"Just enough to get you started",
-			"Network connection recommended",
-		},
+		desc = "Alpine as it was intended.\n"..
+			"Just enough to get you started.\n"..
+			"Network connection required.",
 	}, {
 		flavor = "alpine-extended",
 		title = "Extended",
-		desc = {
-			"Most common used packages included",
-			"Suitable for routers and servers",
-			"Runs from RAM",
-		},
+		desc = "Most common used packages included.\n"..
+			"Suitable for routers and servers.\n"..
+			"Runs from RAM.",
 	}, {
 		flavor = "alpine-vanilla",
 		title = "Vanilla",
-		desc = {
-			"Includes a vanilla kernel",
-			"Does not include grsec patch set",
-			"Suitable for debugging",
-		},
+		desc = "Includes a vanilla kernel.\n"..
+			"Does not include grsec patch set.\n"..
+			"Suitable for debugging.",
 	}, {
 		flavor = "alpine-virt",
 		title = "Virtual",
-		desc = {
-			"Similar to standard",
-			"Slimmed down kernel",
-			"Optimized for virtual systems",
-		},
+		desc = "Similar to standard.\n"..
+			"Slimmed down kernel.\n"..
+			"Optimized for virtual systems.",
 	}, {
 		flavor = "alpine-xen",
 		title = "Xen",
-		desc = {
-			"Build-in support for Xen Hypervisor",
-			"Includes packages targed at Xen usage",
-			"Includes grsec kernel",
-		},
+		desc = "Build-in support for Xen Hypervisor.\n"..
+			"Includes packages targed at Xen usage.\n"..
+			"Includes grsec kernel.",
 	}, {
 		flavor = "alpine-minirootfs",
 		title = "Mini root filesystem",
-		desc = {
-			"Minimal root filesystem",
-			"For use in containers",
-			"and minimal chroots",
-		},
+		desc = "Minimal root filesystem.\n"..
+			"For use in containers.\n"..
+			"and minimal chroots"
 	}, {
 		flavor = "alpine-rpi",
 		title = "Raspberry Pi",
-		desc = {
-			"Includes Raspberry Pi kernel",
-			"Does not include grsec patchset",
+		desc = "Includes Raspberry Pi kernel.\n"..
+			"Does not include grsec patchset.\n",
 			"And much more...",
-		},
 	}, {
 		flavor = "alpine-uboot",
 		title = "Generic ARM",
-		desc = {
-			"Has default ARM kernel",
-			"Includes the uboot bootloader",
-			"Supports armhf and aarch64",
-		}
+		desc = "Has default ARM kernel.\n"..
+			"Includes the uboot bootloader.\n"..
+			"Supports armhf and aarch64.",
 	}
 }
+
 
 -- number of different colors for flavors in CSS
 num_colors = 7
@@ -101,8 +86,8 @@ for i = 1,#arg do
 			local def = flavor_def[n] or {title="", desc=""}
 			flavor = {
 				archs = {},
-				flavor_title = def.title,
-				flavor_desc = def.desc,
+				flavor_title = v.title or def.title,
+				flavor_desc = v.desc or def.desc,
 				flavor_name = string.lower(v.flavor),
 				flavor_color = (flavor_index[v.flavor]-1) % num_colors
 			}
