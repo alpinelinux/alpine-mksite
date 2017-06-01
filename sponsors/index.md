@@ -19,3 +19,9 @@ Please visit them at [vpsFree](https://vpsfree.org) website.
 We would like to thank Scaleway for providing resources on their infrastructure.
 
 Please visit them at [Scaleway](http://scaleway.com) website.
+
+[![Packet Logo](/packet-small.png)](http://packet.net)
+
+We would like to thank Packet for providing resources on their infrastructure.
+
+Please visit them at [Packet](https://packet.net) website.
