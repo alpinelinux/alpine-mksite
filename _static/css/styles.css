@@ -242,7 +242,7 @@ body {
 .download {
     border: 1px solid #ddd;
     margin: 0 0.5em 2em;
-    text-align: center;
+    text-align: left;
 }
 
 .download h2 {
@@ -252,6 +252,7 @@ body {
     padding-bottom: 2em;
     font-size: 1em;
     font-weight: bold;
+    text-align: center;
 }
 
 .download ul {
@@ -269,21 +270,25 @@ body {
     text-overflow: ellipsis;
 }
 
-.download .buttons {
-    padding: 0.5em;
+.download p {
+    padding: 0.8em;
 }
 
-.download .buttons a.pure-button {
+.download .green-button {
+    padding: 0.5em;
     color: white;
     font-weight: normal;
+    font-size: 120%;
     background: #018E4A;
     border-radius: 4px;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+    text-align: left;
+    white-space: nowrap;
 }
 
-.download .checksums a.pure-button {
+.download a.checksums {
     font-size: 70%;
     color: #696969;
 }
@@ -297,13 +302,13 @@ body {
     width: 100%;
     border: 0;
     background: #f7f7f7;
-    font-size: 70%;
     color: #696969;
 }
 
 .download .pure-table-horizontal td {
     border:0;
     border-top:1px solid #e7e7e7;
+    padding: 1em 0.5em 1em 0.5em;
 }
 
 /*
@@ -366,14 +371,13 @@ footer a { color: #ddd; }
  * http://www.colourlovers.com/home/trends/interior-looks/7760/Dive_Into_Color
  */
 
-.flavor-alpine-standard h2 { background: #CBB063; }
-.flavor-alpine-extended h2 { background: #AA8B4A; }
-.flavor-alpine-vanilla h2 { background: #3C2C1F; }
-.flavor-alpine-virt h2 { background: #B63731; }
-.flavor-alpine-xen h2 { background: #E68804; }
-.flavor-alpine-rpi h2 { background: #376160; }
-.flavor-alpine-uboot h2 { background: #36384D; }
-.flavor-alpine-minirootfs h2 { background: #36384D; }
+.flavor-color-0 h2 { background: #36384D; }
+.flavor-color-1 h2 { background: #CBB063; }
+.flavor-color-2 h2 { background: #AA8B4A; }
+.flavor-color-3 h2 { background: #3C2C1F; }
+.flavor-color-4 h2 { background: #B63731; }
+.flavor-color-5 h2 { background: #E68804; }
+.flavor-color-6 h2 { background: #376160; }
 
 /*
  * MEDIA queries

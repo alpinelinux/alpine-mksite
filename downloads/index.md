@@ -13,39 +13,20 @@
 
     {{#releases.flavors}}
     <div class="pure-u-1 pure-u-md-1-3">
-        <div class="download flavor-{{flavor_name}}">
+        <div class="download flavor-color-{{flavor_color}}">
             <h2>{{flavor_title}}</h2>
-            <div class="features">
-                <ul>
-                    {{#flavor_desc}}
-                    <li>{{{.}}}</li>
-                    {{/flavor_desc}}
-                </ul>
-            </div>
-            <div class="buttons">
-                {{#archs}}
-                <a class="pure-button" href="{{iso_url}}">
-    	        <i class="fa fa-download"></i>
-                    {{arch}}
-                </a>
-                {{/archs}}
-            </div>
-            <div class="checksums">
+	    <p>{{flavor_desc}}</p>
             <table class="pure-table pure-table-horizontal">
+	        {{#archs}}
                 <tr>
-                    <td>SHA256</td>
-                    {{#archs}}
-                    <td><a class="pure-button" href="{{sha256_url}}">{{arch}}</a></td>
-                    {{/archs}}
+		    <td><a href="{{iso_url}}" class="green-button">
+		      <i class="fa fa-download"></i>&nbsp;{{arch}}
+		    </a></td>
+                    <td><a class="pure-button checksums" href="{{sha256_url}}">sha256</a></td>
+                    <td><a class="pure-button checksums" href="{{asc_url}}">GPG</a></td>
                 </tr>
-                <tr>
-                    <td>GPG</td>
-                    {{#archs}}
-                    <td><a class="pure-button" href="{{asc_url}}">{{arch}}</a></td>
-                    {{/archs}}
-                </tr>
+                {{/archs}}
             </table>
-            </div>
         </div>
     </div>
     {{/releases.flavors}}
