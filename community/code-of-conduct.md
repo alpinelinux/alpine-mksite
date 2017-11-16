@@ -52,13 +52,3 @@ Explicitly Disallowed Conduct
    within the project or towards specific project participants is not allowed.
 
 
-Influences
-----------
-
-This Code of Conduct is largely influenced by:
-
-* The [Docker Code of Conduct](https://github.com/docker/code-of-conduct/blob/master/code-of-conduct-EN.md)
-
-* The [FreeBSD Code of Conduct](https://www.freebsd.org/internal/code-of-conduct.html)
-
-* Previous [proposed Alpine Codes of Conduct](http://lists.alpinelinux.org/alpine-devel/5663.html)
