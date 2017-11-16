@@ -32,8 +32,7 @@ Community Guidelines
 4. Avoid foul or abusive language.  As cultural standards differ, what may seem
    as a very mild statement can be perceived by others as highly abusive.
 
-5. Avoid controversial topics unless directly relevant to the project, unless
-   in an offtopic channel, such as the #alpine-offtopic IRC channel.
+5. Avoid controversial topics unless directly relevant to the project.
 
 6. While conflict is inevitable, please work through the conflict using a
    neutral third party in a transparent manner, so that all participants
