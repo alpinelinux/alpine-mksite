@@ -4,6 +4,8 @@ title: Alpine Linux Community
 
 # Alpine Linux Community
 
+Participation in the Alpine community requires adherence to the [Code of Conduct](code-of-conduct.html).
+
 <h2><i class="fa fa-hashtag" aria-hidden="true"></i>IRC</h2>
 
 * [\#alpine-linux](irc://irc.freenode.net/alpine-linux) - For general discussion and quick support questions.
