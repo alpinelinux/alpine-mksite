@@ -26,11 +26,14 @@ Significant updates
 
 Credits
 -------
-- Thanks to everyone sending in patches, bug reports, and new and updated aports!
-- Thanks to [GIGABYTE][1], [Scaleway][2], [Fastly][3], [IBM][4], [Packet][5],
-  [vpsFree][6] and [RapidSwitch][7] for providing us with hardware and
-  hosting.
+Thanks to everyone sending in patches, bug reports, and new and updated aports!
 
+Thanks to [GIGABYTE][1], [Scaleway][2], [Fastly][3], [IBM][4], [Packet][5],
+[vpsFree][6] and [RapidSwitch][7] for providing us with hardware and
+hosting.
+
+Changes
+-------
 The full list of changes can be found in the [git log][8] and [bug tracker][9].
 
 
