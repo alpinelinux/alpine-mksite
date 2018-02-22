@@ -31,3 +31,10 @@ Please visit them at [their website](https://www.packet.net/) .
 RapidSwitch has graciously provided us with a server for our infrastructure.
 
 Please visit them at [their website](https://www.rapidswitch.com).
+
+[![Fastly Logo](/logo_fastly.png)](https://fastly.com)
+
+Fastly is sponsoring our CDN infrastructure.
+
+Please visit them at [their website](https://fastly.com).
+
