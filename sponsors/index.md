@@ -1,33 +1,29 @@
 # Sponsors
 
-[![GIGABYTE Logo](/gigabyte-small.png)](http://b2b.gigabyte.com)
+<div class="pure-g">
+ <div class="pure-u-1 pure-u-md-1-2">
+  <a href="http://b2b.gigabyte.com"><img class="logo" alt="GIGABYTE Logo" src="/gigabyte-small.png"/></a>
+ </div>
+ <div class="pure-u-1 pure-u-md-1-2">
+  <a href="https://www.rapidswitch.com"><img class="logo" alt="RapidSwitch Logo" src="/rapidswitch-small.png"/></a>
+ </div>
+ <div class="pure-u-1 pure-u-md-1-2">
+  <a href="https://vpsfree.org"><img class="logo" alt="vpsFree Logo" src="/vpsfree-small.png"/></a>
+ </div>
+ <div class="pure-u-1 pure-u-md-1-2">
+  <a href="https://www.scaleway.com/"><img class="logo" alt="Scaleway Logo" src="/scaleway-small.png"/></a>
+ </div>
+ <div class="pure-u-1 pure-u-md-1-2">
+  <a href="https://fastly.com"><img class="logo" alt="Fastly Logo" src="/logo_fastly.png"/></a>
+ </div>
+ <div class="pure-u-1 pure-u-md-1-2">
+  <a href="https://www.packet.net"><img class="logo" alt="Packet Logo" src="/packet-small.png"/></a>
+ </div>
+</div>
 
-We would like to thank GIGABYTE Technology for sponsoring ARM (Aarch64) hardware
-for our build infrastructure.
 
-Please visit them at [their website](http://b2b.gigabyte.com).
 
-[![vpsFree Logo](/vpsfree-small.png)](https://vpsfree.org)
 
-We would like to thank vpsFree.cz, a nonprofit association which runs virtual servers for its members,for providing resources on their infrastructure.
-Alpine Linux' master mirror is currently hosted on their infrastructure.
 
-Please visit them at [their website](https://vpsfree.org).
 
-[![Scaleway Logo](/scaleway-small.png)](https://www.scaleway.com/)
 
-We would like to thank Scaleway for providing resources on their infrastructure.
-
-Please visit them at [their website](https://www.scaleway.com/).
-
-[![Packet Logo](/packet-small.png)](https://www.packet.net)
-
-We would like to thank Packet for providing resources on their infrastructure.
-
-Please visit them at [their website](https://www.packet.net/) .
-
-[![RapidSwitch Logo](/rapidswitch-small.png)](https://www.rapidswitch.com)
-
-RapidSwitch has graciously provided us with a server for our infrastructure.
-
-Please visit them at [their website](https://www.rapidswitch.com).
