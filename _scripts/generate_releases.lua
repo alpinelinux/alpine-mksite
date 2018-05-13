@@ -33,7 +33,7 @@ flavor_def = {
 	}, {
 		flavor = "alpine-xen",
 		title = "Xen",
-		desc = "Build-in support for Xen Hypervisor.\n"..
+		desc = "Built-in support for Xen Hypervisor.\n"..
 			"Includes packages targed at Xen usage.\n"..
 			"Includes grsec kernel.",
 	}, {
