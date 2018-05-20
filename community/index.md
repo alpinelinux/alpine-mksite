@@ -49,9 +49,3 @@ Wiki has the documentation.
 
 <https://twitter.com/alpinelinux>
 
-<h2><i class="fa fa-comments" aria-hidden="true"></i>Forums</h2>
-
-User forums for discussion and user support from other users.
-
-<https://forum.alpinelinux.org/forum>
-
