@@ -1,6 +1,6 @@
 ---
 title: 'Alpine 3.8.0 released'
-date: 2017-06-25
+date: 2018-06-26
 ---
 
 Alpine Linux 3.8.0 Released
@@ -12,7 +12,8 @@ the v3.8 stable series.
 New features and noteworthy new packages
 ----------------------------------------
 * Support netboot on all architectures
-* Support for Raspberry Pi 3 Model B+ (aarch64)
+* Add arm64 (aarch64) Raspberry Pi image
+* Add support for Raspberry Pi 3 Model B+
 * Support ISO image on s390x (KVM installation)
 * End of support for hardened kernel (unofficial Grsecurity)
 
@@ -25,7 +26,6 @@ Significant updates
 * Ruby 2.5
 * PHP 7.2
 * ghc 8.4
-* libressl 2.7
 
 Credits
 -------
