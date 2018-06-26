@@ -16,6 +16,7 @@ New features and noteworthy new packages
 * Add support for Raspberry Pi 3 Model B+
 * Support ISO image on s390x (KVM installation)
 * End of support for hardened kernel (unofficial Grsecurity)
+* Support for Crystal language
 
 Significant updates
 -------------------
@@ -26,6 +27,10 @@ Significant updates
 * Ruby 2.5
 * PHP 7.2
 * ghc 8.4
+* LLVM 5
+* OCaml 4.06
+* R 3.5
+* JRuby 9.2
 
 Credits
 -------
