@@ -27,7 +27,6 @@ Significant updates
 * Ruby 2.5
 * PHP 7.2
 * ghc 8.4
-* LLVM 5
 * OCaml 4.06
 * R 3.5
 * JRuby 9.2
