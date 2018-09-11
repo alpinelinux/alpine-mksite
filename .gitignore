@@ -1,2 +1,6 @@
 *~
 posts/index.yaml
+_out/
+git-commits.yaml
+news.yaml
+releases*.yaml
