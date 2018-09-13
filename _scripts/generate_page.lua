@@ -67,6 +67,7 @@ end
 
 page.pagestate = {}
 page.pagestate[page.pagename] = 'active'
+page.current_year = os.date("%Y")
 
 page.content = lustache:render(content, page)
 
