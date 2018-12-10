@@ -1,7 +1,16 @@
 The following dependencies are needed to build the site:
 
-  apk add make lua lua-feedparser lua-discount lua-lyaml lua-lustache \
-  	lua-filesystem
+  apk add \
+    busybox-extras \
+    curl \
+    git \
+    lua5.3 \
+    lua-discount \
+    lua-feedparser \
+    lua-filesystem \
+    lua-lustache \
+    lua-lyaml \
+    make
 
 To build the site please run:
 
@@ -9,6 +18,6 @@ To build the site please run:
 
 To set up a local web server please run:
 
-  busybox httpd -p 8000 -h _out/
+  busybox-extras httpd -p 8000 -h _out/
 
 Then point your web browser to http://localhost:8000
