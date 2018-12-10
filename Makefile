@@ -1,4 +1,3 @@
-
 out := _out
 md_sources := $(wildcard *.md) $(wildcard [a-z]*/*.md)
 pages := $(patsubst %.md,$(out)/%.html, $(md_sources))
