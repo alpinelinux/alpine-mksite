@@ -75,4 +75,7 @@ $(out)/atom.xml: news.yaml
 	$(generate_atom) _atom.template.xml $< > $@.tmp
 	mv $@.tmp $@
 
-
+build:
+	docker build -t alpine-mksite .
+test:
+	docker run -t -p 8000:8000 alpine-mksite
