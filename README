@@ -18,6 +18,6 @@ To build the site please run:
 
 To set up a local web server please run:
 
-  busybox-extras httpd -p 8000 -h _out/
+  busybox-extras httpd -c ../httpd.conf -p 8000 -h _out/
 
 Then point your web browser to http://localhost:8000
