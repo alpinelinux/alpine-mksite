@@ -15,6 +15,6 @@ RUN apk update --no-cache && apk add --no-cache \
     lua-lyaml \
     make
 
-RUN make
+RUN make all
 
-ENTRYPOINT ["busybox-extras", "httpd", "-f", "-vv", "-p", "8000", "-h", "_out/"]
+ENTRYPOINT ["busybox-extras", "httpd", "-f", "-vv", "-c", "../httpd.conf", "-p", "8000", "-h", "_out/"]
