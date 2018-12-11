@@ -75,7 +75,9 @@ $(out)/atom.xml: news.yaml
 	$(generate_atom) _atom.template.xml $< > $@.tmp
 	mv $@.tmp $@
 
+DOCKER_IMAGE = alpine-mksite
 build:
-	docker build -t alpine-mksite .
+	docker build -t $(DOCKER_IMAGE) .
 test:
-	docker run -t -p 8000:8000 alpine-mksite
+	docker ps -aq --filter="ancestor=$(DOCKER_IMAGE)" | xargs docker kill
+	docker run -t -p 8000:8000 $(DOCKER_IMAGE)
