@@ -79,5 +79,5 @@ DOCKER_IMAGE = alpine-mksite
 build:
 	docker build -t $(DOCKER_IMAGE) .
 test:
-	docker ps -aq --filter="ancestor=$(DOCKER_IMAGE)" | xargs docker kill
+	docker ps -aq --filter="port=8000/tcp" | xargs docker rm -f
 	docker run -t -p 8000:8000 $(DOCKER_IMAGE)
