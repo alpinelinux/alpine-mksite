@@ -1,4 +1,3 @@
-
 out := _out
 md_sources := $(wildcard *.md) $(wildcard [a-z]*/*.md)
 pages := $(patsubst %.md,$(out)/%.html, $(md_sources))
@@ -76,4 +75,16 @@ $(out)/atom.xml: news.yaml
 	$(generate_atom) _atom.template.xml $< > $@.tmp
 	mv $@.tmp $@
 
+DOCKER_IMAGE = alpine-mksite
+.PHONY: build
+build:
+	docker build -t $(DOCKER_IMAGE) .
 
+.PHONY: run-test
+run-test:
+	docker run -t -p 8000:8000 $(DOCKER_IMAGE)
+
+.PHONY: stop-test
+stop-test:
+	docker ps | grep '8000->8000' | tr -s " " | cut -f 1 -d " " \
+	  | xargs docker rm -f
