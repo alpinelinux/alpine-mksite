@@ -1,11 +1,9 @@
 FROM alpine
 
-WORKDIR /site
-COPY . /site
-
 RUN apk update --no-cache && apk add --no-cache \
     busybox-extras \
     curl \
+    darkhttpd \
     git \
     lua5.3 \
     lua-discount \
@@ -13,8 +11,12 @@ RUN apk update --no-cache && apk add --no-cache \
     lua-filesystem \
     lua-lustache \
     lua-lyaml \
-    make
+    make \
+    su-exec
+
+WORKDIR /site
+COPY . /site
 
 RUN make all
 
-ENTRYPOINT ["busybox-extras", "httpd", "-f", "-vv", "-c", "../httpd.conf", "-p", "8000", "-h", "_out/"]
+ENTRYPOINT ["su-exec", "nobody:www-data", "darkhttpd", "/site/_out", "--port", "8000"]
