@@ -22,6 +22,8 @@ Significant updates
 -------------------
 * Linux 4.19
 * GCC 8.2.0
+* Busybox 1.29
+* musl libc 1.1.20
 * Go 1.11.5
 * LXC 3.1
 * PostgreSQL 11.1
