@@ -30,6 +30,11 @@ Significant updates
 * Zabbix 4.0.3
 * Nextcloud 15.0.2
 
+Noteworthy removals
+-------------------
+* Firefox is only available on x86_64 due to Rust.
+
+
 Credits
 -------
 Thanks to everyone sending in patches, bug reports, new and updated aports,
