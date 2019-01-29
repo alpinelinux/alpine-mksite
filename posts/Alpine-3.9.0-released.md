@@ -15,7 +15,7 @@ New features and noteworthy new packages
 * Support for armv7
 * Switch from LibreSSL to OpenSSL
 * Modloop is now being signed
-* Improved GRUB support. GRUB users should check if config is generated
+* Improved GRUB support. GRUB users should check if their config is generated
   correctly and have emergency boot media prepared
 
 Significant updates
