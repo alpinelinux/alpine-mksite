@@ -21,11 +21,11 @@ New features and noteworthy new packages
 Significant updates
 -------------------
 * Linux 4.19
-* Gcc 8.2.0
+* GCC 8.2.0
 * Go 1.11.5
-* Lxc 3.1
-* Postgresql 11.1
-* Nodejs 10.14.2
+* LXC 3.1
+* PostgreSQL 11.1
+* Node.js 10.14.2
 * Crystal 0.27
 * Zabbix 4.0.3
 * Nextcloud 15.0.2
