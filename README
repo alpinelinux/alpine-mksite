@@ -9,8 +9,7 @@ The following dependencies are needed to build the site:
     lua-feedparser \
     lua-filesystem \
     lua-lustache \
-    lua-lyaml \
-    make
+    lua-lyaml
 
 To build the site please run:
 
