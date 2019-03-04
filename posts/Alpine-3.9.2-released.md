@@ -10,7 +10,7 @@ The Alpine Linux project is pleased to announce the immediate
 availability of version 3.9.2 of its Alpine Linux operating system.
 
 This is a bugfix release of the v3.9 stable branch, which fixes a regression
-introduced in 3.9.2 that caused setup-alpine to break.
+introduced in 3.9.1 that caused setup-alpine to break.
 
 The full lists of changes can be found in the [git
 log](http://git.alpinelinux.org/cgit/aports/log/?h=v3.9.2) and [bug
