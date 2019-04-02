@@ -11,7 +11,7 @@
   <a href="https://vpsfree.org"><img class="logo" alt="vpsFree Logo" src="/vpsfree-small.png"/></a>
  </div>
  <div class="pure-u-1 pure-u-md-1-2">
-  <a href="https://www.scaleway.com/"><img class="logo" alt="Scaleway Logo" src="/scaleway-small.png"/></a>
+  <a href="https://www.linode.com/"><img class="logo" alt="Linode Logo" src="/linode-small.png"/></a>
  </div>
  <div class="pure-u-1 pure-u-md-1-2">
   <a href="https://fastly.com"><img class="logo" alt="Fastly Logo" src="/logo_fastly.png"/></a>
