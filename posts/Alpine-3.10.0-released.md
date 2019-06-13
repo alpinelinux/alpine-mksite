@@ -13,6 +13,10 @@ New features and noteworthy new packages
 ----------------------------------------
 
 * Support for Pine64LTS
+* iwd, a modern alternative for wpa_supplicant
+* USB, serial and ethernet support for arm boards
+* ceph, a distributed object store and filesystem
+* lightdm, a cross-desktop display manager
 
 Significant updates
 -------------------
@@ -24,10 +28,19 @@ Significant updates
 * Python 3.7
 * Perl 5.28
 * Rust 1.34.2
+* Crystal 0.29.0
 * Zabbix 4.2.3
 * Nextcloud 16.0.1
 * Git 2.22.0
 * OpenJDK 11.0.4
+
+Significant removals:
+---------------------
+
+* Qt4
+* Texlive
+* Truecrypt
+* Mongodb
 
 Credits
 -------
