@@ -48,7 +48,7 @@ Thanks to everyone sending in patches, bug reports, new and updated aports,
 and to everyone helping with writing documentation, maintaining the
 infrastructure, or has contributed in any other way!
 
-Thanks to [GIGABYTE][1], [Scaleway][2], [Fastly][3], [IBM][4], [Packet][5],
+Thanks to [GIGABYTE][1], [Fastly][3], [IBM][4], [Packet][5],
 [vpsFree][6] and [RapidSwitch][7] for providing us with hardware and
 hosting.
 
@@ -58,7 +58,6 @@ The full list of changes can be found in the [git log][8] and [bug tracker][9].
 
 
 [1]: http://b2b.gigabyte.com/
-[2]: https://scaleway.com/
 [3]: https://www.fastly.com/
 [4]: https://ibm.com/
 [5]: https://packet.net/
