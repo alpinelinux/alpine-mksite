@@ -29,6 +29,7 @@ Significant updates
 * Perl 5.28
 * Rust 1.34.2
 * Crystal 0.29.0
+* PHP 7.3.6
 * Zabbix 4.2.3
 * Nextcloud 16.0.1
 * Git 2.22.0
