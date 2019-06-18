@@ -20,6 +20,7 @@ New features and noteworthy new packages
 
 Significant updates
 -------------------
+* Linux 4.19.52
 * GCC 8.3.0
 * Busybox 1.30
 * musl libc 1.1.22
