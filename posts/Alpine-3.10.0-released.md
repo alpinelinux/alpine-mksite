@@ -12,7 +12,6 @@ the v3.10 stable series.
 New features and noteworthy new packages
 ----------------------------------------
 
-* Support for Pine64LTS
 * iwd, a modern alternative for wpa_supplicant (EAP is not working yet)
 * Serial and ethernet support for arm boards
 * ceph, a distributed object store and filesystem
