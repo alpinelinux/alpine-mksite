@@ -36,6 +36,8 @@ Significant updates
 * Nextcloud 16.0.1
 * Git 2.22.0
 * OpenJDK 11.0.4
+* Xen 4.12.0
+* Qemu 4.0.0
 
 Significant removals:
 ---------------------
