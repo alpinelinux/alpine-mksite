@@ -20,14 +20,14 @@ New features and noteworthy new packages
 
 Significant updates
 -------------------
-* Linux 4.19.52
+* Linux 4.19.53
 * GCC 8.3.0
-* Busybox 1.30
+* Busybox 1.30.1
 * musl libc 1.1.22
 * LLVM 8.0.0
 * Go 1.12.6
-* Python 3.7
-* Perl 5.28
+* Python 3.7.3
+* Perl 5.28.2
 * Rust 1.34.2
 * Crystal 0.29.0
 * PHP 7.3.6
