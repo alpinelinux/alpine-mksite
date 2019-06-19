@@ -41,7 +41,6 @@ Significant removals:
 ---------------------
 
 * Qt4
-* Texlive
 * Truecrypt
 * Mongodb
 
