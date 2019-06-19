@@ -13,8 +13,8 @@ New features and noteworthy new packages
 ----------------------------------------
 
 * Support for Pine64LTS
-* iwd, a modern alternative for wpa_supplicant
-* USB, serial and ethernet support for arm boards
+* iwd, a modern alternative for wpa_supplicant (EAP is not working yet)
+* Serial and ethernet support for arm boards
 * ceph, a distributed object store and filesystem
 * lightdm, a cross-desktop display manager
 
@@ -31,6 +31,7 @@ Significant updates
 * Rust 1.34.2
 * Crystal 0.29.0
 * PHP 7.3.6
+* Erlang 22.0.2
 * Zabbix 4.2.3
 * Nextcloud 16.0.1
 * Git 2.22.0
