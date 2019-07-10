@@ -14,9 +14,9 @@ Participation in the Alpine community requires adherence to the [Code of Conduct
 
 <h2><i class="fa fa-envelope" aria-hidden="true"></i>Mailing Lists</h2>
 
-A list of mailing lists for development, support, etc, can be found here:
+Mailing lists for development, support, etc, can be found here:
 
-[lists.alpinelinux.org](https://lists.alpinelinux.org)
+[https://lists.alpinelinux.org/lists/~alpine](https://lists.alpinelinux.org/lists/~alpine)
 
 <h2><i class="fa fa-pencil" aria-hidden="true"></i>Wiki</h2>
 
