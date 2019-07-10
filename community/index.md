@@ -14,30 +14,9 @@ Participation in the Alpine community requires adherence to the [Code of Conduct
 
 <h2><i class="fa fa-envelope" aria-hidden="true"></i>Mailing Lists</h2>
 
-* [alpine-announce](mailto:alpine-announce@lists.alpinelinux.org) -
-  Release announcements.
-  ([archive](https://lists.alpinelinux.org/alpine-announce)
-  | [subscribe](mailto:alpine-announce+subscribe@lists.alpinelinux.org)
-  | [unsubscribe](mailto:alpine-announce+unsubscribe@lists.alpinelinux.org)
-  | [help](mailto:alpine-announce+help@lists.alpinelinux.org))
-* [alpine-user](mailto:alpine-user@lists.alpinelinux.org) -
-  General user support.
-  ([archive](https://lists.alpinelinux.org/alpine-user)
-  | [subscribe](mailto:alpine-user+subscribe@lists.alpinelinux.org)
-  | [unsubscribe](mailto:alpine-user+unsubscribe@lists.alpinelinux.org)
-  | [help](mailto:alpine-user+help@lists.alpinelinux.org))
-* [alpine-devel](mailto:alpine-devel@lists.alpinelinux.org) -
-  Alpine Linux development.
-  ([archive](https://lists.alpinelinux.org/alpine-devel)
-  | [subscribe](mailto:alpine-devel+subscribe@lists.alpinelinux.org)
-  | [unsubscribe](mailto:alpine-devel+unsubscribe@lists.alpinelinux.org)
-  | [help](mailto:alpine-devel+help@lists.alpinelinux.org))
-* [alpine-aports](mailto:alpine-aports@lists.alpinelinux.org) -
-  Patches for packages.
-  ([archive](https://lists.alpinelinux.org/alpine-aports)
-  | [subscribe](mailto:alpine-aports+subscribe@lists.alpinelinux.org)
-  | [unsubscribe](mailto:alpine-aports+unsubscribe@lists.alpinelinux.org)
-  | [help](mailto:alpine-aports+help@lists.alpinelinux.org))
+A list of mailing lists for development, support, etc, can be found here:
+
+[lists.alpinelinux.org](https://lists.alpinelinux.org)
 
 <h2><i class="fa fa-pencil" aria-hidden="true"></i>Wiki</h2>
 
