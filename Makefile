@@ -17,7 +17,7 @@ git_atom_url := https://git.alpinelinux.org/cgit/aports/atom
 
 archs := x86_64 x86 armhf aarch64 ppc64le s390x armv7
 releases_yaml = $(archs:%=releases.%.yaml)
-releases_url := http://rsync.alpinelinux.org/alpine/latest-stable/releases
+releases_url := http://dl-cdn.alpinelinux.org/alpine/latest-stable/releases
 releases_url_suffix = $(@:releases.%.yaml=%/latest-releases.yaml)
 
 all: $(pages) $(static_out) $(out)/atom.xml
