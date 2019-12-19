@@ -27,6 +27,7 @@ Significant updates
 * musl libc 1.1.24
 * LLVM 9.0.0
 * Go 1.13.4
+* Node.js 12.14.0
 * Python 3.8.0
 * Perl 5.30.1
 * Postgresql 12.1
