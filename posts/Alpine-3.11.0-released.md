@@ -34,7 +34,7 @@ Significant updates
 * Crystal 0.31.1
 * Erlang 22.1
 * Zabbix 4.4.3
-* Nextcloud 17.0.1
+* Nextcloud 17.0.2
 * Git 2.24.1
 * Xen 4.13.0
 * Qemu 4.2.0
