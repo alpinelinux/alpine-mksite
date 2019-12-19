@@ -30,6 +30,7 @@ Significant updates
 * Python 3.8.0
 * Perl 5.30.1
 * Postgresql 12.1
+* Ruby 2.6.5
 * Rust 1.39.0
 * Crystal 0.31.1
 * Erlang 22.1
