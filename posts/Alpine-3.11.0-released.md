@@ -47,7 +47,7 @@ Upgrade notes:
   be completely removed in next release.
 * Packages now use /var/mail instead of /var/spool/mail, in accordance
   with [FHS](https://refspecs.linuxfoundation.org/FHS_3.0/fhs/ch05s11.html)
-* clamav-libunrar is no longer a hard dependency of clamav and need to be
+* clamav-libunrar is no longer a hard dependency of clamav and needs to be
   manually installed.
 
 Credits
