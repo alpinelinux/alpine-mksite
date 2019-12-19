@@ -72,8 +72,8 @@ The full list of changes can be found in the [git log][8] and [bug tracker][9].
 [5]: https://packet.net/
 [6]: https://vpsfree.org
 [7]: https://www.rapidswitch.com/
-[8]: http://git.alpinelinux.org/cgit/aports/log/?h=v3.10.0
-[9]: https://bugs.alpinelinux.org/versions/133
+[8]: http://git.alpinelinux.org/cgit/aports/log/?h=v3.11.0
+[9]: https://gitlab.alpinelinux.org/alpine/aports/issues?scope=all&utf8=%E2%9C%93&state=closed&milestone_title=3.11.0
 
 
 Commit statistics
