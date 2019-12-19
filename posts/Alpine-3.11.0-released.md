@@ -79,5 +79,197 @@ The full list of changes can be found in the [git log][8] and [bug tracker][9].
 Commit statistics
 -----------------
 <pre>
-TODO!
+     3	6543
+     5	Adam Dobrawy
+     6	Adam Jensen
+     2	Adriaan Groenenboom
+     1	Ahmed Bilal Khalid
+     1	Alex Mirski-Fitton
+     1	Alex Raschi
+     6	Alexander Sack
+     1	Andrew
+     5	André Klitzing
+     5	Andy Li
+   151	Andy Postnikov
+     1	Anirudh Oppiliappan
+     6	Antoine Fontaine
+    10	Ariadne Conill
+   593	Bart Ribbers
+     1	Bastien Durel
+     1	Bhushan Shah
+     2	Boris Faure
+     1	Bradley Saulteaux
+     1	Bug Fest
+     1	Bwko
+    43	Carlo Landmeter
+     1	Charles Pritchard
+    31	Chloe Kudryavtsev
+     4	Christian Franke
+     1	Christian Schlack
+     1	Chunfeng Zhang
+     5	Claas Augner
+     1	Colin Williams (coliwill)
+     2	Cosmo Borsky
+     4	Curt Tilmes
+     8	Danct12
+     2	Daniel Isaksen
+     6	Daniele Debernardi
+     1	Dave Henderson
+     1	Dave Johansen
+     1	David Heidelberg
+     2	David Sugar
+     1	Dmitry Romanenko
+    61	Drew DeVault
+     2	Eivind Uggedal
+     1	Elan Ruusamäe
+     1	Eric Poelke
+     2	Erik Larsson
+     7	Fabian Affolter
+     1	Fernando Casas Schössow
+   398	Francesco Colista
+     1	Frédéric Guillot
+    14	Galen Abell
+     2	Gavin Howard
+    14	Gennady Feldman
+     4	Geod24
+     2	Guilherme Felipe da Silva
+     1	Guillaume Martinez
+     5	Henrik Nilsson
+    18	Henrik Riomar
+    50	Holger Jaekel
+     1	Hosh
+    14	Ian Bashford
+     1	Ian Douglas Scott
+     6	Iggy Jackson
+     2	Israel Rodrigo Faria
+     2	Ivan Delalande
+     1	Ivan Tham
+   253	J0WI
+     1	Jack O'Sullivan
+     1	JailBox
+    15	Jake Buchholz
+   221	Jakub Jirutka
+     2	Jan Tatje
+     1	Jeremy O'Brien
+     1	Jirka Dutka
+     3	Joe Holden
+    39	Joe Searle
+     1	John Gunnarsson
+     2	JonathanS
+     3	Joonas Kuorilehto
+     4	Joseph Benden
+     1	Joseph Burt
+     1	Joshua Haase
+    20	Kaarle Ritvanen
+    10	Keith Maxwell
+   147	Kevin Daudt
+    31	Konstantin Kulikov
+     1	Kyle Parisi
+     1	Kylie McClain
+     1	Laurent Bercot
+  4357	Leo
+   119	Leonardo Arena
+     3	Li Q
+     1	Linux User
+    23	Luca Weiss
+     5	Lucas Ramage
+     1	Marco Dickert
+    40	Marian Buschsieweke
+     2	Mark Weston
+     9	Martijn Braam
+    12	Matthias Neugebauer
+     4	Michael Aldridge
+     1	Michael Koloberdin
+    17	Michael Pirogov
+     1	Michael Truog
+     3	Michal Artazov
+     1	Mickaël Remars
+     2	Mike Crute
+    43	Mike Sullivan
+     1	Milan P. Stanic
+   178	Milan P. Stanić
+     2	Minecrell
+     1	MrBiTs
+     2	Mustang
+  2051	Natanael Copa
+     3	Nathan Angelacos
+     1	Nathan Caldwell
+     6	Nathan Owens
+     2	Nico Schottelius
+     1	Noam Preil
+    68	Oleg Titov
+     3	Oliver Smith
+    19	Olliver Schinagl
+     2	Ondrej Exner
+     2	Otto Modinos
+     1	Pascal Vorwerk
+     1	Patrick Wu
+     7	Paul Bredbury
+     2	Paul Morgan
+     6	Pedro Filipe
+     4	Philippe Schommers
+     1	Phillip Jaenke
+     3	R4SAS
+   585	Rasmus Thomsen
+     9	Robert Sacks
+     1	Robert White
+     3	Russ
+     9	Russ Webber
+     1	Rémi Lefèvre
+     1	Samuel Hunter
+     1	Sandro Jäckel
+     1	Sasha Gerrand
+     5	Sergey Safarov
+     3	Shyam Sunder
+     1	Simon F
+     6	Simon Frankenberger
+    22	Stefan Reiff
+    12	Stuart Cardall
+     1	Sven Wick
+   125	Sören Tempel
+    21	TBK
+     4	Taner Tas
+     3	Ted Trask
+     1	Terror
+     1	Tetsuo NOMURA
+     2	Thomas Kienlen
+    11	Tim Brust
+    11	Timo Teräs
+     6	Timothy Legge
+     3	Tom Parker-Shemilt
+     1	Tom Payne
+    14	Tuan Hoang
+     1	Ventz Petkov
+     4	Vicente Bergas
+     1	Victor Diego Alegandro Diaz Urbaneja
+     1	VÖRÖSKŐI András
+    11	Will Sinatra
+     1	Will sinatra
+     2	Wolf
+     1	Yonggang Luo
+     1	allgdante
+    11	alpine-mips-patches
+     1	aptalca
+     1	b17wise
+     1	fgma
+     8	iggy
+     1	jchipmunk
+     6	kpcyrd
+     1	macmpi
+     2	marmota
+     1	ntaylor1781
+     2	opal hart
+    16	ossdev
+     1	ossdev07
+     1	pietro
+   400	prspkt
+    62	rahmanshaber
+     1	shrizza
+     9	stf
+    38	tcely
+     1	tony mancill
+     2	viest
+    10	wener
+     1	wenerme
+     1	xcko
 </pre>
