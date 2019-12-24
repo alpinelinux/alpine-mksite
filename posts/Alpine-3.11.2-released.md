@@ -1,19 +1,19 @@
 ---
-title: 'Alpine 3.11.1 released'
+title: 'Alpine 3.11.2 released'
 date: 2019-12-24
 ---
 
-Alpine Linux 3.11.1 released
+Alpine Linux 3.11.2 released
 ===========================
 
 The Alpine Linux project is pleased to announce the immediate
-availability of version 3.11.1 of its Alpine Linux operating system.
+availability of version 3.11.2 of its Alpine Linux operating system.
 
 This is a bugfix release that fixes missing dtbs files for rpi and missing
 initramfs image for netboot.
 
 The full lists of changes can be found in the [git
-log](http://git.alpinelinux.org/cgit/aports/log/?h=v3.11.1) and [bug
+log](http://git.alpinelinux.org/cgit/aports/log/?h=v3.11.2) and [bug
 tracker](https://gitlab.alpinelinux.org/alpine/aports/-/milestones/144).
 
 Git Shortlog
@@ -39,7 +39,7 @@ Leonardo Arena (1):
 Milan P. Stanić (1):
       main/linux-lts: upgrade to 5.4.6
 
-Natanael Copa (18):
+Natanael Copa (20):
       community/jool-modules-lts: rebuild against kernel 5.4.6-r0
       community/virtualbox-guest-modules-lts: rebuild against kernel 5.4.6-r0
       community/wireguard-lts: rebuild against kernel 5.4.6-r0
@@ -58,6 +58,8 @@ Natanael Copa (18):
       community/go: depen on binuutils-gold on arm*/aarch64
       main/expat: re-enable static library
       scripts/mkimg.netboot.sh: make initramfs readable
+      ==== release 3.11.1 ====
+      ==== release 3.11.2 ====
 
 Rasmus Thomsen (3):
       community/gedit-plugins: add missing dep on libpeas-python3
