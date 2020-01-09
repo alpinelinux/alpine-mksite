@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/ncopa
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://alpinelinux.org
+  * I am ncopa (https://keybase.io/ncopa) on keybase.
+  * I have a public key with fingerprint 0482 D840 22F5 2DF1 C4E7  CD43 293A CD09 07D9 495A
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101fbc56e3c6f55c94a901e9f1d26f24a3ed01f15958250a082a48bdf39e9f9b7db0a",
+      "fingerprint": "0482d84022f52df1c4e7cd43293acd0907d9495a",
+      "host": "keybase.io",
+      "key_id": "293acd0907d9495a",
+      "kid": "0101fbc56e3c6f55c94a901e9f1d26f24a3ed01f15958250a082a48bdf39e9f9b7db0a",
+      "uid": "c305f986a89cd856e844926028d2a619",
+      "username": "ncopa"
+    },
+    "service": {
+      "hostname": "alpinelinux.org",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1578556131,
+  "expire_in": 157680000,
+  "prev": "c16e9d33844a0f5963a1ae72ca3850144347816a54c12b25579c224f208fd8a8",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owGtUmtQVGUYXmCRSzIyUdwCiTOgZcty7nvOZgyZDKKpFOggKjvfuS1Hdves5yzo
+IjchRaIWKmgKyjZ0pBwRZmrDaKhhRqRyUHHiIpOlTsmYicCABah1DqP/+tn355vv
+eZ/ned/nna8xLEAX7Pe8eTAk6EpWvt/5W4yuIHJ88gDESJwbMh+Aivili7dxvOKy
+FIkcZIZgBEYEhiVIHmNJgSBYGgc0jPC0gHAoKaA4wHhOpSAETVAoAQOYQgFOMZyA
+0SqJZkwcAwPIAAmiw8rLTll0uDRbnEI5CodRVCBQTkBYnDexHI6hNAZYDqZhE0fj
+NKEJCyVFU6jDMUDhjaKkYurDsjTef/D/57mLl+xYDCYEmiIBRbMcpbpSOE6jJIxS
+HApIhNaICi87gJ1X2Q5WcgKo3ACpUInI8tpWtRiPysDmFB28TXQU7zdKslXVOmXJ
+JbGSTS0WulxOxayJXW6nxt7HM5ZHPhZGdHDqHlVFCS8rouSAzIjKZF2iZowQJoog
+SARDDBC/3ynKvEV0LMEkBatH68OXaGkQkqc5bAempgCwQNAkBhDAm1AWYBQBIziO
+4SYKIQGBswjKoARholkUxQUUpgSOAhSkRdvrkFRztZcLWFVTRbQ6gKtY5qHy0Dp/
+TK/zC9bFRybq9dVj6dBcyvTZicFXHn++QH/t5+lCQ8IfIzVkuG7olzP7ysTw21Et
+T0RfP/JcrW/+jZSG0/aJ0y+Wz59ovjBzb6zusxWdJckRed+z3Mb84eWVWcpCak3t
+rrN1IT/vcZfMvt7WbQ+IW9n3ReOR14Ynbo+ShrnVN8vq9ZkbFt7+oyL3w/qCtTnU
+1eK/nz411uWdiDmZXHX3pcpM3Q5D+0hPlBxKZjXJ8sB8nHsy0uLZ9eM72aVPvXo8
+xVPTBR/Of6tK2dbRPWq9cq13K5fc8zJzv+BmRnNDTnvvw1K8paOjZVlc686kvrw0
+OnEgI8K/elubj0i6OL3hctdsRH9xubLpBa8+e3p1kiv3aGaOt8o7/lvbV9/c5W61
+yD+tqtgdEW/6enNFII81h+kDzyckrGv3xKdd2jyZ2mHd9P4/n3z6e2ThryH2xMXY
+72rMUI9HjiugBrcPBWNYUrf3y/j7WzwDM1MxxwbWbI04uPzC0TvHo6eCtjxztW/k
+UEBoY9qK7HMHv204NbbQFHWozRZdNLOiUn/JJ70XmPXRianxMxVlunz7nHG25oN1
+qbMJadvfHarvyzJUB/uebGtOaI27k/Kgfxm80n1Zv5awH3vYb6Sa6+fzg7xNw3XX
+70E/iLE+kLM48flwXvki2H0OGEcNvtZY97V0ec/GB7mpnSM7PUHdqzI+DjI8++d6
+52RMaUXtXqMtrCM4tPNiwI2T69ek977JKN03pv8Sdf8C
+=47sn
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ncopa
+
+==================================================================
+
