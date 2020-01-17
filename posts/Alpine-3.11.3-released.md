@@ -9,9 +9,6 @@ Alpine Linux 3.11.3 released
 The Alpine Linux project is pleased to announce the immediate
 availability of version 3.11.3 of its Alpine Linux operating system.
 
-This is a bugfix release that fixes missing dtbs files for rpi and missing
-initramfs image for netboot.
-
 The full lists of changes can be found in the [git
 log](http://git.alpinelinux.org/cgit/aports/log/?h=v3.11.3).
 
